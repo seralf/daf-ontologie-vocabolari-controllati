@@ -16,10 +16,11 @@
 
 	<resources>
       <resource>
-        <directory>daf-ontologie-vocabolari-controllati</directory>
+        <directory>.</directory>
         <filtering>false</filtering>
 		<excludes>
 			<exclude>Presentazioni/**</exclude>
+			<exclude>OntoPiA.png</exclude>
 		</excludes>
       </resource>
     </resources>
