@@ -1,21 +1,74 @@
 {
   "@context": {
+    "admsapit": "https://w3id.org/italia/onto/ADMS/",
     "dc": "http://purl.org/dc/elements/1.1/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
     "dct": "http://purl.org/dc/terms/",
     "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
     "gr": "http://purl.org/goodrelations/v1#",
-    "l0": "https://w3id.org/italia/onto/l0",
+    "l0": "https://w3id.org/italia/onto/l0/",
     "owl": "http://www.w3.org/2002/07/owl#",
+    "prov": "http://www.w3.org/ns/prov#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "schema": "http://schema.org/",
-    "tiapit": "https://w3id.org/italia/onto/TI",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/italia/onto/POT/hasOffer",
-      "@type": "owl:ObjectProperty",
+      "@id": "https://w3id.org/italia/data/project/OntoPiA",
+      "@type": [
+        "owl:NamedIndividual",
+        "admsapit:Project"
+      ],
+      "l0:name": {
+        "@language": "it",
+        "@value": "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"
+      }
+    },
+    {
+      "@id": "_:ub70bL512C71",
+      "@type": "owl:Restriction",
+      "owl:onProperty": {
+        "@id": "https://w3id.org/italia/onto/POT/hasCurrency"
+      },
+      "owl:someValuesFrom": {
+        "@id": "https://w3id.org/italia/onto/POT/Currency"
+      }
+    },
+    {
+      "@id": "l0:Description",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+      "@type": [
+        "dcatapit:Agent",
+        "foaf:Agent",
+        "owl:NamedIndividual"
+      ],
+      "dcterms:identifier": "agid",
+      "foaf:name": [
+        {
+          "@language": "it",
+          "@value": "Agenzia per l'Italia Digitale"
+        },
+        {
+          "@language": "en",
+          "@value": "Italian Digital Agency"
+        }
+      ]
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/TI/hasDuration",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/Card",
+      "@type": "owl:Class",
       "owl:versionInfo": [
         {
           "@language": "en",
@@ -24,6 +77,199 @@
         {
           "@language": "it",
           "@value": "stabile"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This class represents a card."
+        },
+        {
+          "@language": "it",
+          "@value": "Questa classe rappresenta una carta d'ingresso."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "Tessera d'ingresso"
+        },
+        {
+          "@language": "it",
+          "@value": "Carta d'ingresso"
+        },
+        {
+          "@language": "en",
+          "@value": "Card"
+        }
+      ],
+      "rdfs:subClassOf": {
+        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      }
+    },
+    {
+      "@id": "_:ub70bL463C58",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "rdfs:Literal"
+      },
+      "owl:onProperty": {
+        "@id": "l0:description"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/PriceSpecification",
+      "@type": "owl:Class",
+      "dc:description": [
+        {
+          "@language": "en",
+          "@value": "A price specification provides the information about the cost of an offer.\n\nIt is associated to a currency (e.g., Euro) and a currency value (i.e., a quantity, e.g., 5)."
+        },
+        {
+          "@id": "http://dati.beniculturali.it/cis/img/priceSpecification.png"
+        }
+      ],
+      "owl:versionInfo": [
+        {
+          "@language": "en",
+          "@value": "stable"
+        },
+        {
+          "@language": "it",
+          "@value": "stabile"
+        }
+      ],
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "schema:PriceSpecification"
+        },
+        {
+          "@id": "gr:PriceSpecification"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Rappresenta la specifica del prezzo del biglietto."
+        },
+        {
+          "@language": "en",
+          "@value": "It represents the price specification of the ticket"
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "Prezzo"
+        },
+        {
+          "@language": "en",
+          "@value": "Price Specification"
+        }
+      ],
+      "rdfs:subClassOf": [
+        {
+          "@id": "l0:Characteristic"
+        },
+        {
+          "@id": "_:ub70bL520C71"
+        },
+        {
+          "@id": "_:ub70bL512C71"
+        },
+        {
+          "@id": "_:ub70bL516C71"
+        }
+      ]
+    },
+    {
+      "@id": "_:ub70bL266C60",
+      "@type": "owl:Class",
+      "owl:unionOf": {
+        "@list": [
+          {
+            "@id": "https://w3id.org/italia/onto/POT/Offer"
+          },
+          {
+            "@id": "https://w3id.org/italia/onto/POT/Ticket"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "l0:Event",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "_:ub70bL615C61",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "rdfs:Literal"
+      },
+      "owl:onProperty": {
+        "@id": "l0:description"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/POT-RDF-TURTLE",
+      "@type": [
+        "admsapit:SemanticAssetDistribution",
+        "owl:NamedIndividual"
+      ],
+      "dcat:accessURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest/POT-AP_IT.ttl"
+      },
+      "dcterms:description": [
+        {
+          "@language": "it",
+          "@value": "Questa è la distribuzione RDF/Turtle dell'ontologia dei prezzi, offerte e biglietti"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in RDF/turtle of the Price/Offer/Ticket ontology"
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Distribuzione RDF/Turtle ontologia POT-AP_IT"
+        },
+        {
+          "@language": "en",
+          "@value": "RDF/Turtle distribution of POT-AP_IT Ontology"
+        }
+      ]
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/MU/Value",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/hasOffer",
+      "@type": "owl:ObjectProperty",
+      "owl:versionInfo": [
+        {
+          "@language": "it",
+          "@value": "stabile"
+        },
+        {
+          "@language": "en",
+          "@value": "stable"
         }
       ],
       "rdfs:comment": [
@@ -57,21 +303,11 @@
       }
     },
     {
-      "@id": "_:ub9bL536C59",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "https://w3id.org/italia/onto/POT/Validity"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/POT/hasValidity"
-      }
+      "@id": "prov:wasDerivedFrom",
+      "@type": "owl:AnnotationProperty"
     },
     {
-      "@id": "https://w3id.org/italia/onto/l0/name",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/hasEligibleUser",
+      "@id": "https://w3id.org/italia/onto/POT/hasPriceSpecification",
       "@type": "owl:ObjectProperty",
       "owl:versionInfo": [
         {
@@ -85,12 +321,12 @@
       ],
       "rdfs:comment": [
         {
-          "@language": "it",
-          "@value": "Proprietà che consente di associare un'offerta per l'accesso a un evento o un luogo ad una tipologia di utente"
+          "@language": "en",
+          "@value": "This property is used to link an offer to its price specification."
         },
         {
-          "@language": "en",
-          "@value": "Property used to associate an offert for the access to an event or a locations with the type of user"
+          "@language": "it",
+          "@value": "Questa proprietà è utliizzata per collegare un offerta a una specifica del prezzo."
         }
       ],
       "rdfs:domain": {
@@ -101,196 +337,80 @@
       },
       "rdfs:label": [
         {
-          "@language": "en",
-          "@value": "has eligible user"
+          "@language": "it",
+          "@value": "ha costo"
         },
         {
           "@language": "it",
-          "@value": "ha utente eligibile"
+          "@value": "ha prezzo"
+        },
+        {
+          "@language": "en",
+          "@value": "has price specification"
+        },
+        {
+          "@language": "it",
+          "@value": "ha specifica di prezzo"
         }
       ],
       "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/UserType"
+        "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
       }
     },
     {
-      "@id": "_:ub9bL596C61",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "_:ub9bL598C81"
+      "@id": "https://w3id.org/italia/onto/POT/forAccessTo",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "https://w3id.org/italia/onto/POT/hasTicket"
       },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/TI/hasDuration"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/Card",
-      "@type": "owl:Class",
       "owl:versionInfo": [
-        {
-          "@language": "en",
-          "@value": "stable"
-        },
         {
           "@language": "it",
           "@value": "stabile"
+        },
+        {
+          "@language": "en",
+          "@value": "stable"
         }
       ],
       "rdfs:comment": [
         {
           "@language": "it",
-          "@value": "Questa classe rappresenta una carta d'ingresso."
+          "@value": "Proprietà che consente di associare un biglietto a un evento o a un luogo"
         },
         {
           "@language": "en",
-          "@value": "This class represents a card."
+          "@value": "Property used to associate a ticket to an event or location"
         }
       ],
+      "rdfs:domain": {
+        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      },
       "rdfs:isDefinedBy": {
         "@id": "https://w3id.org/italia/onto/POT"
       },
       "rdfs:label": [
         {
-          "@language": "en",
-          "@value": "Card"
+          "@language": "it",
+          "@value": "per l'accesso a"
         },
         {
-          "@language": "it",
-          "@value": "Carta d'ingresso"
+          "@language": "en",
+          "@value": "for access to"
         }
       ],
-      "rdfs:subClassOf": {
-        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      "rdfs:range": {
+        "@id": "_:ub70bL122C59"
       }
     },
     {
-      "@id": "https://w3id.org/italia/onto/TI/hasDuration",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "_:ub9bL440C58",
+      "@id": "_:ub70bL475C58",
       "@type": "owl:Restriction",
       "owl:onProperty": {
         "@id": "https://w3id.org/italia/onto/POT/hasPriceSpecification"
       },
       "owl:someValuesFrom": {
         "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
-      }
-    },
-    {
-      "@id": "_:ub9bL598C81",
-      "@type": "owl:Class",
-      "owl:unionOf": {
-        "@list": [
-          {
-            "@id": "https://w3id.org/italia/onto/MU/Value"
-          },
-          {
-            "@id": "https://w3id.org/italia/onto/TI/TimeInterval"
-          }
-        ]
-      }
-    },
-    {
-      "@id": "_:ub9bL105C59",
-      "@type": "owl:Class",
-      "owl:unionOf": {
-        "@list": [
-          {
-            "@id": "https://w3id.org/italia/onto/l0/Event"
-          },
-          {
-            "@id": "https://w3id.org/italia/onto/l0/Location"
-          }
-        ]
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/PriceSpecification",
-      "@type": "owl:Class",
-      "dc:description": [
-        {
-          "@language": "en",
-          "@value": "A price specification provides the information about the cost of an offer.\n\nIt is associated to a currency (e.g., Euro) and a currency value (i.e., a quantity, e.g., 5)."
-        },
-        {
-          "@id": "http://dati.beniculturali.it/cis/img/priceSpecification.png"
-        }
-      ],
-      "http://www.w3.org/ns/prov#wasDerivedFrom": [
-        {
-          "@id": "gr:PriceSpecification"
-        },
-        {
-          "@id": "schema:PriceSpecification"
-        }
-      ],
-      "owl:versionInfo": [
-        {
-          "@language": "en",
-          "@value": "stable"
-        },
-        {
-          "@language": "it",
-          "@value": "stabile"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "It represents the price specification of the ticket"
-        },
-        {
-          "@language": "it",
-          "@value": "Rappresenta la specifica del prezzo del biglietto."
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Price Specification"
-        },
-        {
-          "@language": "it",
-          "@value": "Prezzo"
-        }
-      ],
-      "rdfs:subClassOf": [
-        {
-          "@id": "_:ub9bL489C71"
-        },
-        {
-          "@id": "_:ub9bL493C71"
-        },
-        {
-          "@id": "_:ub9bL497C71"
-        },
-        {
-          "@id": "https://w3id.org/italia/onto/l0/Characteristic"
-        }
-      ]
-    },
-    {
-      "@id": "_:ub9bL448C58",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "https://w3id.org/italia/onto/POT/Ticket"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/POT/includes"
-      }
-    },
-    {
-      "@id": "_:ub9bL452C58",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "rdfs:Literal"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/description"
       }
     },
     {
@@ -321,12 +441,12 @@
       },
       "rdfs:label": [
         {
-          "@language": "it",
-          "@value": "IVA"
-        },
-        {
           "@language": "en",
           "@value": "VAT"
+        },
+        {
+          "@language": "it",
+          "@value": "IVA"
         }
       ],
       "rdfs:range": {
@@ -334,194 +454,11 @@
       }
     },
     {
-      "@id": "_:ub9bL566C61",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "rdfs:Literal"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/description"
-      }
+      "@id": "l0:name",
+      "@type": "owl:DatatypeProperty"
     },
     {
-      "@id": "dcterms:license",
-      "@type": "owl:AnnotationProperty"
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/forAccessTo",
-      "@type": "owl:ObjectProperty",
-      "owl:inverseOf": {
-        "@id": "https://w3id.org/italia/onto/POT/hasTicket"
-      },
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "stabile"
-        },
-        {
-          "@language": "en",
-          "@value": "stable"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "it",
-          "@value": "Proprietà che consente di associare un biglietto a un evento o a un luogo"
-        },
-        {
-          "@language": "en",
-          "@value": "for access to"
-        },
-        {
-          "@language": "en",
-          "@value": "Property used to associate a ticket to an event or location"
-        }
-      ],
-      "rdfs:domain": {
-        "@id": "https://w3id.org/italia/onto/POT/Ticket"
-      },
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": {
-        "@language": "it",
-        "@value": "per l'accesso a"
-      },
-      "rdfs:range": {
-        "@id": "_:ub9bL105C59"
-      }
-    },
-    {
-      "@id": "_:ub9bL497C71",
-      "@type": "owl:Restriction",
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/POT/hasCurrency"
-      },
-      "owl:someValuesFrom": {
-        "@id": "https://w3id.org/italia/onto/POT/Currency"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/hasPriceSpecification",
-      "@type": "owl:ObjectProperty",
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "stabile"
-        },
-        {
-          "@language": "en",
-          "@value": "stable"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "This property is used to link an offer to its price specification."
-        },
-        {
-          "@language": "it",
-          "@value": "Questa proprietà è utliizzata per collegare un offerta a una specifica del prezzo."
-        }
-      ],
-      "rdfs:domain": {
-        "@id": "https://w3id.org/italia/onto/POT/Offer"
-      },
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "has price specification"
-        },
-        {
-          "@language": "it",
-          "@value": "ha specifica di prezzo"
-        }
-      ],
-      "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
-      }
-    },
-    {
-      "@id": "dc:description",
-      "@type": "owl:AnnotationProperty"
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/Validity",
-      "@type": "owl:Class",
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "stabile"
-        },
-        {
-          "@language": "en",
-          "@value": "stable"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "it",
-          "@value": "Questa classe rappresenta la validità di biglietti e di offerte."
-        },
-        {
-          "@language": "en",
-          "@value": "This class represents the validity for the ticket and offering."
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": [
-        {
-          "@language": "it",
-          "@value": "Validità"
-        },
-        {
-          "@language": "en",
-          "@value": "Validity"
-        }
-      ],
-      "rdfs:subClassOf": [
-        {
-          "@id": "_:ub9bL596C61"
-        },
-        {
-          "@id": "_:ub9bL592C61"
-        },
-        {
-          "@id": "https://w3id.org/italia/onto/l0/Event"
-        }
-      ]
-    },
-    {
-      "@id": "_:ub9bL249C60",
-      "@type": "owl:Class",
-      "owl:unionOf": {
-        "@list": [
-          {
-            "@id": "https://w3id.org/italia/onto/POT/Offer"
-          },
-          {
-            "@id": "https://w3id.org/italia/onto/POT/Ticket"
-          }
-        ]
-      }
-    },
-    {
-      "@id": "_:ub9bL410C61",
-      "@type": "owl:Restriction",
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/name"
-      },
-      "owl:someValuesFrom": {
-        "@id": "rdfs:Literal"
-      }
-    },
-    {
-      "@id": "_:ub9bL489C71",
+      "@id": "_:ub70bL520C71",
       "@type": "owl:Restriction",
       "owl:onProperty": {
         "@id": "https://w3id.org/italia/onto/POT/hasCurrencyValue"
@@ -531,63 +468,67 @@
       }
     },
     {
-      "@id": "https://w3id.org/italia/onto/POT/hasValidity",
-      "@type": "owl:ObjectProperty",
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "stable"
-        },
-        {
-          "@language": "it",
-          "@value": "stabile"
-        }
+      "@id": "https://w3id.org/italia/data/organization/public-organization/td",
+      "@type": [
+        "dcatapit:Agent",
+        "owl:NamedIndividual",
+        "foaf:Agent"
       ],
-      "rdfs:comment": [
+      "dcterms:identifier": "TD",
+      "foaf:name": [
         {
           "@language": "it",
-          "@value": "Proprietà utilizzata per specificare una validità di un offerta o di un biglietto."
+          "@value": "Team per la Trasformazione Digitale"
         },
         {
           "@language": "en",
-          "@value": "Property used to specify the validity of an offer or ticket."
+          "@value": "Digital Transformation Team"
         }
-      ],
-      "rdfs:domain": {
-        "@id": "_:ub9bL249C60"
-      },
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "has validity"
-        },
-        {
-          "@language": "it",
-          "@value": "ha validità"
-        }
-      ],
-      "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/Validity"
+      ]
+    },
+    {
+      "@id": "_:ub70bL122C59",
+      "@type": "owl:Class",
+      "owl:unionOf": {
+        "@list": [
+          {
+            "@id": "l0:Event"
+          },
+          {
+            "@id": "l0:Location"
+          }
+        ]
       }
     },
     {
-      "@id": "https://w3id.org/italia/onto/POT/hasTicket",
+      "@id": "_:ub70bL585C61",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "rdfs:Literal"
+      },
+      "owl:onProperty": {
+        "@id": "l0:description"
+      }
+    },
+    {
+      "@id": "dc:description",
+      "@type": "owl:AnnotationProperty"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/offers",
       "@type": "owl:ObjectProperty",
       "rdfs:comment": [
         {
-          "@language": "it",
-          "@value": "Proprietà che associa una cosa ad un biglietto."
+          "@language": "en",
+          "@value": "Property used to associate an agent with an offer for accessing an event or a cultural institute or site"
         },
         {
-          "@language": "en",
-          "@value": "Property that associates a thing with a ticket."
+          "@language": "it",
+          "@value": "Proprietà che consente di associare un agente all'offerta per l'accesso a un evento o a un luogo della cultura."
         }
       ],
       "rdfs:domain": {
-        "@id": "owl:Thing"
+        "@id": "l0:Agent"
       },
       "rdfs:isDefinedBy": {
         "@id": "https://w3id.org/italia/onto/POT"
@@ -595,16 +536,266 @@
       "rdfs:label": [
         {
           "@language": "it",
-          "@value": "ha biglietto"
+          "@value": "offre"
         },
         {
           "@language": "en",
-          "@value": "has ticket"
+          "@value": "offers"
         }
       ],
       "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+        "@id": "https://w3id.org/italia/onto/POT/Offer"
       }
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT",
+      "@type": [
+        "admsapit:SemanticAsset",
+        "owl:NamedIndividual",
+        "owl:Ontology"
+      ],
+      "admsapit:acronym": "POT-AP_IT",
+      "admsapit:hasContributor": {
+        "@id": "https://w3id.org/italia/data/organization/public-organization/td"
+      },
+      "admsapit:hasFormalityLevel": {
+        "@id": "admsapit:Formal"
+      },
+      "admsapit:hasKeyClass": [
+        {
+          "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
+        },
+        {
+          "@id": "https://w3id.org/italia/onto/POT/Offer"
+        },
+        {
+          "@id": "https://w3id.org/italia/onto/POT/Ticket"
+        }
+      ],
+      "admsapit:hasOntologyLanguage": {
+        "@id": "admsapit:OWL"
+      },
+      "admsapit:hasSemanticAssetDistribution": [
+        {
+          "@id": "https://w3id.org/italia/data/distribution/POT-RDF-TURTLE"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/distribution/POT-JSON-LD"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/distribution/POT-RDF-XML"
+        }
+      ],
+      "admsapit:hasTask": [
+        {
+          "@id": "admsapit:QueryFormulationTask"
+        },
+        {
+          "@id": "admsapit:SearchTask"
+        },
+        {
+          "@id": "admsapit:AnnotationTask"
+        }
+      ],
+      "admsapit:last": {
+        "@id": "https://w3id.org/italia/onto/POT/0.3"
+      },
+      "admsapit:officialURI": {
+        "@type": "xsd:anyURI",
+        "@value": "https://w3id.org/italia/onto/POT"
+      },
+      "admsapit:prefix": "potapit",
+      "admsapit:semanticAssetInUse": [
+        {
+          "@id": "https://w3id.org/italia/data/project/DAF"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/project/OntoPiA"
+        }
+      ],
+      "admsapit:status": [
+        "catalogued",
+        "published"
+      ],
+      "admsapit:target": [
+        {
+          "@language": "it",
+          "@value": "Cittadini"
+        },
+        {
+          "@language": "it",
+          "@value": "Pubbliche Amministrazioni"
+        },
+        {
+          "@language": "it",
+          "@value": "Imprese"
+        }
+      ],
+      "admsapit:type": {
+        "@id": "admsapit:ServiceOntology"
+      },
+      "dcat:contactPoint": {
+        "@id": "https://w3id.org/italia/data/contact-point/onto-agid"
+      },
+      "dcat:keyword": [
+        {
+          "@language": "it",
+          "@value": "prezzi"
+        },
+        {
+          "@language": "it",
+          "@value": "offerta"
+        },
+        {
+          "@language": "it",
+          "@value": "biglietto"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+        }
+      ],
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      },
+      "dcterms:creator": [
+        {
+          "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+        },
+        {
+          "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
+        }
+      ],
+      "dcterms:description": [
+        {
+          "@language": "en",
+          "@value": "This is the Italian application profile of the price, offers and ticket ontologies."
+        },
+        {
+          "@language": "it",
+          "@value": "Questo il profilo applicativo italiano dell'ontologia dei prezzi, offerte e biglietti. L'ontologia può essere usata per rappresentare i dati relativi ai prezzi di un prodotto, le offerte e i biglietti, necessari per partecipare a eventi o aver accesso a determinati luoghi pubblici."
+        }
+      ],
+      "dcterms:issued": {
+        "@type": "xsd:date",
+        "@value": "2017-11-17"
+      },
+      "dcterms:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+        }
+      ],
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2018-03-03"
+      },
+      "dcterms:publisher": {
+        "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Ontologia dei Prezzi, Offerte e Biglietti - Profilo applicativo italiano"
+        },
+        {
+          "@language": "en",
+          "@value": "Price/Offer/Ticket ontology - Italian application profile"
+        }
+      ],
+      "owl:imports": [
+        {
+          "@id": "https://w3id.org/italia/onto/TI"
+        },
+        {
+          "@id": "https://w3id.org/italia/onto/MU"
+        },
+        {
+          "@id": "https://w3id.org/italia/onto/l0"
+        }
+      ],
+      "owl:versionIRI": {
+        "@id": "https://w3id.org/italia/onto/POT/0.3"
+      },
+      "owl:versionInfo": [
+        {
+          "@language": "it",
+          "@value": "Versione 0.3 - 03 Marzo 2018 - Uso di w3id.org/italia/onto/POT/ come base URI"
+        },
+        {
+          "@language": "en",
+          "@value": "Version 0.3 - 03 March 2018 - Use di w3id.org/italia/onto/POT/ as base URI"
+        }
+      ],
+      "prov:wasDerivedFrom": {
+        "@id": "http://dati.gov.it/onto/potapit/0.2"
+      },
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Questa è l'ontologia del profilo applicativo italiano dei prezzi, offerte e biglietti"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the ontology used to represent price , tickets and offers"
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Italian Price/Offer/Ticket ontology"
+        },
+        {
+          "@language": "it",
+          "@value": "Ontologia del profilo italiano dei prezzi, offerte e biglietti"
+        }
+      ]
+    },
+    {
+      "@id": "https://w3id.org/italia/data/contact-point/onto-agid",
+      "@type": [
+        "vcard:Organization",
+        "vcard:Kind",
+        "dcatapit:Organization",
+        "owl:NamedIndividual"
+      ],
+      "vcard:fn": "banche dati e open data",
+      "vcard:hasEmail": {
+        "@id": "mailto:info@dati.gov.it"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab",
+      "@type": [
+        "owl:NamedIndividual",
+        "dcatapit:Agent"
+      ],
+      "dcterms:identifier": "cnr - Z6HZEH - STLab",
+      "foaf:name": [
+        {
+          "@language": "en",
+          "@value": "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"
+        },
+        {
+          "@language": "it",
+          "@value": "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"
+        }
+      ]
     },
     {
       "@id": "https://w3id.org/italia/onto/POT/UserType",
@@ -634,133 +825,28 @@
       },
       "rdfs:label": [
         {
-          "@language": "en",
-          "@value": "User Type"
-        },
-        {
           "@language": "it",
           "@value": "Tipo di utente"
+        },
+        {
+          "@language": "en",
+          "@value": "User Type"
         }
       ],
       "rdfs:subClassOf": [
         {
-          "@id": "_:ub9bL566C61"
+          "@id": "l0:Characteristic"
         },
         {
-          "@id": "https://w3id.org/italia/onto/l0/Characteristic"
+          "@id": "_:ub70bL585C61"
         },
         {
-          "@id": "_:ub9bL562C61"
+          "@id": "_:ub70bL589C61"
         }
       ]
     },
     {
-      "@id": "https://w3id.org/italia/onto/POT",
-      "@type": "owl:Ontology",
-      "dc:creator": [
-        {
-          "@language": "it",
-          "@value": "Istituto di Scienze e Tecnologie della Cognizione del CNR - Laboratorio di Tecnologie Semantiche (STLab)"
-        },
-        {
-          "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        },
-        {
-          "@language": "en",
-          "@value": "Italian Digital Transformation Team"
-        },
-        {
-          "@language": "en",
-          "@value": "Agency for Digital Italy - AgID"
-        },
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale - AgID"
-        },
-        {
-          "@language": "en",
-          "@value": "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"
-        }
-      ],
-      "dcterms:issued": "2017-11-17",
-      "dcterms:license": {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      "dcterms:modified": "2018-03-03",
-      "http://www.w3.org/ns/prov#wasDerivedFrom": {
-        "@id": "http://dati.gov.it/onto/potapit/0.2"
-      },
-      "owl:imports": [
-        {
-          "@id": "https://w3id.org/italia/onto/l0"
-        },
-        {
-          "@id": "https://w3id.org/italia/onto/MU"
-        },
-        {
-          "@id": "https://w3id.org/italia/onto/TI"
-        }
-      ],
-      "owl:versionIRI": {
-        "@id": "https://w3id.org/italia/onto/POT/0.3"
-      },
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "Versione 0.3 - 03 Marzo 2018 - Uso di w3id.org/italia/onto/POT/ come base URI"
-        },
-        {
-          "@language": "en",
-          "@value": "Version 0.3 - 03 March 2018 - Use di w3id.org/italia/onto/POT/ as base URI"
-        }
-      ],
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Prices / Offers /Tickets"
-        },
-        {
-          "@language": "it",
-          "@value": "Prezzi/Offerte/Biglietti"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/offers",
-      "@type": "owl:ObjectProperty",
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "Property used to associate an agent with an offer for accessing an event or a cultural institute or site"
-        },
-        {
-          "@language": "it",
-          "@value": "Proprietà che consente di associare un agente all'offerta per l'accesso a un evento o a un luogo della cultura."
-        }
-      ],
-      "rdfs:domain": {
-        "@id": "https://w3id.org/italia/onto/l0/Agent"
-      },
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/onto/POT"
-      },
-      "rdfs:label": [
-        {
-          "@language": "it",
-          "@value": "offre"
-        },
-        {
-          "@language": "en",
-          "@value": "offers"
-        }
-      ],
-      "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/Offer"
-      }
-    },
-    {
-      "@id": "_:ub9bL444C58",
+      "@id": "_:ub70bL555C59",
       "@type": "owl:Restriction",
       "owl:allValuesFrom": {
         "@id": "https://w3id.org/italia/onto/POT/Validity"
@@ -770,26 +856,233 @@
       }
     },
     {
-      "@id": "https://w3id.org/italia/onto/POT/Ticket",
-      "@type": "owl:Class",
-      "owl:versionInfo": [
+      "@id": "dcterms:license",
+      "@type": "owl:AnnotationProperty"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/hasTicket",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Proprietà che associa una cosa ad un biglietto."
+        },
         {
           "@language": "en",
-          "@value": "stable"
+          "@value": "Property that associates a thing with a ticket."
+        }
+      ],
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "has ticket"
         },
         {
           "@language": "it",
+          "@value": "ha biglietto"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      }
+    },
+    {
+      "@id": "l0:Characteristic",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/hasValidity",
+      "@type": "owl:ObjectProperty",
+      "owl:versionInfo": [
+        {
+          "@language": "it",
           "@value": "stabile"
+        },
+        {
+          "@language": "it",
+          "@value": "stable"
         }
       ],
       "rdfs:comment": [
         {
+          "@language": "en",
+          "@value": "Property used to specify the validity of an offer or ticket."
+        },
+        {
           "@language": "it",
-          "@value": "Rappresenta il biglietto d'ingresso per l'Istitituto e Luogo della Cultura, qualora sia previsto, e per l'evento culturale."
+          "@value": "Proprietà utilizzata per specificare una validità di un offerta o di un biglietto."
+        }
+      ],
+      "rdfs:domain": {
+        "@id": "_:ub70bL266C60"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "ha validità"
         },
         {
           "@language": "en",
-          "@value": "It represents an entrance ticket for a Cultural Institute or Site, if required, and for an event"
+          "@value": "has validity"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "https://w3id.org/italia/onto/POT/Validity"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/POT-JSON-LD",
+      "@type": [
+        "owl:NamedIndividual",
+        "admsapit:SemanticAssetDistribution"
+      ],
+      "dcat:accessURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/POT-AP_IT.jsonld"
+      },
+      "dcterms:description": [
+        {
+          "@language": "it",
+          "@value": "Questa è la distribuzione JSON-LD dell'ontologia dei prezzi, offerte e biglietti"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in JSON-LD of the Price/Offer/Ticket ontology"
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Distribuzione JSON-LD ontologia POT-AP_IT"
+        },
+        {
+          "@language": "en",
+          "@value": "JSON-LD distribution of POT-AP_IT Ontology"
+        }
+      ]
+    },
+    {
+      "@id": "_:ub70bL467C58",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "https://w3id.org/italia/onto/POT/Validity"
+      },
+      "owl:onProperty": {
+        "@id": "https://w3id.org/italia/onto/POT/hasValidity"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/POT-RDF-XML",
+      "@type": [
+        "admsapit:SemanticAssetDistribution",
+        "owl:NamedIndividual"
+      ],
+      "dcat:accessURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest/POT-AP_IT.rdf"
+      },
+      "dcterms:description": [
+        {
+          "@language": "it",
+          "@value": "Questa è la distribuzione RDF/XML dell'ontologia dei prezzi, offerte e biglietti"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in RDF/XML of the Price/Offer/Ticket ontology"
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "en",
+          "@value": "RDF/XML distribution of POT-AP_IT Ontology"
+        },
+        {
+          "@language": "it",
+          "@value": "Distribuzione RDF/XML ontologia POT-AP_IT"
+        }
+      ]
+    },
+    {
+      "@id": "_:ub70bL559C59",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "rdfs:Literal"
+      },
+      "owl:onProperty": {
+        "@id": "l0:description"
+      }
+    },
+    {
+      "@id": "_:ub70bL516C71",
+      "@type": "owl:Restriction",
+      "owl:maxCardinality": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "1"
+      },
+      "owl:onProperty": {
+        "@id": "https://w3id.org/italia/onto/POT/VAT"
+      }
+    },
+    {
+      "@id": "_:ub70bL619C61",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "_:ub70bL621C81"
+      },
+      "owl:onProperty": {
+        "@id": "https://w3id.org/italia/onto/TI/hasDuration"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/TI/TimeInterval",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/Validity",
+      "@type": "owl:Class",
+      "owl:versionInfo": [
+        {
+          "@language": "it",
+          "@value": "stabile"
+        },
+        {
+          "@language": "en",
+          "@value": "stable"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This class represents the validity for the ticket and offering."
+        },
+        {
+          "@language": "it",
+          "@value": "Questa classe rappresenta la validità di biglietti e di offerte."
         }
       ],
       "rdfs:isDefinedBy": {
@@ -798,28 +1091,36 @@
       "rdfs:label": [
         {
           "@language": "en",
-          "@value": "Ticket"
+          "@value": "Validity"
         },
         {
           "@language": "it",
-          "@value": "Biglietto"
+          "@value": "Validità"
         }
       ],
       "rdfs:subClassOf": [
         {
-          "@id": "https://w3id.org/italia/onto/l0/Object"
+          "@id": "l0:Event"
         },
         {
-          "@id": "_:ub9bL532C59"
+          "@id": "_:ub70bL619C61"
         },
         {
-          "@id": "_:ub9bL536C59"
+          "@id": "_:ub70bL615C61"
         }
       ]
     },
     {
-      "@id": "https://w3id.org/italia/onto/POT/hasCurrency",
-      "@type": "owl:ObjectProperty",
+      "@id": "l0:Location",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "l0:description",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "https://w3id.org/italia/onto/POT/hasCurrencyValue",
+      "@type": "owl:DatatypeProperty",
       "owl:versionInfo": [
         {
           "@language": "en",
@@ -833,11 +1134,11 @@
       "rdfs:comment": [
         {
           "@language": "en",
-          "@value": "This property is used to connected the Price specification to Currency"
+          "@value": "Property used to represent the price associated to a specific ticket or a general offer"
         },
         {
           "@language": "it",
-          "@value": "Questa proprietà collega la specifica del prezzo con la classe currency."
+          "@value": "Proprietà utilizzata per indicare il prezzo di un biglietto o di una generica offerta"
         }
       ],
       "rdfs:domain": {
@@ -848,26 +1149,77 @@
       },
       "rdfs:label": [
         {
-          "@language": "en",
-          "@value": "has currency"
+          "@language": "it",
+          "@value": "prezzo"
         },
         {
-          "@language": "it",
-          "@value": "ha valuta"
+          "@language": "en",
+          "@value": "currency value"
         }
       ],
       "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/Currency"
+        "@id": "xsd:double"
       }
     },
     {
-      "@id": "_:ub9bL562C61",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "rdfs:Literal"
+      "@id": "https://w3id.org/italia/onto/POT/includes",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Proprietà utilizzata per associare un'offerta al relativo biglietto."
+        },
+        {
+          "@language": "en",
+          "@value": "Property used to associate an offer with the relative ticket"
+        }
+      ],
+      "rdfs:domain": {
+        "@id": "https://w3id.org/italia/onto/POT/Offer"
       },
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "include biglietto"
+        },
+        {
+          "@language": "en",
+          "@value": "includes"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      }
+    },
+    {
+      "@id": "l0:Agent",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "_:ub70bL433C61",
+      "@type": "owl:Restriction",
       "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/name"
+        "@id": "l0:name"
+      },
+      "owl:someValuesFrom": {
+        "@id": "rdfs:Literal"
+      }
+    },
+    {
+      "@id": "_:ub70bL621C81",
+      "@type": "owl:Class",
+      "owl:unionOf": {
+        "@list": [
+          {
+            "@id": "https://w3id.org/italia/onto/MU/Value"
+          },
+          {
+            "@id": "https://w3id.org/italia/onto/TI/TimeInterval"
+          }
+        ]
       }
     },
     {
@@ -877,22 +1229,22 @@
         "@language": "en",
         "@value": "Any fare is expressed within the ontology by using instances of the class Offer.\n\nIt is possible to specify:\n * the type of user to whom the offer is applicable  (cf. object property cis:hasEligibleUser);\n * the information about the price (cf. object property hasPriceSpecification);\n * the information about the temporal validity of the offer (cf. object property hasValidity);\n * the association with a ticket (cf. object property includes)."
       },
-      "http://www.w3.org/ns/prov#wasDerivedFrom": [
-        {
-          "@id": "gr:Offering"
-        },
-        {
-          "@id": "schema:Offer"
-        }
-      ],
       "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "stabile"
-        },
         {
           "@language": "en",
           "@value": "stable"
+        },
+        {
+          "@language": "it",
+          "@value": "stabile"
+        }
+      ],
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "gr:Offering"
         }
       ],
       "rdfs:comment": [
@@ -920,19 +1272,19 @@
       ],
       "rdfs:subClassOf": [
         {
-          "@id": "_:ub9bL440C58"
+          "@id": "_:ub70bL471C58"
         },
         {
-          "@id": "_:ub9bL452C58"
+          "@id": "l0:Description"
         },
         {
-          "@id": "_:ub9bL444C58"
+          "@id": "_:ub70bL463C58"
         },
         {
-          "@id": "https://w3id.org/italia/onto/l0/Description"
+          "@id": "_:ub70bL475C58"
         },
         {
-          "@id": "_:ub9bL448C58"
+          "@id": "_:ub70bL467C58"
         }
       ]
     },
@@ -945,12 +1297,12 @@
       },
       "owl:versionInfo": [
         {
-          "@language": "en",
-          "@value": "stable"
-        },
-        {
           "@language": "it",
           "@value": "stabile"
+        },
+        {
+          "@language": "en",
+          "@value": "stable"
         }
       ],
       "rdfs:comment": [
@@ -968,59 +1320,44 @@
       },
       "rdfs:label": [
         {
-          "@language": "en",
-          "@value": "Currency"
-        },
-        {
           "@language": "it",
           "@value": "Valuta"
+        },
+        {
+          "@language": "en",
+          "@value": "Currency"
         }
       ],
       "rdfs:subClassOf": [
         {
-          "@id": "https://w3id.org/italia/onto/l0/Object"
+          "@id": "_:ub70bL433C61"
         },
         {
-          "@id": "_:ub9bL410C61"
+          "@id": "l0:Object"
         }
       ]
     },
     {
-      "@id": "_:ub9bL493C71",
-      "@type": "owl:Restriction",
-      "owl:maxCardinality": {
-        "@type": "xsd:nonNegativeInteger",
-        "@value": "1"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/POT/VAT"
-      }
-    },
-    {
-      "@id": "_:ub9bL592C61",
-      "@type": "owl:Restriction",
-      "owl:allValuesFrom": {
-        "@id": "rdfs:Literal"
-      },
-      "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/description"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/l0/description",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/includes",
+      "@id": "https://w3id.org/italia/onto/POT/hasEligibleUser",
       "@type": "owl:ObjectProperty",
-      "rdfs:comment": [
+      "owl:versionInfo": [
         {
           "@language": "it",
-          "@value": "Proprietà utilizzata per associare un'offerta al relativo biglietto."
+          "@value": "stabile"
         },
         {
           "@language": "en",
-          "@value": "Property used to associate an offer with the relative ticket"
+          "@value": "stable"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "Property used to associate an offert for the access to an event or a locations with the type of user"
+        },
+        {
+          "@language": "it",
+          "@value": "Proprietà che consente di associare un'offerta per l'accesso a un evento o un luogo ad una tipologia di utente"
         }
       ],
       "rdfs:domain": {
@@ -1032,34 +1369,73 @@
       "rdfs:label": [
         {
           "@language": "it",
-          "@value": "include"
+          "@value": "ha utente idoneo"
         },
         {
           "@language": "en",
-          "@value": "includes"
+          "@value": "has eligible user"
         }
       ],
       "rdfs:range": {
-        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+        "@id": "https://w3id.org/italia/onto/POT/UserType"
       }
     },
     {
-      "@id": "_:ub9bL532C59",
+      "@id": "https://w3id.org/italia/onto/POT/hasCurrency",
+      "@type": "owl:ObjectProperty",
+      "owl:versionInfo": [
+        {
+          "@language": "it",
+          "@value": "stabile"
+        },
+        {
+          "@language": "en",
+          "@value": "stable"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Questa proprietà collega la specifica del prezzo con la classe currency."
+        },
+        {
+          "@language": "en",
+          "@value": "This property is used to connected the Price specification to Currency"
+        }
+      ],
+      "rdfs:domain": {
+        "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/onto/POT"
+      },
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "ha valuta"
+        },
+        {
+          "@language": "en",
+          "@value": "has currency"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "https://w3id.org/italia/onto/POT/Currency"
+      }
+    },
+    {
+      "@id": "_:ub70bL589C61",
       "@type": "owl:Restriction",
       "owl:allValuesFrom": {
         "@id": "rdfs:Literal"
       },
       "owl:onProperty": {
-        "@id": "https://w3id.org/italia/onto/l0/description"
+        "@id": "l0:name"
       }
     },
     {
-      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
-      "@type": "owl:AnnotationProperty"
-    },
-    {
-      "@id": "https://w3id.org/italia/onto/POT/hasCurrencyValue",
-      "@type": "owl:DatatypeProperty",
+      "@id": "https://w3id.org/italia/onto/POT/Ticket",
+      "@type": "owl:Class",
       "owl:versionInfo": [
         {
           "@language": "en",
@@ -1072,32 +1448,62 @@
       ],
       "rdfs:comment": [
         {
-          "@language": "it",
-          "@value": "Proprietà utilizzata per indicare il prezzo di un biglietto o di una generica offerta"
+          "@language": "en",
+          "@value": "It represents an entrance ticket for a Cultural Institute or Site, if required, and for an event"
         },
         {
-          "@language": "en",
-          "@value": "Property used to represent the price associated to a specific ticket or a general offer"
+          "@language": "it",
+          "@value": "Rappresenta il biglietto d'ingresso per l'Istitituto e Luogo della Cultura, qualora sia previsto, e per l'evento culturale."
         }
       ],
-      "rdfs:domain": {
-        "@id": "https://w3id.org/italia/onto/POT/PriceSpecification"
-      },
       "rdfs:isDefinedBy": {
         "@id": "https://w3id.org/italia/onto/POT"
       },
       "rdfs:label": [
         {
           "@language": "it",
-          "@value": "prezzo"
+          "@value": "Biglietto"
         },
         {
           "@language": "en",
-          "@value": "currency value"
+          "@value": "Ticket"
         }
       ],
-      "rdfs:range": {
-        "@id": "xsd:double"
+      "rdfs:subClassOf": [
+        {
+          "@id": "l0:Object"
+        },
+        {
+          "@id": "_:ub70bL555C59"
+        },
+        {
+          "@id": "_:ub70bL559C59"
+        }
+      ]
+    },
+    {
+      "@id": "l0:Object",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/project/DAF",
+      "@type": [
+        "owl:NamedIndividual",
+        "admsapit:Project"
+      ],
+      "foaf:name": {
+        "@language": "it",
+        "@value": "Data & Analytics Framework"
+      }
+    },
+    {
+      "@id": "_:ub70bL471C58",
+      "@type": "owl:Restriction",
+      "owl:allValuesFrom": {
+        "@id": "https://w3id.org/italia/onto/POT/Ticket"
+      },
+      "owl:onProperty": {
+        "@id": "https://w3id.org/italia/onto/POT/includes"
       }
     }
   ]

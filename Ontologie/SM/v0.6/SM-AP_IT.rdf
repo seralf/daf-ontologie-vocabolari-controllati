@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/italia/onto/SM/"
-     xml:base="https://w3id.org/italia/onto/SM/"
+     xml:base="https://w3id.org/italia/onto/SM"
      xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -18,7 +18,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/SM">
-        <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/SM/0.6/"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/SM/0.6"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>
         <rdfs:comment xml:lang="en">The ontology for Social Media. This ontology allows to represents social networks, account, email addresses, logos, etc.</rdfs:comment>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-29</dct:issued>
@@ -35,18 +35,18 @@
         <dcat:keyword xml:lang="it">social media</dcat:keyword>
         <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id,org/italia/data/distribution/SMAPIT-JSON-LD"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD"/>
         <admsapit:last rdf:resource="https://w3id.org/italia/onto/SM/0.6/"/>
         <admsapit:prev rdf:resource="https://w3id.org/italia/onto/SM/0.5/"/>
         <dcat:keyword xml:lang="it">punto di contatto</dcat:keyword>
-        <dct:rightsHolder rdf:resource="ttp://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-19</dct:modified>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/SM/Email"/>
         <rdfs:label xml:lang="it">Ontologia per i social media - internet</rdfs:label>
         <admsapit:status>catalogued</admsapit:status>
         <dct:description xml:lang="it">L&apos;ontologia per i social media e i punti di contatto online. Questa ontologia permette di rappresentare social network, account, post, review, rating, indirizzi email, loghi, ecc...</dct:description>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/SM/Post"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id,org/italia/data/distribution/SMAPIT-RDF-XML"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML"/>
         <admsapit:type rdf:resource="https://w3id.org/italia/onto/ADMS/ServiceOntology"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <admsapit:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
@@ -62,7 +62,7 @@
         <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/OntoPiA"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:identifier>https://w3id.org/italia/onto/SM</dct:identifier>
-        <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/SM/</admsapit:officialURI>
+        <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/SM</admsapit:officialURI>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/SM/OnlineContactPoint"/>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/SM/WebSite"/>
         <prov:wasDerivedFrom rdf:resource="https://w3id.org/italia/onto/SM/0.5/"/>
@@ -70,7 +70,7 @@
         <rdfs:label xml:lang="en">Social Media - Internet ontology</rdfs:label>
         <dcat:keyword xml:lang="it">post</dcat:keyword>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id,org/italia/data/distribution/SMAPIT-RDF-TURTLE"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE"/>
         <dcat:keyword xml:lang="it">recensioni</dcat:keyword>
         <admsapit:status>published</admsapit:status>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
@@ -838,8 +838,8 @@
                 <owl:allValuesFrom rdf:resource="https://w3id.org/italia/onto/SM/Email"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="it">Questa classe rappresenta i tipo di email e può assumere due valori come definiti nel vocabolario controllato dei canali di erogazione dei servizi (http://dati.gov.it/onto/controlledvocabulary/Channel.rdf. Nello specifico le istanze di questa classe sono: http://dati.gov.it/onto/controlledvocabulary/Channel/042 (Email tradizionale) e http://dati.gov.it/onto/controlledvocabulary/Channel/041 (PEC).</rdfs:comment>
-        <rdfs:comment xml:lang="en">This class represents the type of email. It can assume two values that are defined in the Channel controlled vocabulary http://dati.gov.it/onto/controlledvocabulary/Channel.rdf. In particular, the istances of this class are http://dati.gov.it/onto/controlledvocabulary/Channel/041 (Certified Electronic Mail) and http://dati.gov.it/onto/controlledvocabulary/Channel/042 (E-mail).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta i tipo di email e può assumere due valori come definiti nel vocabolario controllato dei canali di erogazione dei servizi (https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel). Nello specifico le istanze di questa classe sono: https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042 (Email tradizionale) e https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041 (PEC).</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class represents the type of email. It can assume two values that are defined in the Channel controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel. In particular, the istances of this class are https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041 (Certified Electronic Mail) and https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042 (E-mail).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/SM/"/>
         <rdfs:label xml:lang="en">Email Type</rdfs:label>
         <rdfs:label xml:lang="it">Tipo di email</rdfs:label>
@@ -1057,8 +1057,8 @@
                 <owl:allValuesFrom rdf:resource="https://w3id.org/italia/onto/SM/Telephone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="it">Questa classe rappresenta il tipo di telefono. I valori di questa classe sono quelli del vocabolario controllato http://dati.gov.it/onto/controlledvocabulary/Channel e in particolare sono i valori finali della categoria http://dati.gov.it/onto/controlledvocabulary/Channel/03 (telefono) e quindi i seguenti http://dati.gov.it/onto/controlledvocabulary/Channel/031 (Numero Dedicato - Voce), http://dati.gov.it/onto/controlledvocabulary/Channel/032 (Call Center), http://dati.gov.it/onto/controlledvocabulary/Channel/033 (Fax)</rdfs:comment>
-        <rdfs:comment xml:lang="en">This class represents the type of Telephone. The value of this class are those defined in the controlled vocabulary http://dati.gov.it/onto/controlledvocabulary/Channel and in particular the final values of the category telephone (http://dati.gov.it/onto/controlledvocabulary/Channel/03 that are the following: http://dati.gov.it/onto/controlledvocabulary/Channel/031 (Voice) http://dati.gov.it/onto/controlledvocabulary/Channel/032 (Call Center)  http://dati.gov.it/onto/controlledvocabulary/Channel/033 (Fax)</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta il tipo di telefono. I valori di questa classe sono quelli del vocabolario controllato https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel e in particolare sono i valori finali della categoria https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03 (telefono) e quindi i seguenti https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031 (Numero Dedicato - Voce), hhttps://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032 (Call Center), https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033 (Fax)</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class represents the type of Telephone. The value of this class are those defined in the controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel and in particular the final values of the category telephone (https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03) that are the following: https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031 (Voice) https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032 (Call Center)  https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033 (Fax)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/SM/"/>
         <rdfs:label xml:lang="en">Telephone Type</rdfs:label>
         <rdfs:label xml:lang="it">Tipo di Telefono</rdfs:label>
@@ -1162,9 +1162,9 @@
 
 
 
-    <!-- https://w3id,org/italia/data/distribution/SMAPIT-JSON-LD -->
+    <!-- https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD -->
 
-    <owl:NamedIndividual rdf:about="https://w3id,org/italia/data/distribution/SMAPIT-JSON-LD">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <dct:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia dei social media - Internet</dct:description>
         <dct:description xml:lang="en">This is the distribution in JSON-LD of the social media - Internet ontology</dct:description>
@@ -1178,9 +1178,9 @@
 
 
 
-    <!-- https://w3id,org/italia/data/distribution/SMAPIT-RDF-TURTLE -->
+    <!-- https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE -->
 
-    <owl:NamedIndividual rdf:about="https://w3id,org/italia/data/distribution/SMAPIT-RDF-TURTLE">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia dei social media - Internet</dct:description>
         <dct:description xml:lang="en">This is the distribution in RDF/turtle of the social media - Internet ontology</dct:description>
@@ -1194,9 +1194,9 @@
 
 
 
-    <!-- https://w3id,org/italia/data/distribution/SMAPIT-RDF-XML -->
+    <!-- https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML -->
 
-    <owl:NamedIndividual rdf:about="https://w3id,org/italia/data/distribution/SMAPIT-RDF-XML">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia dei social media - Internet</dct:description>
         <dct:description xml:lang="en">This is the distribution in RDF/XML of the social media - Internet ontology</dct:description>
