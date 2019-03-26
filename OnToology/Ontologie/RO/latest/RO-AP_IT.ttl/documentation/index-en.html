@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Role ontology - Italian application profile</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/italia/onto/l0","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/italia/onto/l0","name":"Role ontology - Italian application profile", "headline":"This is the Italian application profile of the roles ontology. It can be used to model roles of people or organizations in specific context. The ontology allows one to also represent roles that evolve over time.", "datePublished":"2018-03-03", "version":"Versione 0.3 - 12 Marzo 2019 - definizione più puntuale per le proprietà "per entità" "ha ruolo nel tempo", "riveste ruolo nel tempo". In particolare, "riveste ruolo nel tempo" è associata ad Agenti mentre le prime due proprietà, che sono tra loro inverse, sono utilizzate per associare un ruolo che varia nel tempo a delle generiche entità. "riveste ruolo nel tempo" è sotto proprietà della generica "ha ruolo nel tempo".", "author":[{"@type":"Person","name":"http://spcdata.digitpa.gov.it/Amministrazione/agid","url":"http://spcdata.digitpa.gov.it/Amministrazione/agid"},{"@type":"Person","name":"https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab","url":"https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ };    $(function(){
+      $("#abstract").load("sections/abstract-en.html"); 
+      $("#introduction").load("sections/introduction-en.html"); 
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#references").load("sections/references-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+    });
+    </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Role ontology - Italian application profile</h1>
+<h2>Release  2018-03-03</h2>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="https://w3id.org/italia/onto/RO/">https://w3id.org/italia/onto/RO/</a></dd>
+<dt>Revision:</dt>
+<dd>Versione 0.3 - 12 Marzo 2019 - definizione più puntuale per le proprietà "per entità" "ha ruolo nel tempo", "riveste ruolo nel tempo". In particolare, "riveste ruolo nel tempo" è associata ad Agenti mentre le prime due proprietà, che sono tra loro inverse, sono utilizzate per associare un ruolo che varia nel tempo a delle generiche entità. "riveste ruolo nel tempo" è sotto proprietà della generica "ha ruolo nel tempo".</dd>
+<dt>Authors:</dt>
+<dd><a href="http://spcdata.digitpa.gov.it/Amministrazione/agid">http://spcdata.digitpa.gov.it/Amministrazione/agid</a></dd><dd><a href="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</a></dd>
+
+<dt>Publisher:</dt>
+<dd><a href="http://spcdata.digitpa.gov.it/Amministrazione/agid">http://spcdata.digitpa.gov.it/Amministrazione/agid</a></dd>
+<dt>Imported Ontologies:</dt>
+<dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd></dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"></div>
+<div id="toc"></div>     <div id="introduction"></div>
+     <div id="overview"></div>
+     <div id="description"></div>
+     <div id="crossref"></div>
+     <div id="references"></div>
+<html>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+</html>
+
+</div>
+</body>
+</html>

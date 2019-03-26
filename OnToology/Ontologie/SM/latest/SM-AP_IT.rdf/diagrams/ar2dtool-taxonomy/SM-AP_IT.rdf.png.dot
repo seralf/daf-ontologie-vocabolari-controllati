@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:OnlineContactPoint" "base:TelephoneType" "base:Email" "base:Rating" "base:Image" "base:Telephone" "base:SocialMedia" "base:EmailType" "base:WebSite" "base:Review" "l0:Object" "l0:Characteristic" "base:UserAccount" "base:Post" ; /*classes style*/
+	"base:Rating" -> "l0:Description" [ label = "rdfs:subClassOf" ];
+	"base:Post" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:UserAccount" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:Email" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:WebSite" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:EmailType" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:OnlineContactPoint" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:Review" -> "base:Post" [ label = "rdfs:subClassOf" ];
+	"base:TelephoneType" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:Image" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:Telephone" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:SocialMedia" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+
+}

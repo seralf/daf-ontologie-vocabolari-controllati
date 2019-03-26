@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:PublicEvent" "http://org.semanticweb.owlapi/error#Error1" "l0:Agent" "https://w3id.org/italia/onto/TI/TimeIndexedEvent" "base:Audience" "base:Playbill" "base:Format" "l0:Object" "l0:Characteristic" "base:PublicEventTypology" "l0:Topic" ; /*classes style*/
+	"base:PublicEventTypology" -> "l0:Topic" [ label = "rdfs:subClassOf" ];
+	"base:Audience" -> "l0:Agent" [ label = "rdfs:subClassOf" ];
+	"base:PublicEvent" -> "https://w3id.org/italia/onto/TI/TimeIndexedEvent" [ label = "rdfs:subClassOf" ];
+	"base:PublicEvent" -> "http://org.semanticweb.owlapi/error#Error1" [ label = "rdfs:subClassOf" ];
+	"base:Playbill" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:Format" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+
+}

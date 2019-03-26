@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:System" "base:Description" "base:Agent" "base:Entity" "base:Collection" "base:Event" "base:Sequence" "base:Object" "base:Location" "base:Characteristic" "base:Activity" "base:Topic" ; /*classes style*/
+	"base:Activity" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Characteristic" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Location" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Sequence" -> "base:Collection" [ label = "rdfs:subClassOf" ];
+	"base:Agent" -> "base:Object" [ label = "rdfs:subClassOf" ];
+	"base:Object" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:System" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Description" -> "base:Object" [ label = "rdfs:subClassOf" ];
+	"base:Event" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Topic" -> "base:Object" [ label = "rdfs:subClassOf" ];
+	"base:Collection" -> "base:Entity" [ label = "rdfs:subClassOf" ];
+
+}

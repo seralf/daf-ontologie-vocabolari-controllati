@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Address" "base:Country" "base:InternalAccess" "l0:Event" "base:StreetToponym" "base:GeographicalDistribution" "base:SpatialObject" "l0:Location" "base:AddressArea" "l0:Characteristic" "base:CensusSection" "base:CivicNumbering" "base:City" "base:District" "base:Feature" "base:AddressComponent" "base:Region" "base:Province" "base:Identifier" "base:AdminUnitComponent" "base:AddressInTime" "base:Geometry" "base:GeometryType" ; /*classes style*/
+	"base:Country" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:AddressArea" -> "base:AddressComponent" [ label = "rdfs:subClassOf" ];
+	"base:InternalAccess" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:StreetToponym" -> "base:AddressComponent" [ label = "rdfs:subClassOf" ];
+	"base:AdminUnitComponent" -> "base:AddressComponent" [ label = "rdfs:subClassOf" ];
+	"base:Identifier" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:AddressComponent" -> "base:Feature" [ label = "rdfs:subClassOf" ];
+	"base:Address" -> "base:Feature" [ label = "rdfs:subClassOf" ];
+	"base:CivicNumbering" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:GeographicalDistribution" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:Geometry" -> "base:SpatialObject" [ label = "rdfs:subClassOf" ];
+	"base:District" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:Region" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:AddressInTime" -> "l0:Event" [ label = "rdfs:subClassOf" ];
+	"base:GeometryType" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:City" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:CensusSection" -> "base:Feature" [ label = "rdfs:subClassOf" ];
+	"base:Feature" -> "base:SpatialObject" [ label = "rdfs:subClassOf" ];
+	"base:Province" -> "base:AdminUnitComponent" [ label = "rdfs:subClassOf" ];
+	"base:SpatialObject" -> "l0:Location" [ label = "rdfs:subClassOf" ];
+
+}

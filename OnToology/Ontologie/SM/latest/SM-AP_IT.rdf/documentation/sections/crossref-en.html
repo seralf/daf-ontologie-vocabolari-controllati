@@ -1,0 +1,2314 @@
+<html><h2 id="crossreference" class="list">Cross reference for Social Media / Internet ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Social Media / Internet ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+      </li>
+      <li>
+         <a href="#/EmailType" title="https://w3id.org/italia/onto/SM/EmailType">Email Type</a>
+      </li>
+      <li>
+         <a href="#/Image" title="https://w3id.org/italia/onto/SM/Image">Image</a>
+      </li>
+      <li>
+         <a href="#/OnlineContactPoint"
+            title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+      </li>
+      <li>
+         <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+      </li>
+      <li>
+         <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+      </li>
+      <li>
+         <a href="#/Review" title="https://w3id.org/italia/onto/SM/Review">Review</a>
+      </li>
+      <li>
+         <a href="#/SocialMedia" title="https://w3id.org/italia/onto/SM/SocialMedia">Social media</a>
+      </li>
+      <li>
+         <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+      </li>
+      <li>
+         <a href="#/TelephoneType" title="https://w3id.org/italia/onto/SM/TelephoneType">Telephone Type</a>
+      </li>
+      <li>
+         <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+      </li>
+      <li>
+         <a href="#/WebSite" title="https://w3id.org/italia/onto/SM/WebSite">Web site</a>
+      </li>
+   </ul>
+   <div class="entity" id="/Email">
+      <h3>Email<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Email</p>
+      <div class="comment">
+         <span class="markdown">This class represents the Email address of the contact point of an organization. The class is linked to the type of email that can be specified. In the Italian context we identify two types of Emails; namely, Certified Electronic Email and Traditional Email addresses.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasEmailType" title="https://w3id.org/italia/onto/SM/hasEmailType">has email type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/EmailType" title="https://w3id.org/italia/onto/SM/EmailType">Email Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isEmailOf" title="https://w3id.org/italia/onto/SM/isEmailOf">is email of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/OnlineContactPoint"
+               title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/emailAddress" title="https://w3id.org/italia/onto/SM/emailAddress">email address</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/emailAddress" title="https://w3id.org/italia/onto/SM/emailAddress">email address</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/hasEmailType" title="https://w3id.org/italia/onto/SM/hasEmailType">has email type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isEmailOf" title="https://w3id.org/italia/onto/SM/isEmailOf">is email of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isEmailTypeOf" title="https://w3id.org/italia/onto/SM/isEmailTypeOf">is email type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/EmailType">
+      <h3>Email Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/EmailType</p>
+      <div class="comment">
+         <span class="markdown">This class represents the type of email. It can assume two values that are defined in the Channel controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel. In particular, the istances of this class are https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041 (Certified Electronic Mail) and https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042 (E-mail).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isEmailTypeOf" title="https://w3id.org/italia/onto/SM/isEmailTypeOf">is email type of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isEmailTypeOf" title="https://w3id.org/italia/onto/SM/isEmailTypeOf">is email type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasEmailType" title="https://w3id.org/italia/onto/SM/hasEmailType">has email type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Image">
+      <h3>Image<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Image</p>
+      <div class="comment">
+         <span class="markdown">This class represents images.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isImageOf" title="https://w3id.org/italia/onto/SM/isImageOf">is image of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasImage" title="https://w3id.org/italia/onto/SM/hasImage">has image</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/OnlineContactPoint">
+      <h3>Online Contact Point<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/OnlineContactPoint</p>
+      <div class="comment">
+         <span class="markdown">This class represents an online contact point; that is, an object that groups a set of types of online (social) media channels such as email, social network contacts, web site, ecc.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasTelephone" title="https://w3id.org/italia/onto/SM/hasTelephone">has telephone</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasUserAccount" title="https://w3id.org/italia/onto/SM/hasUserAccount">has user account</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasWebSite" title="https://w3id.org/italia/onto/SM/hasWebSite">has Web site</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/WebSite" title="https://w3id.org/italia/onto/SM/WebSite">Web site</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasTelephone" title="https://w3id.org/italia/onto/SM/hasTelephone">has telephone</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasUserAccount" title="https://w3id.org/italia/onto/SM/hasUserAccount">has user account</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isOnlineContactPointOf"
+               title="https://w3id.org/italia/onto/SM/isOnlineContactPointOf">is online contact point of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasOnlineContactPoint"
+               title="https://w3id.org/italia/onto/SM/hasOnlineContactPoint">has online contact point</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isEmailOf" title="https://w3id.org/italia/onto/SM/isEmailOf">is email of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isTelephoneOf" title="https://w3id.org/italia/onto/SM/isTelephoneOf">is telephone of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isUserAccountOf" title="https://w3id.org/italia/onto/SM/isUserAccountOf">is user account of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Post">
+      <h3>Post<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Post</p>
+      <div class="comment">
+         <span class="markdown">A post on a social media.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasCreator" title="https://w3id.org/italia/onto/SM/hasCreator">has creator</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/postContent" title="https://w3id.org/italia/onto/SM/postContent">post content</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/Review" title="https://w3id.org/italia/onto/SM/Review">Review</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasCreator" title="https://w3id.org/italia/onto/SM/hasCreator">has creator</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasReply" title="https://w3id.org/italia/onto/SM/hasReply">has reply</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isReplyOf" title="https://w3id.org/italia/onto/SM/isReplyOf">is reply of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/postContent" title="https://w3id.org/italia/onto/SM/postContent">post content</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasReply" title="https://w3id.org/italia/onto/SM/hasReply">has reply</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isCreatorOf" title="https://w3id.org/italia/onto/SM/isCreatorOf">is creator of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isReplyOf" title="https://w3id.org/italia/onto/SM/isReplyOf">is reply of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Rating">
+      <h3>Rating<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Rating</p>
+      <div class="comment">
+         <span class="markdown">The individuals of this class represent an evaluation which may assume values such as "1", "2", etc.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Description">description</span>
+         </dd>
+         <dd>
+            <a href="#/bestUserRating" title="https://w3id.org/italia/onto/SM/bestUserRating">best user rating</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <a href="#/worstUserRating" title="https://w3id.org/italia/onto/SM/worstUserRating">worst user rating</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <a href="#/userRating" title="https://w3id.org/italia/onto/SM/userRating">user rating</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/bestUserRating" title="https://w3id.org/italia/onto/SM/bestUserRating">best user rating</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/userRating" title="https://w3id.org/italia/onto/SM/userRating">user rating</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/worstUserRating" title="https://w3id.org/italia/onto/SM/worstUserRating">worst user rating</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasRating" title="https://w3id.org/italia/onto/SM/hasRating">has rating</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Review">
+      <h3>Review<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Review</p>
+      <div class="comment">
+         <span class="markdown">Individuals of this class represent specific types of posts that are review (examples include review for accommodation facilities, review for public events, etc.)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasRating" title="https://w3id.org/italia/onto/SM/hasRating">has rating</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/reviewAspect" title="https://w3id.org/italia/onto/SM/reviewAspect">review aspect</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/reviewAspect" title="https://w3id.org/italia/onto/SM/reviewAspect">review aspect</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasReview" title="https://w3id.org/italia/onto/SM#hasReview">has review</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/SocialMedia">
+      <h3>Social media<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/SocialMedia</p>
+      <div class="comment">
+         <span class="markdown">This class represents a social media like a social network (e.g. Facebook, Twitter, etc.).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/socialMediaName" title="https://w3id.org/italia/onto/SM/socialMediaName">social media name</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/issuesAccount" title="https://w3id.org/italia/onto/SM/issuesAccount">issues account</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/socialMediaName" title="https://w3id.org/italia/onto/SM/socialMediaName">social media name</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/isAccountIssuedBy"
+               title="https://w3id.org/italia/onto/SM/isAccountIssuedBy">is accunt issued by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Telephone">
+      <h3>Telephone<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/Telephone</p>
+      <div class="comment">
+         <span class="markdown">This class represents the Telephone that is characterized by a type (Voice, Fax) and a telephone number.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasTelephoneType" title="https://w3id.org/italia/onto/SM/hasTelephoneType">has telephone type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/TelephoneType" title="https://w3id.org/italia/onto/SM/TelephoneType">Telephone Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isTelephoneOf" title="https://w3id.org/italia/onto/SM/isTelephoneOf">is telephone of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/OnlineContactPoint"
+               title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/telephoneNumber" title="https://w3id.org/italia/onto/SM/telephoneNumber">telephone number</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasTelephoneType" title="https://w3id.org/italia/onto/SM/hasTelephoneType">has telephone type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isTelephoneOf" title="https://w3id.org/italia/onto/SM/isTelephoneOf">is telephone of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/telephoneNumber" title="https://w3id.org/italia/onto/SM/telephoneNumber">telephone number</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasTelephone" title="https://w3id.org/italia/onto/SM/hasTelephone">has telephone</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isTelephoneTypeOf"
+               title="https://w3id.org/italia/onto/SM/isTelephoneTypeOf">is telephone type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/TelephoneType">
+      <h3>Telephone Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/TelephoneType</p>
+      <div class="comment">
+         <span class="markdown">This class represents the type of Telephone. The value of this class are those defined in the controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel and in particular the final values of the category telephone (https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03) that are the following: https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031 (Voice) https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032 (Call Center)  https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033 (Fax)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isTelephoneTypeOf"
+               title="https://w3id.org/italia/onto/SM/isTelephoneTypeOf">is telephone type of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isTelephoneTypeOf"
+               title="https://w3id.org/italia/onto/SM/isTelephoneTypeOf">is telephone type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasTelephoneType" title="https://w3id.org/italia/onto/SM/hasTelephoneType">has telephone type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/UserAccount">
+      <h3>User account<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/UserAccount</p>
+      <div class="comment">
+         <span class="markdown">This class represents a user account, such as the account owned by a person on a social network.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isAccountIssuedBy"
+               title="https://w3id.org/italia/onto/SM/isAccountIssuedBy">is accunt issued by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/SocialMedia" title="https://w3id.org/italia/onto/SM/SocialMedia">Social media</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isUserAccountOf" title="https://w3id.org/italia/onto/SM/isUserAccountOf">is user account of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/OnlineContactPoint"
+               title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/userAccountName" title="https://w3id.org/italia/onto/SM/userAccountName">user account name</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isAccountIssuedBy"
+               title="https://w3id.org/italia/onto/SM/isAccountIssuedBy">is accunt issued by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isCreatorOf" title="https://w3id.org/italia/onto/SM/isCreatorOf">is creator of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isUserAccountOf" title="https://w3id.org/italia/onto/SM/isUserAccountOf">is user account of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/userAccountName" title="https://w3id.org/italia/onto/SM/userAccountName">user account name</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasCreator" title="https://w3id.org/italia/onto/SM/hasCreator">has creator</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasUserAccount" title="https://w3id.org/italia/onto/SM/hasUserAccount">has user account</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/issuesAccount" title="https://w3id.org/italia/onto/SM/issuesAccount">issues account</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/WebSite">
+      <h3>Web site<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/WebSite</p>
+      <div class="comment">
+         <span class="markdown">This class represents the web site of refernce of the organization.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isWebSiteOf" title="https://w3id.org/italia/onto/SM/isWebSiteOf">is Web site of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/OnlineContactPoint"
+               title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isWebSiteOf" title="https://w3id.org/italia/onto/SM/isWebSiteOf">is Web site of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasWebSite" title="https://w3id.org/italia/onto/SM/hasWebSite">has Web site</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/hasCertifiedEmail"
+            title="https://w3id.org/italia/onto/SM/hasCertifiedEmail">
+            <span>has certified email</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/hasCreator" title="https://w3id.org/italia/onto/SM/hasCreator">has creator</a>
+      </li>
+      <li>
+         <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+      </li>
+      <li>
+         <a href="#/hasEmailType" title="https://w3id.org/italia/onto/SM/hasEmailType">has email type</a>
+      </li>
+      <li>
+         <a href="#/hasImage" title="https://w3id.org/italia/onto/SM/hasImage">has image</a>
+      </li>
+      <li>
+         <a href="#/hasOnlineContactPoint"
+            title="https://w3id.org/italia/onto/SM/hasOnlineContactPoint">has online contact point</a>
+      </li>
+      <li>
+         <a href="#/hasRating" title="https://w3id.org/italia/onto/SM/hasRating">has rating</a>
+      </li>
+      <li>
+         <a href="#/hasReply" title="https://w3id.org/italia/onto/SM/hasReply">has reply</a>
+      </li>
+      <li>
+         <a href="#hasReview" title="https://w3id.org/italia/onto/SM#hasReview">has review</a>
+      </li>
+      <li>
+         <a href="#/hasTelephone" title="https://w3id.org/italia/onto/SM/hasTelephone">has telephone</a>
+      </li>
+      <li>
+         <a href="#/hasTelephoneType" title="https://w3id.org/italia/onto/SM/hasTelephoneType">has telephone type</a>
+      </li>
+      <li>
+         <a href="#/hasUserAccount" title="https://w3id.org/italia/onto/SM/hasUserAccount">has user account</a>
+      </li>
+      <li>
+         <a href="#/hasWebSite" title="https://w3id.org/italia/onto/SM/hasWebSite">has Web site</a>
+      </li>
+      <li>
+         <a href="#/isAccountIssuedBy"
+            title="https://w3id.org/italia/onto/SM/isAccountIssuedBy">is accunt issued by</a>
+      </li>
+      <li>
+         <a href="#/isCreatorOf" title="https://w3id.org/italia/onto/SM/isCreatorOf">is creator of</a>
+      </li>
+      <li>
+         <a href="#/isEmailOf" title="https://w3id.org/italia/onto/SM/isEmailOf">is email of</a>
+      </li>
+      <li>
+         <a href="#/isEmailTypeOf" title="https://w3id.org/italia/onto/SM/isEmailTypeOf">is email type of</a>
+      </li>
+      <li>
+         <a href="#/isImageOf" title="https://w3id.org/italia/onto/SM/isImageOf">is image of</a>
+      </li>
+      <li>
+         <a href="#/isOnlineContactPointOf"
+            title="https://w3id.org/italia/onto/SM/isOnlineContactPointOf">is online contact point of</a>
+      </li>
+      <li>
+         <a href="#/isReplyOf" title="https://w3id.org/italia/onto/SM/isReplyOf">is reply of</a>
+      </li>
+      <li>
+         <a href="#/isTelephoneOf" title="https://w3id.org/italia/onto/SM/isTelephoneOf">is telephone of</a>
+      </li>
+      <li>
+         <a href="#/isTelephoneTypeOf"
+            title="https://w3id.org/italia/onto/SM/isTelephoneTypeOf">is telephone type of</a>
+      </li>
+      <li>
+         <a href="#/isUserAccountOf" title="https://w3id.org/italia/onto/SM/isUserAccountOf">is user account of</a>
+      </li>
+      <li>
+         <a href="#/isWebSiteOf" title="https://w3id.org/italia/onto/SM/isWebSiteOf">is Web site of</a>
+      </li>
+      <li>
+         <a href="#/issuesAccount" title="https://w3id.org/italia/onto/SM/issuesAccount">issues account</a>
+      </li>
+   </ul>
+   <div class="entity" id="/hasCertifiedEmail">
+      <h3>has certified email<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasCertifiedEmail</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasCreator">
+      <h3>has creator<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasCreator</p>
+      <div class="comment">
+         <span class="markdown">This property states that a post has been created by a certain user account.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isCreatorOf" title="https://w3id.org/italia/onto/SM/isCreatorOf">is creator of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasEmail">
+      <h3>has email<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasEmail</p>
+      <div class="comment">
+         <span class="markdown">This property links an online contact  point with one or more email addresses of various types.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasCertifiedEmail"
+                  title="https://w3id.org/italia/onto/SM/hasCertifiedEmail">has certified email</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isEmailOf" title="https://w3id.org/italia/onto/SM/isEmailOf">is email of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasEmailType">
+      <h3>has email type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasEmailType</p>
+      <div class="comment">
+         <span class="markdown">This property links the Email to its type.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/EmailType" title="https://w3id.org/italia/onto/SM/EmailType">Email Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isEmailTypeOf" title="https://w3id.org/italia/onto/SM/isEmailTypeOf">is email type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasImage">
+      <h3>has image<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasImage</p>
+      <div class="comment">
+         <span class="markdown">This property links anything to an image.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Image" title="https://w3id.org/italia/onto/SM/Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isImageOf" title="https://w3id.org/italia/onto/SM/isImageOf">is image of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasOnlineContactPoint">
+      <h3>has online contact point<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasOnlineContactPoint</p>
+      <div class="comment">
+         <span class="markdown">This property links any thing of the domain being modelled with the online contact point.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stabile</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isOnlineContactPointOf"
+                  title="https://w3id.org/italia/onto/SM/isOnlineContactPointOf">is online contact point of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasRating">
+      <h3>has rating<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasRating</p>
+      <div class="comment">
+         <span class="markdown">Property that links anything to a possible rating.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasReply">
+      <h3>has reply<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasReply</p>
+      <div class="comment">
+         <span class="markdown">This property links an Item to other follow-up content Items made on the same topic. Use of this property can result in a single branch of replies from the original Item, or in a tree-like structure with branches forking at different Items along the way.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isReplyOf" title="https://w3id.org/italia/onto/SM/isReplyOf">is reply of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasReview">
+      <h3>has review<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM#hasReview</p>
+      <div class="comment">
+         <span class="markdown">Property that links a thing of the modelled domain to a review</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Review" title="https://w3id.org/italia/onto/SM/Review">Review</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasTelephone">
+      <h3>has telephone<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasTelephone</p>
+      <div class="comment">
+         <span class="markdown">This property links the online contact point with the telephone element</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isTelephoneOf" title="https://w3id.org/italia/onto/SM/isTelephoneOf">is telephone of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasTelephoneType">
+      <h3>has telephone type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasTelephoneType</p>
+      <div class="comment">
+         <span class="markdown">This property links the Telephone to its type (voice, fax)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/TelephoneType" title="https://w3id.org/italia/onto/SM/TelephoneType">Telephone Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isTelephoneTypeOf"
+                  title="https://w3id.org/italia/onto/SM/isTelephoneTypeOf">is telephone type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasUserAccount">
+      <h3>has user account<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasUserAccount</p>
+      <div class="comment">
+         <span class="markdown">This property links an online contactPoint to its user account.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isUserAccountOf" title="https://w3id.org/italia/onto/SM/isUserAccountOf">is user account of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasWebSite">
+      <h3>has Web site<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/hasWebSite</p>
+      <div class="comment">
+         <span class="markdown">Relation between anything and its web site.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/WebSite" title="https://w3id.org/italia/onto/SM/WebSite">Web site</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isWebSiteOf" title="https://w3id.org/italia/onto/SM/isWebSiteOf">is Web site of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isAccountIssuedBy">
+      <h3>is accunt issued by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isAccountIssuedBy</p>
+      <div class="comment">
+         <span class="markdown">This property represents the relation between a social media and the user account issued by such a social media.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/SocialMedia" title="https://w3id.org/italia/onto/SM/SocialMedia">Social media</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/issuesAccount" title="https://w3id.org/italia/onto/SM/issuesAccount">issues account</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isCreatorOf">
+      <h3>is creator of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isCreatorOf</p>
+      <div class="comment">
+         <span class="markdown">The fact that a user account creates a post.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasCreator" title="https://w3id.org/italia/onto/SM/hasCreator">has creator</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isEmailOf">
+      <h3>is email of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isEmailOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse Property of "has email".</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasEmail" title="https://w3id.org/italia/onto/SM/hasEmail">has email</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isEmailTypeOf">
+      <h3>is email type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isEmailTypeOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of has email type. Hence, this property links an email type to an email.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/EmailType" title="https://w3id.org/italia/onto/SM/EmailType">Email Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasEmailType" title="https://w3id.org/italia/onto/SM/hasEmailType">has email type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isImageOf">
+      <h3>is image of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isImageOf</p>
+      <div class="comment">
+         <span class="markdown">This property links an image to anything. It is defined as the inverse property of 'has image'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Image" title="https://w3id.org/italia/onto/SM/Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasImage" title="https://w3id.org/italia/onto/SM/hasImage">has image</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isOnlineContactPointOf">
+      <h3>is online contact point of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isOnlineContactPointOf</p>
+      <div class="comment">
+         <span class="markdown">This property is the inverse one for "has online contact point" and links an online contact point to any thing of the modelled domain.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasOnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/hasOnlineContactPoint">has online contact point</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isReplyOf">
+      <h3>is reply of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isReplyOf</p>
+      <div class="comment">
+         <span class="markdown">The property 'is reply of' asserts that a given post is the answer to another post.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasReply" title="https://w3id.org/italia/onto/SM/hasReply">has reply</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isTelephoneOf">
+      <h3>is telephone of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isTelephoneOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "has telephone".</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasTelephone" title="https://w3id.org/italia/onto/SM/hasTelephone">has telephone</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isTelephoneTypeOf">
+      <h3>is telephone type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isTelephoneTypeOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "has telephone type".</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/TelephoneType" title="https://w3id.org/italia/onto/SM/TelephoneType">Telephone Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasTelephoneType" title="https://w3id.org/italia/onto/SM/hasTelephoneType">has telephone type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isUserAccountOf">
+      <h3>is user account of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isUserAccountOf</p>
+      <div class="comment">
+         <span class="markdown">This property links a user account to its owner, which, in turn, is an agent. This property is the inverse of 'has user account'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/OnlineContactPoint"
+                  title="https://w3id.org/italia/onto/SM/OnlineContactPoint">Online Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasUserAccount" title="https://w3id.org/italia/onto/SM/hasUserAccount">has user account</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isWebSiteOf">
+      <h3>is Web site of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/isWebSiteOf</p>
+      <div class="comment">
+         <span class="markdown">Relation between a Web site and the entity this Web site is associated with. This property is the inverse of 'has Web site'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/WebSite" title="https://w3id.org/italia/onto/SM/WebSite">Web site</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasWebSite" title="https://w3id.org/italia/onto/SM/hasWebSite">has Web site</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/issuesAccount">
+      <h3>issues account<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/issuesAccount</p>
+      <div class="comment">
+         <span class="markdown">This property means that a Social Media issues a user account.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/SocialMedia" title="https://w3id.org/italia/onto/SM/SocialMedia">Social media</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isAccountIssuedBy"
+                  title="https://w3id.org/italia/onto/SM/isAccountIssuedBy">is accunt issued by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/bestUserRating" title="https://w3id.org/italia/onto/SM/bestUserRating">best user rating</a>
+      </li>
+      <li>
+         <a href="#/emailAddress" title="https://w3id.org/italia/onto/SM/emailAddress">email address</a>
+      </li>
+      <li>
+         <a href="#/postContent" title="https://w3id.org/italia/onto/SM/postContent">post content</a>
+      </li>
+      <li>
+         <a href="#/reviewAspect" title="https://w3id.org/italia/onto/SM/reviewAspect">review aspect</a>
+      </li>
+      <li>
+         <a href="#/socialMediaName" title="https://w3id.org/italia/onto/SM/socialMediaName">social media name</a>
+      </li>
+      <li>
+         <a href="#/telephoneNumber" title="https://w3id.org/italia/onto/SM/telephoneNumber">telephone number</a>
+      </li>
+      <li>
+         <a href="#/URL" title="https://w3id.org/italia/onto/SM/URL">URL</a>
+      </li>
+      <li>
+         <a href="#/userAccountName" title="https://w3id.org/italia/onto/SM/userAccountName">user account name</a>
+      </li>
+      <li>
+         <a href="#/userRating" title="https://w3id.org/italia/onto/SM/userRating">user rating</a>
+      </li>
+      <li>
+         <a href="#/worstUserRating" title="https://w3id.org/italia/onto/SM/worstUserRating">worst user rating</a>
+      </li>
+   </ul>
+   <div class="entity" id="/bestUserRating">
+      <h3>best user rating<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/bestUserRating</p>
+      <div class="comment">
+         <span class="markdown">Among all  user rating scores it represents the best one</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/userRating" title="https://w3id.org/italia/onto/SM/userRating">user rating</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/emailAddress">
+      <h3>email address<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/emailAddress</p>
+      <div class="comment">
+         <span class="markdown">This property represents the email address expressed as mailto:XX@YY.ZZ</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Email" title="https://w3id.org/italia/onto/SM/Email">Email</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/postContent">
+      <h3>post content<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/postContent</p>
+      <div class="comment">
+         <span class="markdown">The content of a post.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Post" title="https://w3id.org/italia/onto/SM/Post">Post</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/reviewAspect">
+      <h3>review aspect<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/reviewAspect</p>
+      <div class="comment">
+         <span class="markdown">The aspect on which the review focusses.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Review" title="https://w3id.org/italia/onto/SM/Review">Review</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/socialMediaName">
+      <h3>social media name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/socialMediaName</p>
+      <div class="comment">
+         <span class="markdown">The name associated with a social media entity.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/SocialMedia" title="https://w3id.org/italia/onto/SM/SocialMedia">Social media</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/telephoneNumber">
+      <h3>telephone number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/telephoneNumber</p>
+      <div class="comment">
+         <span class="markdown">This property represents the telephone number</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Telephone" title="https://w3id.org/italia/onto/SM/Telephone">Telephone</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/URL">
+      <h3>URL<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/URL</p>
+      <div class="comment">
+         <span class="markdown">This property represents a general URL associated with any thing of the modelled domain.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>unstable</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/userAccountName">
+      <h3>user account name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/userAccountName</p>
+      <div class="comment">
+         <span class="markdown">This property links a user account to its name (i.e. a literal).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM/">https://w3id.org/italia/onto/SM/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/UserAccount" title="https://w3id.org/italia/onto/SM/UserAccount">User account</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/userRating">
+      <h3>user rating<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/userRating</p>
+      <div class="comment">
+         <span class="markdown">This property represents a user evaluation/rating expressed as 1,2,3,4,5 or any other type of rating associated with a review.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/bestUserRating" title="https://w3id.org/italia/onto/SM/bestUserRating">best user rating</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#/worstUserRating" title="https://w3id.org/italia/onto/SM/worstUserRating">worst user rating</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/worstUserRating">
+      <h3>worst user rating<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM/worstUserRating</p>
+      <div class="comment">
+         <span class="markdown">Among all the rating associated with a thing of the modelled domain, it represents the worst rating.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/SM">https://w3id.org/italia/onto/SM</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/userRating" title="https://w3id.org/italia/onto/SM/userRating">user rating</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Rating" title="https://w3id.org/italia/onto/SM/Rating">Rating</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+            title="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+            <span>agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/DAF" title="https://w3id.org/italia/data/project/DAF">
+            <span>d a f</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/contact-point/onto-agid"
+            title="https://w3id.org/italia/data/contact-point/onto-agid">
+            <span>onto agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/OntoPiA" title="https://w3id.org/italia/data/project/OntoPiA">
+            <span>onto pi a</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD"
+            title="https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD">
+            <span>s m a p i t j s o n l d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE"
+            title="https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE">
+            <span>s m a p i t r d f t u r t l e</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML"
+            title="https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML">
+            <span>s m a p i t r d f x m l</span>
+         </a>
+      </li>
+      <li>
+         <a href="#" title="https://w3id.org/italia/onto/SM">
+            <span>Social Media / Internet ontology</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            title="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+            <span>stlab</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/public-organization/td"
+            title="https://w3id.org/italia/data/organization/public-organization/td">
+            <span>td</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+      <h3>agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/DAF">
+      <h3>d a f<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/DAF</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Data &amp; Analytics Framework"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/contact-point/onto-agid">
+      <h3>onto agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/contact-point/onto-agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Kind">kind</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Organization">organization</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/OntoPiA">
+      <h3>onto pi a<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/OntoPiA</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD">
+      <h3>s m a p i t j s o n l d<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE">
+      <h3>s m a p i t r d f t u r t l e<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML">
+      <h3>s m a p i t r d f x m l<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>Social Media / Internet ontology<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/SM</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/SemanticAsset">semantic asset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+      <h3>stlab<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</p>
+      <dl class="description">
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/public-organization/td">
+      <h3>td<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/public-organization/td</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>

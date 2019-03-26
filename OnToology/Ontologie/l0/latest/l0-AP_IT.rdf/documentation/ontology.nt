@@ -1,0 +1,593 @@
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/l0/> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/description> "Questa è l'ontologia che fornisce il livello fondazionale allo stack ontologico di OntoPiA. Il nome L0 sta per Level-0 ontology poiché essa fornisce le fondamenta concettuali elementari all'intero stack. Questa ontologia è  ispirata da DOLCE zero (http://www.ontologydesignpatterns.org/ont/d0.owl)"@it .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/description> "This ontology provides the foundational level of the ontological stack of OntoPiA. The name L0 stands for Level-0 ontology as it provides the basic conceptual foundations to the whole stack. This ontology is inspired from DOLCE 0 (http://www.ontologydesignpatterns.org/ont/d0.owl)"@en .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/issued> "2017-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/modified> "2018-10-17" .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/title> "Ontologia fondazionale di OntoPiA - Livello 0"@it .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/title> "Top level ontology L0 - Level-0"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa è l'ontologia che fornisce il livello fondazionale allo stack ontologico di OntoPiA. Il nome L0 sta per Level-0 ontology poiché essa fornisce le fondamenta concettuali elementari all'intero stack. Questa ontologia è  ispirata da DOLCE zero (http://www.ontologydesignpatterns.org/ont/d0.owl)"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the top level ontology of OntoPiA"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia fondazionale di OntoPiA - Livello 0"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#label> "Top level ontology L0 - Level-0"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionInfo> "0.6 - 17 October 2018 - modelling of sequencing."@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionInfo> "0.6 - 17 Ottobre 2018 - Aggiunta delle sequenze."@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#keyword> "Caratteristica"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#keyword> "Entità"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#keyword> "Evento"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#keyword> "Oggetto"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/acronym> "l0-AP_IT" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/public-organization/td> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/l0/Agent> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/l0/Event> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/l0-JSON-LD> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/l0-RDF-XML> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/last> <https://w3id.org/italia/onto/l0/> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/l0"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/prefix> "l0" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Cittadini"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Imprese"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/UpperLevelOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasInfluencedBy
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/italia/onto/l0/controlledVocabulary
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è utilizzata per collegare una proprietà (data type property) di un'ontologia al relativo vocabolario controllato dove si trovano le istanze della proprietà stessa"@it .
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to link a property (data type property) of an ontology to the related controlled vocabulary where the individuals of the property are located"@en .
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "vocabolario controllato"@en .
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "vocabolario controllato"@it .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/l0/directlyFollows
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/follows> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/directlyPrecedes> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione diretta di successore tra due entità. Questa proprietà non è transitiva, poiche il successore diretto di una certa entità non è transitivo."@it .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#comment> "The direct relation of follower. This property is not transitive as the direct follower is not transitive."@en .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#label> "directly follows"@en .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2000/01/rdf-schema#label> "segue direttamente"@it .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/directlyFollows> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/directlyPrecedes
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/precedes> .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione diretta di predecessore. La relazione non è transitiva."@it .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#comment> "The direct relation of predecessor. The relation is not transitive."@en .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#label> "directly precedes"@en .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2000/01/rdf-schema#label> "precede direttamente"@it .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/directlyPrecedes> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/follows
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/precedes> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between entities for expressing sequences."@en .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra entità per esprimere sequenze."@it .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2000/01/rdf-schema#label> "segue"@it .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/follows> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/hasDescription
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/isDescriptionOf> .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Description> .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that associates an entity with its description."@en .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che associa un'entità alla sua descrizione."@it .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "ha descrizione"@it .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has description"@en .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/hasDescription> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/hasFirstMember
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/hasMember> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/isFirstMemberOf> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Sequence> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#comment> "La object property che permette di rappresentare il primo membro di una sequenza."@it .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#comment> "The object property that enables to represent the first member of a sequence."@en .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#label> "has first member"@en .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2000/01/rdf-schema#label> "primo membro"@it .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/hasFirstMember> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/hasLastMember
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/hasMember> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/isLastMemberOf> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Sequence> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property che permette di rappresentare una specifica entità come l'ultimo membro di una sequenza."@it .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property for representing an entity as the last member of a sequence."@en .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#label> "ha ultimo membro"@it .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2000/01/rdf-schema#label> "has last member"@en .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/hasLastMember> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/hasMember
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/isMemberOf> .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Collection> .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà che modella la relazione di membership."@it .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "The object property that models the membership relation."@en .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "ha membro"@it .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/hasMember> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/hasTopic
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/l0/isTopicOf> .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Topic> .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa object property permette di associare un entità ad un topic."@it .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property allows to associate an entity with a topic."@en .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "ha tema"@it .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic"@en .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/hasTopic> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/isDescriptionOf
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Description> .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of 'has description'."@en .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di 'ha descrizione'."@it .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is description of"@en .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2000/01/rdf-schema#label> "è descrizione di"@it .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/isDescriptionOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/isFirstMemberOf
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/isMemberOf> .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Sequence> .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "Inverse object property of has first member."@en .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "Proprietà inversa di has first member."@it .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is first member of"@en .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "primo membro di"@it .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/isFirstMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/isLastMemberOf
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/isMemberOf> .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Sequence> .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse object property of has last member"@en .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property inversa di has last member."@it .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is last member of"@en .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "ultimo membro di"@it .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/isLastMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/isMemberOf
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Collection> .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse object property of has member."@en .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione inversa di has member."@it .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is member of"@en .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "membro di"@it .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/isMemberOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/isTopicOf
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Topic> .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "La object property che permette di associare un tema ad un'entità. E' l'inversa di hasTopic."@it .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "The object property that associates a topic with an entity. This is the inverse property of hasTopic."@en .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "is topic of"@en .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "è tema di"@it .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/isTopicOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/precedes
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione per rappresentare il predecessore di un entità in una sequenza."@it .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation for represending the precedecessor of an entity in a sequence."@en .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "precede"@it .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "precedes"@en .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/precedes> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/l0/description
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Datatype property che associa un valore letterale a una cosa."@it .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Datatype property that associates a literal value with a thing"@en .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#label> "description"@en .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2000/01/rdf-schema#label> "descrizione"@it .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/identifier
+<https://w3id.org/italia/onto/l0/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dati.gov.it/onto/dcatapit#Agent
+<http://dati.gov.it/onto/dcatapit#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dati.gov.it/onto/dcatapit#Organization
+<http://dati.gov.it/onto/dcatapit#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Kind
+<http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/Project
+<https://w3id.org/italia/onto/ADMS/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAsset
+<https://w3id.org/italia/onto/ADMS/SemanticAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+<https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Activity
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe delle attività svolte da qualche agente."@it .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of activities carried out by an agent."@en .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity"@en .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Attività"@it .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Activity> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Agent
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any agentive Object , either physical (e.g. a person, a robot, an oak), or social (e.g. a corporation, an institution, a community)."@en .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agente, sia fisico (ex. una persona, un robot, una quercia), o sociale (ex. una società, un'istituzione, una comunità)."@it .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agente"@it .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Characteristic
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe delle caratteristiche, intese come aspetti, attributi o qualità di un'entità. Ex. una quantità, qualità estetica, colore, etc."@it .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of characteristics, intended as any aspect, attribuite, or quality of an entity. E.g. a certain size, aesthetic quality, color, etc."@en .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "Caratteristica"@it .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "Characteristic"@en .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Collection
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/hasMember> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe che include collezioni di qualsiasi cosa, ex. gruppi, raccolte, comunità, etc."@it .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "The class includes all collections of any entities: e.g. groups, repositories, communities, etc,"@en .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collezione"@it .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Collection> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Description
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/description> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe degli oggetti costruiti socialmente (testi, valori, categorie, relazioni, contesti) usati per descrivere qualcos'altro in modo structuratto.\nGli esempi includono i piani (come descrizioni strutturate di azioni da eseguire ex. in un processo industriale), le diagnosi (come descrizioni strutturate di situazioni osservate ex. clinicamente), le spiegazioni (come testi strutturati per chiarire ex. un concetto in un sistema normativo), osservazioni oggettive (come insiemi di valori strutturati che identificano una situazione rilevante ex. da un sistema di sensori)."@it .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of socially-created objects (texts, values, categories, relations, contexts) used to describe something else in a structured way.\nExamples include plans (as structured descriptions of actions to be executed), diagnoses (as structured descriptions of observed situations, explanations (as structured texts clarifying e.g. a concept), objective observations (as structured sets of values that identify a relevant situation)."@en .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Descrizione"@it .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Description> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Entity
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2000/01/rdf-schema#comment> "Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose."@en .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2000/01/rdf-schema#comment> "Qualsiasi cosa reale, possibile o immaginaria."@it .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2000/01/rdf-schema#label> "Entity"@en .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2000/01/rdf-schema#label> "Entità"@it .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Event
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Any entity that typically flows in time, either in the physical or social world. Examples include athmospheric phenomena, concerts, travels, institutional processes, etc.\nEvents are opposable to objects, since events typically flow in time, aggregating multiple objects during their flow, while objects tend to be stable in a certain time interval."@en .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni entità che tipicamente scorre nel tempo, sia nel mondo fisico sia sociale. Gli esempi includono fenomeni atmosferici, concerti, viaggi, processi istituzionali, etc.\nGli eventi si oppongono agli oggetti, poiché, mentre gli eventi scorrono nel tempo e aggregano uno o più oggetti nel loro scorrerre, gli oggetti tendono a essere stabili in un intervallo di tempo."@it .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Evento"@it .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Location
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe che rappresenta il concetto di luogo. Le istanze di questa classe possono essere entità di qualsiasi tipo intese come luogo di qualcos'altro: luoghi geografici, coordinate, contenitori, etc."@it .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "The class including locations. Individuals of this class can be anything that is intended as a location for something else, e.g. geographical places, spatial objects, containers, etc."@en .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@it .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Object
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Any entity that tends to be stable in time, either in the physical or social world. Examples include homes, cities, organizations, works of art, natural objects, artifacts, words, ideas, etc.\nObjects are opposable to events, since events typically flow in time, aggregating multiple objects during their flow, as with working, travelling or leisure activities, industrial or athmospheric processes, etc."@en .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni entità che tende a essere stabile in un tempo più o meno lungo, sia nel mondo fisico sia sociale. Gli esempi includono case, città, organizzazioni, opere d'arte, oggetti del mondo naturale, artefatti, parole, idee, etc.\nGLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, aggregando oggetti diversi nel loro scorrere, come accade per esempio nei processi industriali o atmosferici, nelle attività di lavoro, viaggio o divertimento, etc."@it .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#label> "Object"@en .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2000/01/rdf-schema#label> "Oggetto"@it .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Sequence
+<https://w3id.org/italia/onto/l0/Sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Sequence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Collection> .
+<https://w3id.org/italia/onto/l0/Sequence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/hasFirstMember> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/Sequence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/hasLastMember> .
+_:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/l0/Entity> .
+# 
+# https://w3id.org/italia/onto/l0/System
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe dei sistemi. Esempi ne sono i sistema politici, fisici o economici."@it .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#comment> "The class including systems. Example include political, economical, physical systems."@en .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema"@it .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2000/01/rdf-schema#label> "System"@en .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/l0/System> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/Topic
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe che include temi, argomenti, categorie, discipline, etc. Per esempio: la matematica, lo svago, le arti marziali, etc., intesi come temi di un discorso o di una categorizzazione."@it .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of topics, subjects, arguments, categories, domains, etc., intended as topics of a discourse or a categorization."@en .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Tema"@it .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic"@en .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@en .
+<https://w3id.org/italia/onto/l0/Topic> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/Amministrazione/agid
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://purl.org/dc/terms/identifier> "agid" .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Italian Digital Agency"@en .
+# 
+# https://w3id.org/italia/data/contact-point/onto-agid
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#fn> "banche dati e open data" .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:info@dati.gov.it> .
+# 
+# https://w3id.org/italia/data/distribution/l0-JSON-LD
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia livello 0 (level -0)"@it .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of the Level 0 ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia L0-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of L0-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest> .
+<https://w3id.org/italia/data/distribution/l0-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest/l0-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/l0-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia livello 0 (level -0)"@it .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the Level 0 ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia l0-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of l0-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest> .
+<https://w3id.org/italia/data/distribution/l0-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest/l0-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/l0-RDF-XML
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia livello 0 (level -0)"@it .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the Level 0 ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia l0-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of l0-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest> .
+<https://w3id.org/italia/data/distribution/l0-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/l0/latest/l0-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/public-organization/td
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://purl.org/dc/terms/identifier> "TD" .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Digital Transformation Team"@en .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Team per la Trasformazione Digitale"@it .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://xmlns.com/foaf/0.1/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://xmlns.com/foaf/0.1/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <https://w3id.org/italia/onto/l0/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/l0
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

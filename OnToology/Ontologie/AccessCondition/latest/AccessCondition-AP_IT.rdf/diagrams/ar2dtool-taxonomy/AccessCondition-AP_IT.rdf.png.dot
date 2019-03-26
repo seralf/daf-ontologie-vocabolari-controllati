@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Booking" "base:TemporaryClosure" "base:AdmissionType" "base:OpeningHoursSpecification" "l0:Characteristic" "base:AccessCondition" ; /*classes style*/
+	"base:Booking" -> "base:AccessCondition" [ label = "rdfs:subClassOf" ];
+	"base:AdmissionType" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:TemporaryClosure" -> "base:AccessCondition" [ label = "rdfs:subClassOf" ];
+	"base:OpeningHoursSpecification" -> "base:AccessCondition" [ label = "rdfs:subClassOf" ];
+	"base:AccessCondition" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+
+}

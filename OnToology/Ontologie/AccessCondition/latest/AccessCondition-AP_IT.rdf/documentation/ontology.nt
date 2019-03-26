@@ -1,0 +1,489 @@
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/AccessCondition/0.1/> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/TI/> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/l0/> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/description> "Questa è l'ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici."@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/description> "This is the ontology of the Italian application profile for Access Conditions (Access Conditions - Italian Application Profile - AC-AP_IT). It can be used to model the access conditions to public locations."@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/issued> "2018-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/modified> "2018-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/title> "Access Condition Ontology - Italian Application Profile"@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://purl.org/dc/terms/title> "Ontologia delle Condizioni di Accesso - Profilo applicativo italiano"@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa è l'ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici."@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the ontology of the Italian application profile for access conditions including opening hours specifications. It can be used to model all the access conditions to public locations."@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition/> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Access Conditions Ontology"@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia delle Condizioni di accesso"@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.1 - 18 June 2018 - Creation of the first version of the ontology"@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "Versione 0.1 - 18 Giugno 2018 - Creazione della prima versione dell'ontologia"@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#keyword> "Access Condition"@en .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#keyword> "Condizioni d'accesso"@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#keyword> "Orari di apertura"@it .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/acronym> "AC-AP_IT" .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/public-organization/td> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/AccessCondition"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/prefix> "acapit" .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/status> "initial draft" .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/target> "Imprese" .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni" .
+<https://w3id.org/italia/onto/AccessCondition> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/ServiceOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasInfluencedBy
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/italia/onto/l0/controlledVocabulary
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#time
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/AccessCondition/hasAccessCondition
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links a thing of the modelled domain to access conditions that may apply."@en .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega qualcosa del dominio modellato alle condizioni di accesso che si potrebbero applicare a quella cosa. Per esempio, si potrebbe utilizzare la proprietà per collegare un punto di interesse, un luogo della cultura, un evento pubblico, un ufficio della pubblica amministrazione, un servizio pubblico a condizioni per accedervi"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "ha condizione d'accesso"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "has access condition"@en .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/hasAdmissionType
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/AccessCondition/AdmissionType> .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links the opening hours specificatin to the admission type (weekly, daily, etc.)"@en .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega gli orari di apertura al tipo di apertura (settimanale, giornaliera, ecc.)"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#label> "ha tipo di apertura"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2000/01/rdf-schema#label> "has admission type"@en .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"has access condition\""@en .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha condizione d'accesso\""@it .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is access condition of"@en .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2000/01/rdf-schema#label> "è condizione di accesso di"@it .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/AccessCondition/AdmissionType> .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"has admission type\""@en .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha tipo di apertura\""@it .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is admission type of"@en .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "è tipo di apertura di"@it .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/TI/atTime
+<https://w3id.org/italia/onto/TI/atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/italia/onto/TI/hasDayOfWeek
+<https://w3id.org/italia/onto/TI/hasDayOfWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/AccessCondition/closes
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that represents the closing hour or the hour on which the temporary closure terminates. Example: if the temporary closure is on Tuesday from 10:00am to 13:00am, closes is used to model \"13:00am\"."@en .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che rappresenta l'orario di chiusura o l'ora in cui una chiusura temporanea cessa di valere. Esempio: se la chiusura temporanea è Martedì dalle 10:00 alle 13:00 la proprietà modella \"13:00\""@it .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#label> "closes"@en .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2000/01/rdf-schema#label> "orario di chiusura"@it .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/closes> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/opens
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to indicate the opening hour or the hour in which starts a possible temporary closure. If a public event can be accessed every Monday from 9:00am to 12:00am, the property is used to model \"9:00am\"."@en .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà utilizzata per indicare l'orario di apertura o l'orario in cui inizia una chiusura temporanea. Se l'evento pubblico ha come condizioni di accesso ogni lunedì dalle 9:00 alle 12:00, la proprietà è utilizzata per modellare \"9:00\"."@it .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#label> "opens"@en .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2000/01/rdf-schema#label> "orario apertura"@it .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/opens> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/reasonClosure
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that allows one to specify the reason for the closure of a location or event for instance.\nExamples include: closed for location renovation; closed for summer holidays, etc."@en .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che consente di specificare la motivazione di chiusura per esempio di un luogo o evento.\nEsempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusura per restauro, ecc."@it .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#label> "motivazione di chiusura"@it .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2000/01/rdf-schema#label> "reason for closure"@en .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/reasonClosure> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/description
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dati.gov.it/onto/dcatapit#Agent
+<http://dati.gov.it/onto/dcatapit#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dati.gov.it/onto/dcatapit#Organization
+<http://dati.gov.it/onto/dcatapit#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Kind
+<http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/Project
+<https://w3id.org/italia/onto/ADMS/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAsset
+<https://w3id.org/italia/onto/ADMS/SemanticAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+<https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/AccessCondition/AccessCondition
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/description> .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta le condizioni di accesso. Tipicamente le condizioni di accesso sono specificate per comunicare come accedere a luoghi pubblici. Esse includono informazioni su prenotazioni, su orari di apertura e chiusure straordinarie."@it .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the access conditions. Typically, access conditions are specified to communicate how to access public places. This includes information on bookings, opening hours and extraordinary/temporary closures."@en .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Access Condition"@en .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Accesso"@it .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/AccessCondition> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/AdmissionType
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/name> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/description> .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Individui di questa classe identificano i possibili tipi di politiche di accesso che possono essere applicate agli orari di apertura di un luogo."@it .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#comment> "It represents the type of admission. Examples are: weekly, monthly, daily, etc."@en .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#label> "Admission Type"@en .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipi di apertura"@it .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/AdmissionType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/Booking
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/name> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#comment> "It represents the  type of booking for a location/event for instance. Examples can be: Mandatory, Optional, None (free access)."@en .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#comment> "Rappresenta la tipologia di prenotazione per l'accesso a un luogo/evento. Esempi possono essere: Obbligatoria, Facoltativa, Nessuna (ingresso libero)."@it .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#label> "Booking"@en .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2000/01/rdf-schema#label> "Prenotazione"@it .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/Booking> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/atTime> .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/TI/TimeInterval> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/hasDayOfWeek> .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/TI/DayOfWeek> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/hasAdmissionType> .
+_:genid13 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/AccessCondition/AdmissionType> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/closes> .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/opens> .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of this class specify opening hours specifications for locations/events for instance.\n\nThe opening hours specifications are expressed in terms of\n* opening time\n* closure time\n* the day of the week to which the opening hours specification refer\n* the type of admission (daily, weekly, etc.)"@en .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Individui di questa classe specificano gli orari di apertura (specifiche condizioni di accesso) a luoghi o eventi\n\nGli orari di apertura sono espressi in termini di\n * orario apertura\n * orario di chiusura\n * il giorno della settimana a cui l'orario di apertura si riferisce\n * il tipo di apertura (settimanale, mensile, giornaliera, ecc)\n\nCon questa classe è possibile modellare dati di questo tipo \"Orari di apertura (03/05 - 30/05/2018) lu - sa: 11:00 - 13:00 / 15:00 - 19:00\"."@it .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "Opening Hours Specification"@en .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "Orario di Apertura"@it .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/AccessCondition/TemporaryClosure
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/AccessCondition/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/atTime> .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/TI/TimeInterval> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/hasDayOfWeek> .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/TI/DayOfWeek> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/reasonClosure> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/closes> .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/AccessCondition/opens> .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporary closure is a subclass of 'AccessCondition' whose individuals provide information about a temporary closure.\nThese individuals are described in terms of:\n * the time from which the closure starts\n * the reason about the temporary closure;\n * the time to which the closure ends.\n * the dayOfWeek of the closure\n\nIn this way we are able to model something like \"the location will be closed Tuesday 19 June 2018 from 10:00 to 13:00 for internal meetings"@en .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#comment> "La chiusura temporanea è una sottoclasse di Condizioni di accesso i cui individui forniscono informazioni sulla chiusura temporanea, tipicamente di un luogo.\n\nGli individui sono descritti in termini di:\n * tempo da cui parte la chiusura;\n * tempo fino a cui si verifica la chiusura\n * la motivazione per la chiusura\n * i giorni della settimana in cui si può verificare\n * un intervallo temporale di date di chiusura\n\nQuesta classe ci consente di modellare dati di questo tipo:\nIl luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne oppure modellare situazioni quali \"Domenica chiuso\", \"La Galleria Civica rimarrà chiusa al pubblico lunedì 21/05/2018 (Lunedì di Pentecoste)\""@it .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/AccessCondition> .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#label> "Chiusura Temporanea"@it .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2000/01/rdf-schema#label> "Temporary Closure"@en .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/AccessCondition/TemporaryClosure> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/TI/DayOfWeek
+<https://w3id.org/italia/onto/TI/DayOfWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/TI/TimeInterval
+<https://w3id.org/italia/onto/TI/TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Agent
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Characteristic
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://purl.org/dc/terms/identifier> "agid" .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Italian Digital Agency"@en .
+# 
+# https://w3id.org/italia/data/contact-point/onto-agid
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#fn> "banche dati e open data" .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:info@dati.gov.it> .
+# 
+# https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia delle condizioni d'accesso"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of Access Condition ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia AC-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of AC-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest> .
+<https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia delle condizioni d'accesso"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the access condition ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia AC-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of AC-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia delle condizioni d'accesso"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the access condition ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia AC-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of AC-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest> .
+<https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/public-organization/td
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://purl.org/dc/terms/identifier> "TD" .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Digital Transformation Team"@en .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Team per la Trasformazione Digitale"@it .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <https://w3id.org/italia/onto/l0/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/AccessCondition
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/AccessCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

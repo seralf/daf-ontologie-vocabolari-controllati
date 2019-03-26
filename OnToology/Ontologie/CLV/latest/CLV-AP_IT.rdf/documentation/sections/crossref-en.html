@@ -1,0 +1,4110 @@
+<html><h2 id="crossreference" class="list">Cross reference for Address(Location) Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Address(Location) Ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+      </li>
+      <li>
+         <a href="#/AddressArea" title="https://w3id.org/italia/onto/CLV/AddressArea">Address Area</a>
+      </li>
+      <li>
+         <a href="#/AddressComponent"
+            title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+      </li>
+      <li>
+         <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+      </li>
+      <li>
+         <a href="#/AdminUnitComponent"
+            title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+      </li>
+      <li>
+         <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+      </li>
+      <li>
+         <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+      </li>
+      <li>
+         <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+      </li>
+      <li>
+         <a href="#/Country" title="https://w3id.org/italia/onto/CLV/Country">Country</a>
+      </li>
+      <li>
+         <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+      </li>
+      <li>
+         <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+      </li>
+      <li>
+         <a href="#/GeographicalDistribution"
+            title="https://w3id.org/italia/onto/CLV/GeographicalDistribution">Geographical Distribution</a>
+      </li>
+      <li>
+         <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+      </li>
+      <li>
+         <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+      </li>
+      <li>
+         <a href="#/Identifier" title="https://w3id.org/italia/onto/CLV/Identifier">Identifier (Code)</a>
+      </li>
+      <li>
+         <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/COV/Organization" title="https://w3id.org/italia/onto/COV/Organization">
+            <span>organization</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+      </li>
+      <li>
+         <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+      </li>
+      <li>
+         <a href="#/SpatialObject" title="https://w3id.org/italia/onto/CLV/SpatialObject">Spatial Object</a>
+      </li>
+      <li>
+         <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/TI/TimeInterval" title="https://w3id.org/italia/onto/TI/TimeInterval">
+            <span>time interval</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="/Address">
+      <h3>Address<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Address</p>
+      <div class="comment">
+         <span class="markdown">This class represents an  "addressable object" or "addressable representation". In most situations the addressable objects are current, real world objects. In the Italian context it represents the external access from a circulation area to a simple unit such as dwellings, offices, premises where economic activities are located, etc.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasAddressComponent"
+               title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasInternalAccess"
+               title="https://w3id.org/italia/onto/CLV/hasInternalAccess">has internal access</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/isAddressFor" title="https://w3id.org/italia/onto/CLV/isAddressFor">is address for</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasNumber" title="https://w3id.org/italia/onto/CLV/hasNumber">has street number</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasStreetToponym"
+               title="https://w3id.org/italia/onto/CLV/hasStreetToponym">has street toponym</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasAdressinTime" title="https://w3id.org/italia/onto/CLV/hasAdressinTime">has address in time</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasCensusSection"
+               title="https://w3id.org/italia/onto/CLV/hasCensusSection">has census section</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/fullAddress" title="https://w3id.org/italia/onto/CLV/fullAddress">full address</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/postCode" title="https://w3id.org/italia/onto/CLV/postCode">post code</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/fullAddress" title="https://w3id.org/italia/onto/CLV/fullAddress">full address</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/hasAddressArea" title="https://w3id.org/italia/onto/CLV/hasAddressArea">has address area</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasAddressComponent"
+               title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasCity" title="https://w3id.org/italia/onto/CLV/hasCity">has city</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasCountry" title="https://w3id.org/italia/onto/CLV/hasCountry">has country</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDistrict" title="https://w3id.org/italia/onto/CLV/hasDistrict">has district</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasInternalAccess"
+               title="https://w3id.org/italia/onto/CLV/hasInternalAccess">has internal access</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasProvince" title="https://w3id.org/italia/onto/CLV/hasProvince">has province</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasRegion" title="https://w3id.org/italia/onto/CLV/hasRegion">has region</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasNumber" title="https://w3id.org/italia/onto/CLV/hasNumber">has street number</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasStreetToponym"
+               title="https://w3id.org/italia/onto/CLV/hasStreetToponym">has street toponym</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isAddressFor" title="https://w3id.org/italia/onto/CLV/isAddressFor">is address for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/postCode" title="https://w3id.org/italia/onto/CLV/postCode">post code</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAddress" title="https://w3id.org/italia/onto/CLV/hasAddress">has current address</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasPrimaryAddress"
+               title="https://w3id.org/italia/onto/CLV/hasPrimaryAddress">has primary address</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/refersToExternalAccess"
+               title="https://w3id.org/italia/onto/CLV/refersToExternalAccess">refers to external access</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/withAddress" title="https://w3id.org/italia/onto/CLV/withAddress">with address</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/AddressArea">
+      <h3>Address Area<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/AddressArea</p>
+      <div class="comment">
+         <span class="markdown">An address component which represents the name of a geographic area or a locality that groups a number of addressable objects for addressing purposes, without being an administrative unit.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAddressArea" title="https://w3id.org/italia/onto/CLV/hasAddressArea">has address area</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/AddressComponent">
+      <h3>Address Component<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/AddressComponent</p>
+      <div class="comment">
+         <span class="markdown">This is an abstract class meant to identify the different alements that compose an address such as Country also known as AdminitrativeLevelUnit 1, Region also known as AdministrativeLevelUnit2, Street, Municipality</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/situatedWithin" title="https://w3id.org/italia/onto/CLV/situatedWithin">situated within</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/AddressArea" title="https://w3id.org/italia/onto/CLV/AddressArea">Address Area</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/situatedWithin" title="https://w3id.org/italia/onto/CLV/situatedWithin">situated within</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAddressComponent"
+               title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/situatedWithin" title="https://w3id.org/italia/onto/CLV/situatedWithin">situated within</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/AddressInTime">
+      <h3>Address in Time<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/AddressInTime</p>
+      <div class="comment">
+         <span class="markdown">This class represents a situation of an address that changes over time. It is an n-ary relatioship between the address, time interval and the thing connected with the address.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Event">event</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/atTime">at time</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#https://w3id.org/italia/onto/TI/TimeInterval" title="https://w3id.org/italia/onto/TI/TimeInterval">time interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/nextAddress" title="https://w3id.org/italia/onto/CLV/nextAddress">next address</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/prevAddress" title="https://w3id.org/italia/onto/CLV/prevAddress">previous address</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/withAddress" title="https://w3id.org/italia/onto/CLV/withAddress">with address</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isAddressInTimeFor"
+               title="https://w3id.org/italia/onto/CLV/isAddressInTimeFor">is address in time for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/nextAddress" title="https://w3id.org/italia/onto/CLV/nextAddress">next address</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/prevAddress" title="https://w3id.org/italia/onto/CLV/prevAddress">previous address</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/withAddress" title="https://w3id.org/italia/onto/CLV/withAddress">with address</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAdressinTime" title="https://w3id.org/italia/onto/CLV/hasAdressinTime">has address in time</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/nextAddress" title="https://w3id.org/italia/onto/CLV/nextAddress">next address</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/prevAddress" title="https://w3id.org/italia/onto/CLV/prevAddress">previous address</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/AdminUnitComponent">
+      <h3>Administrative Unit Component<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/AdminUnitComponent</p>
+      <div class="comment">
+         <span class="markdown">Abstract class used to for modelling reason in order to identify all those administrative unit components of the address.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/Country" title="https://w3id.org/italia/onto/CLV/Country">Country</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/GeographicalDistribution"
+               title="https://w3id.org/italia/onto/CLV/GeographicalDistribution">Geographical Distribution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/CensusSection">
+      <h3>Census Section<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/CensusSection</p>
+      <div class="comment">
+         <span class="markdown">Portion of territory where the national institute of statistics carries out census activities The average number of inhabitants is approximately 170 people.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasCensusSection"
+               title="https://w3id.org/italia/onto/CLV/hasCensusSection">has census section</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/City">
+      <h3>City<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/City</p>
+      <div class="comment">
+         <span class="markdown">This class represents the city</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Country" title="https://w3id.org/italia/onto/CLV/Country">Country</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasCity" title="https://w3id.org/italia/onto/CLV/hasCity">has city</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/CivicNumbering">
+      <h3>Civic Numbering<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/CivicNumbering</p>
+      <div class="comment">
+         <span class="markdown">This class represents the civic number, the number of the street. They are the numbers that identify external accesses.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/streetNumber" title="https://w3id.org/italia/onto/CLV/streetNumber">street number</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#/exponent" title="https://w3id.org/italia/onto/CLV/exponent">exponent</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/metric" title="https://w3id.org/italia/onto/CLV/metric">metric</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/peculiarity" title="https://w3id.org/italia/onto/CLV/peculiarity">peculiarity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/metric" title="https://w3id.org/italia/onto/CLV/metric">metric</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/peculiarity" title="https://w3id.org/italia/onto/CLV/peculiarity">peculiarity</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/streetNumber" title="https://w3id.org/italia/onto/CLV/streetNumber">street number</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasNumber" title="https://w3id.org/italia/onto/CLV/hasNumber">has street number</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Country">
+      <h3>Country<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Country</p>
+      <div class="comment">
+         <span class="markdown">This class represents the  uppermost administrative unit for the address, almost always a country. "United Kingdom", "Italy", etc. In the Core Location Vocabulary this is modelled as adminUnit1.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasCountry" title="https://w3id.org/italia/onto/CLV/hasCountry">has country</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/District">
+      <h3>District<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/District</p>
+      <div class="comment">
+         <span class="markdown">This class represents a district of a city</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV/">https://w3id.org/italia/onto/CLV/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasDistrict" title="https://w3id.org/italia/onto/CLV/hasDistrict">has district</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Feature">
+      <h3>Feature (Location)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Feature</p>
+      <div class="comment">
+         <span class="markdown">This class is used to represent any geographical entity.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/SpatialObject" title="https://w3id.org/italia/onto/CLV/SpatialObject">Spatial Object</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasGeometry" title="https://w3id.org/italia/onto/CLV/hasGeometry">has geometry</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasSOValidity" title="https://w3id.org/italia/onto/CLV/hasSOValidity">has spatial object validity</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#https://w3id.org/italia/onto/TI/TimeInterval" title="https://w3id.org/italia/onto/TI/TimeInterval">time interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/modified">modified</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isSpatialCoverageOf"
+               title="https://w3id.org/italia/onto/CLV/isSpatialCoverageOf">is spatial coverage of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasSpatialCoverage"
+               title="https://w3id.org/italia/onto/CLV/hasSpatialCoverage">has spatial coverage</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/GeographicalDistribution">
+      <h3>Geographical Distribution<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/GeographicalDistribution</p>
+      <div class="comment">
+         <span class="markdown">This class represents the geographical distribution of the Italian territory. It usually assumes the following predefined values: North, South, Middle, Island, Northeast, Northwest</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasGeographicalDistribution"
+               title="https://w3id.org/italia/onto/CLV/hasGeographicalDistribution">has geographical distribution</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Geometry">
+      <h3>Geometry<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Geometry</p>
+      <div class="comment">
+         <span class="markdown">This class represents the geometry of a spatial entity.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/SpatialObject" title="https://w3id.org/italia/onto/CLV/SpatialObject">Spatial Object</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasGeometryType" title="https://w3id.org/italia/onto/CLV/hasGeometryType">has geometry type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/lat" title="https://w3id.org/italia/onto/CLV/lat">latitude</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#/long" title="https://w3id.org/italia/onto/CLV/long">longitude</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#/alt" title="https://w3id.org/italia/onto/CLV/alt">altitude</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/coordinate" title="https://w3id.org/italia/onto/CLV/coordinate">geographical coordinate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/coordinateSystem"
+               title="https://w3id.org/italia/onto/CLV/coordinateSystem">coordinate system of reference</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/serialization" title="https://w3id.org/italia/onto/CLV/serialization">serialization</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/alt" title="https://w3id.org/italia/onto/CLV/alt">altitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/coordinateSystem"
+               title="https://w3id.org/italia/onto/CLV/coordinateSystem">coordinate system of reference</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/coordinate" title="https://w3id.org/italia/onto/CLV/coordinate">geographical coordinate</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/hasGeometryType" title="https://w3id.org/italia/onto/CLV/hasGeometryType">has geometry type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isGeometryFor" title="https://w3id.org/italia/onto/CLV/isGeometryFor">is geometry for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/lat" title="https://w3id.org/italia/onto/CLV/lat">latitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/long" title="https://w3id.org/italia/onto/CLV/long">longitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/serialization" title="https://w3id.org/italia/onto/CLV/serialization">serialization</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasGeometry" title="https://w3id.org/italia/onto/CLV/hasGeometry">has geometry</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/GeometryType">
+      <h3>Geometry Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/GeometryType</p>
+      <div class="comment">
+         <span class="markdown">The class represents the type of geometry. At the time being the class assume the following values: Polygon, Point, Box, Line.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasGeometryType" title="https://w3id.org/italia/onto/CLV/hasGeometryType">has geometry type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#/Box" title="https://w3id.org/italia/onto/CLV/Box">Box</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#/Line" title="https://w3id.org/italia/onto/CLV/Line">Line</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#/Point" title="https://w3id.org/italia/onto/CLV/Point">Point</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#/Polygon" title="https://w3id.org/italia/onto/CLV/Polygon">Polygon</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Identifier">
+      <h3>Identifier (Code)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Identifier</p>
+      <div class="comment">
+         <span class="markdown">This class represents the Identifier and all the information associated with it (the identifier itself, the type, the authority that issued it).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/issuedBy" title="https://w3id.org/italia/onto/CLV/issuedBy">identifier issued by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#https://w3id.org/italia/onto/COV/Organization" title="https://w3id.org/italia/onto/COV/Organization">organization</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/l0/identifier" title="https://w3id.org/italia/onto/l0/identifier">identifier</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#/identifierType" title="https://w3id.org/italia/onto/CLV/identifierType">identifier type</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/issuedBy" title="https://w3id.org/italia/onto/CLV/issuedBy">identifier issued by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/identifierType" title="https://w3id.org/italia/onto/CLV/identifierType">identifier type</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasIdentifier" title="https://w3id.org/italia/onto/CLV/hasIdentifier">has identifier</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/InternalAccess">
+      <h3>Internal Access<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/InternalAccess</p>
+      <div class="comment">
+         <span class="markdown">This class represents the internal access that refers to the external access . The internal access consists of a set of informaton related to the Internal accesses (e.g., building, flat number) to private spaces or staircase that allow one to access to private residential units.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/refersToExternalAccess"
+               title="https://w3id.org/italia/onto/CLV/refersToExternalAccess">refers to external access</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/staircase" title="https://w3id.org/italia/onto/CLV/staircase">staircase</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <a href="#/flatNumber" title="https://w3id.org/italia/onto/CLV/flatNumber">flat number</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#/building" title="https://w3id.org/italia/onto/CLV/building">building</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/exponent" title="https://w3id.org/italia/onto/CLV/exponent">exponent</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/floor" title="https://w3id.org/italia/onto/CLV/floor">floor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#/yard" title="https://w3id.org/italia/onto/CLV/yard">yard</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/building" title="https://w3id.org/italia/onto/CLV/building">building</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/flatNumber" title="https://w3id.org/italia/onto/CLV/flatNumber">flat number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/floor" title="https://w3id.org/italia/onto/CLV/floor">floor</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/refersToExternalAccess"
+               title="https://w3id.org/italia/onto/CLV/refersToExternalAccess">refers to external access</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/staircase" title="https://w3id.org/italia/onto/CLV/staircase">staircase</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/yard" title="https://w3id.org/italia/onto/CLV/yard">yard</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasInternalAccess"
+               title="https://w3id.org/italia/onto/CLV/hasInternalAccess">has internal access</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/COV/Organization">
+      <h3>organization<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/COV/Organization</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/COV">https://w3id.org/italia/onto/COV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/issuedBy" title="https://w3id.org/italia/onto/CLV/issuedBy">identifier issued by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Province">
+      <h3>Province<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Province</p>
+      <div class="comment">
+         <span class="markdown">The class represents the Province.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 </dd>
+         <dd>
+            <a href="#/acronym" title="https://w3id.org/italia/onto/CLV/acronym">acronym province</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/acronym" title="https://w3id.org/italia/onto/CLV/acronym">acronym province</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasProvince" title="https://w3id.org/italia/onto/CLV/hasProvince">has province</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Region">
+      <h3>Region<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Region</p>
+      <div class="comment">
+         <span class="markdown">This class represents the Region of the Address.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AdminUnitComponent"
+               title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectLowerRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasDirectHigherRank"
+               title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/Country" title="https://w3id.org/italia/onto/CLV/Country">Country</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasRegion" title="https://w3id.org/italia/onto/CLV/hasRegion">has region</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/SpatialObject">
+      <h3>Spatial Object<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/SpatialObject</p>
+      <div class="comment">
+         <span class="markdown">This class represents everything that can have a spatial representation.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Location">location</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasIdentifier" title="https://w3id.org/italia/onto/CLV/hasIdentifier">has identifier</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#/Identifier" title="https://w3id.org/italia/onto/CLV/Identifier">Identifier (Code)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasIdentifier" title="https://w3id.org/italia/onto/CLV/hasIdentifier">has identifier</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasSOValidity" title="https://w3id.org/italia/onto/CLV/hasSOValidity">has spatial object validity</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/StreetToponym">
+      <h3>Street Toponym<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/StreetToponym</p>
+      <div class="comment">
+         <span class="markdown">This class represents the street toponym. It consists of a name (property name) and a Toponym qualifier.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AddressComponent"
+               title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/officialStreetName"
+               title="https://w3id.org/italia/onto/CLV/officialStreetName">official street number</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <a href="#/toponymQualifier"
+               title="https://w3id.org/italia/onto/CLV/toponymQualifier">toponym qualifier</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/officialStreetName"
+               title="https://w3id.org/italia/onto/CLV/officialStreetName">official street number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/toponymQualifier"
+               title="https://w3id.org/italia/onto/CLV/toponymQualifier">toponym qualifier</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasStreetToponym"
+               title="https://w3id.org/italia/onto/CLV/hasStreetToponym">has street toponym</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/TI/TimeInterval">
+      <h3>time interval<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/TI/TimeInterval</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/TI">https://w3id.org/italia/onto/TI</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasSOValidity" title="https://w3id.org/italia/onto/CLV/hasSOValidity">has spatial object validity</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/hasAddressArea" title="https://w3id.org/italia/onto/CLV/hasAddressArea">has address area</a>
+      </li>
+      <li>
+         <a href="#/hasAddressComponent"
+            title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+      </li>
+      <li>
+         <a href="#/hasAdressinTime" title="https://w3id.org/italia/onto/CLV/hasAdressinTime">has address in time</a>
+      </li>
+      <li>
+         <a href="#/hasCensusSection"
+            title="https://w3id.org/italia/onto/CLV/hasCensusSection">has census section</a>
+      </li>
+      <li>
+         <a href="#/hasCity" title="https://w3id.org/italia/onto/CLV/hasCity">has city</a>
+      </li>
+      <li>
+         <a href="#/hasCountry" title="https://w3id.org/italia/onto/CLV/hasCountry">has country</a>
+      </li>
+      <li>
+         <a href="#/hasAddress" title="https://w3id.org/italia/onto/CLV/hasAddress">has current address</a>
+      </li>
+      <li>
+         <a href="#/hasDirectHigherRank"
+            title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+      </li>
+      <li>
+         <a href="#/hasDirectLowerRank"
+            title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+      </li>
+      <li>
+         <a href="#/hasDistrict" title="https://w3id.org/italia/onto/CLV/hasDistrict">has district</a>
+      </li>
+      <li>
+         <a href="#/hasGeographicalDistribution"
+            title="https://w3id.org/italia/onto/CLV/hasGeographicalDistribution">has geographical distribution</a>
+      </li>
+      <li>
+         <a href="#/hasGeometry" title="https://w3id.org/italia/onto/CLV/hasGeometry">has geometry</a>
+      </li>
+      <li>
+         <a href="#/hasGeometryType" title="https://w3id.org/italia/onto/CLV/hasGeometryType">has geometry type</a>
+      </li>
+      <li>
+         <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+      </li>
+      <li>
+         <a href="#/hasIdentifier" title="https://w3id.org/italia/onto/CLV/hasIdentifier">has identifier</a>
+      </li>
+      <li>
+         <a href="#/hasInternalAccess"
+            title="https://w3id.org/italia/onto/CLV/hasInternalAccess">has internal access</a>
+      </li>
+      <li>
+         <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+      </li>
+      <li>
+         <a href="#/hasPrimaryAddress"
+            title="https://w3id.org/italia/onto/CLV/hasPrimaryAddress">has primary address</a>
+      </li>
+      <li>
+         <a href="#/hasProvince" title="https://w3id.org/italia/onto/CLV/hasProvince">has province</a>
+      </li>
+      <li>
+         <a href="#/hasRegion" title="https://w3id.org/italia/onto/CLV/hasRegion">has region</a>
+      </li>
+      <li>
+         <a href="#/hasSpatialCoverage"
+            title="https://w3id.org/italia/onto/CLV/hasSpatialCoverage">has spatial coverage</a>
+      </li>
+      <li>
+         <a href="#/hasSOValidity" title="https://w3id.org/italia/onto/CLV/hasSOValidity">has spatial object validity</a>
+      </li>
+      <li>
+         <a href="#/hasNumber" title="https://w3id.org/italia/onto/CLV/hasNumber">has street number</a>
+      </li>
+      <li>
+         <a href="#/hasStreetToponym"
+            title="https://w3id.org/italia/onto/CLV/hasStreetToponym">has street toponym</a>
+      </li>
+      <li>
+         <a href="#/issuedBy" title="https://w3id.org/italia/onto/CLV/issuedBy">identifier issued by</a>
+      </li>
+      <li>
+         <a href="#/isAddressFor" title="https://w3id.org/italia/onto/CLV/isAddressFor">is address for</a>
+      </li>
+      <li>
+         <a href="#/isAddressInTimeFor"
+            title="https://w3id.org/italia/onto/CLV/isAddressInTimeFor">is address in time for</a>
+      </li>
+      <li>
+         <a href="#/isGeometryFor" title="https://w3id.org/italia/onto/CLV/isGeometryFor">is geometry for</a>
+      </li>
+      <li>
+         <a href="#/isSpatialCoverageOf"
+            title="https://w3id.org/italia/onto/CLV/isSpatialCoverageOf">is spatial coverage of</a>
+      </li>
+      <li>
+         <a href="#/nextAddress" title="https://w3id.org/italia/onto/CLV/nextAddress">next address</a>
+      </li>
+      <li>
+         <a href="#/prevAddress" title="https://w3id.org/italia/onto/CLV/prevAddress">previous address</a>
+      </li>
+      <li>
+         <a href="#/refersToExternalAccess"
+            title="https://w3id.org/italia/onto/CLV/refersToExternalAccess">refers to external access</a>
+      </li>
+      <li>
+         <a href="#/situatedWithin" title="https://w3id.org/italia/onto/CLV/situatedWithin">situated within</a>
+      </li>
+      <li>
+         <a href="#/withAddress" title="https://w3id.org/italia/onto/CLV/withAddress">with address</a>
+      </li>
+   </ul>
+   <div class="entity" id="/hasAddressArea">
+      <h3>has address area<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasAddressArea</p>
+      <div class="comment">
+         <span class="markdown">This property is used in order to link the address to a geographical area or a locality that groups different addressable objects.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressArea" title="https://w3id.org/italia/onto/CLV/AddressArea">Address Area</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasAddressComponent">
+      <h3>has address component<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasAddressComponent</p>
+      <div class="comment">
+         <span class="markdown">Property that links an address to its components (street, city, province, number, etc.)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasAddressArea" title="https://w3id.org/italia/onto/CLV/hasAddressArea">has address area</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasCity" title="https://w3id.org/italia/onto/CLV/hasCity">has city</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasCountry" title="https://w3id.org/italia/onto/CLV/hasCountry">has country</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasDistrict" title="https://w3id.org/italia/onto/CLV/hasDistrict">has district</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasProvince" title="https://w3id.org/italia/onto/CLV/hasProvince">has province</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasRegion" title="https://w3id.org/italia/onto/CLV/hasRegion">has region</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasStreetToponym"
+                  title="https://w3id.org/italia/onto/CLV/hasStreetToponym">has street toponym</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasAdressinTime">
+      <h3>has address in time<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasAdressinTime</p>
+      <div class="comment">
+         <span class="markdown">Property that links any thing of the modelled domain with the situation of an address that changes over time.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isAddressInTimeFor"
+                  title="https://w3id.org/italia/onto/CLV/isAddressInTimeFor">is address in time for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasCensusSection">
+      <h3>has census section<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasCensusSection</p>
+      <div class="comment">
+         <span class="markdown">Property that links an address, a specific city or an address area to its census section.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/AddressArea" title="https://w3id.org/italia/onto/CLV/AddressArea">Address Area</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/CensusSection" title="https://w3id.org/italia/onto/CLV/CensusSection">Census Section</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasCity">
+      <h3>has city<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasCity</p>
+      <div class="comment">
+         <span class="markdown">This property links the address to the city.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#/hasAddress" title="https://w3id.org/italia/onto/CLV/hasAddress">has current address</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#/hasCity" title="https://w3id.org/italia/onto/CLV/hasCity">has city</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasCountry">
+      <h3>has country<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasCountry</p>
+      <div class="comment">
+         <span class="markdown">This property links the address to the country.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Country" title="https://w3id.org/italia/onto/CLV/Country">Country</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasAddress">
+      <h3>has current address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasAddress</p>
+      <div class="comment">
+         <span class="markdown">This property is used to link a thing to a current address.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasPrimaryAddress"
+                  title="https://w3id.org/italia/onto/CLV/hasPrimaryAddress">has primary address</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isAddressFor" title="https://w3id.org/italia/onto/CLV/isAddressFor">is address for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasDirectHigherRank">
+      <h3>has direct higher rank<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasDirectHigherRank</p>
+      <div class="comment">
+         <span class="markdown">This property relates two named address components, where the first is more specific then the second and there is no other named address component that is both more general than the first and more specific than the second.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasHigherRank" title="https://w3id.org/italia/onto/CLV/hasHigherRank">has higher rank</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasDirectLowerRank">
+      <h3>has direct lower rank<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasDirectLowerRank</p>
+      <div class="comment">
+         <span class="markdown">This property relates two named address components, where the first is less specific then the second and there is no other named address component that is both more specific than the first and more general than the second.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasLowerRank" title="https://w3id.org/italia/onto/CLV/hasLowerRank">has lower rank</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasDistrict">
+      <h3>has district<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasDistrict</p>
+      <div class="comment">
+         <span class="markdown">Property that links an address to the district of the city</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/District" title="https://w3id.org/italia/onto/CLV/District">District</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasGeographicalDistribution">
+      <h3>has geographical distribution<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasGeographicalDistribution</p>
+      <div class="comment">
+         <span class="markdown">Property that links the componentsi city, province, region to a geographical distribution</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/City" title="https://w3id.org/italia/onto/CLV/City">City</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/GeographicalDistribution"
+                  title="https://w3id.org/italia/onto/CLV/GeographicalDistribution">Geographical Distribution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasGeometry">
+      <h3>has geometry<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasGeometry</p>
+      <div class="comment">
+         <span class="markdown">This property links any thing of the domain to the geometry.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isGeometryFor" title="https://w3id.org/italia/onto/CLV/isGeometryFor">is geometry for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasGeometryType">
+      <h3>has geometry type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasGeometryType</p>
+      <div class="comment">
+         <span class="markdown">Property that links the Geometry to its Type (Polygon, Point, Line)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasHigherRank">
+      <h3>has higher rank<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasHigherRank</p>
+      <div class="comment">
+         <span class="markdown">This property is used to  relate two named address component, where the first is more specific than the second.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasDirectHigherRank"
+                  title="https://w3id.org/italia/onto/CLV/hasDirectHigherRank">has direct higher rank</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasIdentifier">
+      <h3>has identifier<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasIdentifier</p>
+      <div class="comment">
+         <span class="markdown">This property allows one to specify an identifier for the spatial object. The property is inherited by all the subclasses of spatial object.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/SpatialObject" title="https://w3id.org/italia/onto/CLV/SpatialObject">Spatial Object</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Identifier" title="https://w3id.org/italia/onto/CLV/Identifier">Identifier (Code)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasInternalAccess">
+      <h3>has internal access<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasInternalAccess</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "refersToExternalAccess" used to link the external access to the internal one.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/refersToExternalAccess"
+                  title="https://w3id.org/italia/onto/CLV/refersToExternalAccess">refers to external access</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasLowerRank">
+      <h3>has lower rank<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasLowerRank</p>
+      <div class="comment">
+         <span class="markdown">This property relates two named address components, where the first is less specific than the second.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasDirectLowerRank"
+                  title="https://w3id.org/italia/onto/CLV/hasDirectLowerRank">has direct lower rank</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AdminUnitComponent"
+                  title="https://w3id.org/italia/onto/CLV/AdminUnitComponent">Administrative Unit Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasPrimaryAddress">
+      <h3>has primary address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasPrimaryAddress</p>
+      <div class="comment">
+         <span class="markdown">This property is sub-property of has address and it is used to model the specific primary address of a thing of the modelled domain to which it is linked (e.g., the primary address of an organization or a person).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddress" title="https://w3id.org/italia/onto/CLV/hasAddress">has current address</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasProvince">
+      <h3>has province<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasProvince</p>
+      <div class="comment">
+         <span class="markdown">This property links the address with the Province.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasRegion">
+      <h3>has region<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasRegion</p>
+      <div class="comment">
+         <span class="markdown">This property links the address with the Region of the country.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Region" title="https://w3id.org/italia/onto/CLV/Region">Region</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasSpatialCoverage">
+      <h3>has spatial coverage<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasSpatialCoverage</p>
+      <div class="comment">
+         <span class="markdown">Property used to model the spatial coverage of a thing of the modelled domain.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasSOValidity">
+      <h3>has spatial object validity<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasSOValidity</p>
+      <div class="comment">
+         <span class="markdown">This property associate a temporal validity to a spatial object.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/SpatialObject" title="https://w3id.org/italia/onto/CLV/SpatialObject">Spatial Object</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/TI/TimeInterval" title="https://w3id.org/italia/onto/TI/TimeInterval">time interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasNumber">
+      <h3>has street number<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasNumber</p>
+      <div class="comment">
+         <span class="markdown">This property specializes the property has address component in order to link the address with its part representing the street number (or housing number).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasStreetToponym">
+      <h3>has street toponym<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/hasStreetToponym</p>
+      <div class="comment">
+         <span class="markdown">This property is used to  to link an address to the street  toponym component of it.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasAddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/hasAddressComponent">has address component</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/issuedBy">
+      <h3>identifier issued by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/issuedBy</p>
+      <div class="comment">
+         <span class="markdown">This property links an Identifier with the Authority that issued it</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Identifier" title="https://w3id.org/italia/onto/CLV/Identifier">Identifier (Code)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/COV/Organization" title="https://w3id.org/italia/onto/COV/Organization">organization</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isAddressFor">
+      <h3>is address for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/isAddressFor</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of has address that links the address to a thing.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasAddress" title="https://w3id.org/italia/onto/CLV/hasAddress">has current address</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isAddressInTimeFor">
+      <h3>is address in time for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/isAddressInTimeFor</p>
+      <div class="comment">
+         <span class="markdown">Property that links a thing to its address in time reification.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV/">https://w3id.org/italia/onto/CLV/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasAdressinTime" title="https://w3id.org/italia/onto/CLV/hasAdressinTime">has address in time</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isGeometryFor">
+      <h3>is geometry for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/isGeometryFor</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "hasGeometry" that links a geometry to the related Thing of the domain.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasGeometry" title="https://w3id.org/italia/onto/CLV/hasGeometry">has geometry</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isSpatialCoverageOf">
+      <h3>is spatial coverage of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/isSpatialCoverageOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of has feature that links a feature to a thing.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Feature" title="https://w3id.org/italia/onto/CLV/Feature">Feature (Location)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/nextAddress">
+      <h3>next address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/nextAddress</p>
+      <div class="comment">
+         <span class="markdown">This property allows one to model an ordered sequence of addresses (that may be related to each other as a consequence of a change occured over time). In this specific case the property represents the next 'address in time' situation in the sequence.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/prevAddress">
+      <h3>previous address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/prevAddress</p>
+      <div class="comment">
+         <span class="markdown">This property allows one to model an ordered sequence of addresses (that may be related to each other as a consequence of a change occured over time). In this specific case the property represents the previous 'address in time' situation in the sequence.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/refersToExternalAccess">
+      <h3>refers to external access<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/refersToExternalAccess</p>
+      <div class="comment">
+         <span class="markdown">This property links the internal access  to the external access (address)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasInternalAccess"
+                  title="https://w3id.org/italia/onto/CLV/hasInternalAccess">has internal access</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/situatedWithin">
+      <h3>situated within<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/situatedWithin</p>
+      <div class="comment">
+         <span class="markdown">It is used to enable the model to express that the subtypes of address components in the dataset form a hierarchy e.g. like: a municipality within a province, which is in turn within a region, in turn within country.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AddressComponent"
+                  title="https://w3id.org/italia/onto/CLV/AddressComponent">Address Component</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/withAddress">
+      <h3>with address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/withAddress</p>
+      <div class="comment">
+         <span class="markdown">Property that links the situation of an address that changes over time to the address itself.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AddressInTime" title="https://w3id.org/italia/onto/CLV/AddressInTime">Address in Time</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/acronym" title="https://w3id.org/italia/onto/CLV/acronym">acronym province</a>
+      </li>
+      <li>
+         <a href="#/alt" title="https://w3id.org/italia/onto/CLV/alt">altitude</a>
+      </li>
+      <li>
+         <a href="#/building" title="https://w3id.org/italia/onto/CLV/building">building</a>
+      </li>
+      <li>
+         <a href="#/coordinateSystem"
+            title="https://w3id.org/italia/onto/CLV/coordinateSystem">coordinate system of reference</a>
+      </li>
+      <li>
+         <a href="#/exponent" title="https://w3id.org/italia/onto/CLV/exponent">exponent</a>
+      </li>
+      <li>
+         <a href="#/flatNumber" title="https://w3id.org/italia/onto/CLV/flatNumber">flat number</a>
+      </li>
+      <li>
+         <a href="#/floor" title="https://w3id.org/italia/onto/CLV/floor">floor</a>
+      </li>
+      <li>
+         <a href="#/fullAddress" title="https://w3id.org/italia/onto/CLV/fullAddress">full address</a>
+      </li>
+      <li>
+         <a href="#/coordinate" title="https://w3id.org/italia/onto/CLV/coordinate">geographical coordinate</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/l0/identifier" title="https://w3id.org/italia/onto/l0/identifier">
+            <span>identifier</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/identifierType" title="https://w3id.org/italia/onto/CLV/identifierType">identifier type</a>
+      </li>
+      <li>
+         <a href="#/lat" title="https://w3id.org/italia/onto/CLV/lat">latitude</a>
+      </li>
+      <li>
+         <a href="#/long" title="https://w3id.org/italia/onto/CLV/long">longitude</a>
+      </li>
+      <li>
+         <a href="#/metric" title="https://w3id.org/italia/onto/CLV/metric">metric</a>
+      </li>
+      <li>
+         <a href="#/officialStreetName"
+            title="https://w3id.org/italia/onto/CLV/officialStreetName">official street number</a>
+      </li>
+      <li>
+         <a href="#/peculiarity" title="https://w3id.org/italia/onto/CLV/peculiarity">peculiarity</a>
+      </li>
+      <li>
+         <a href="#/postCode" title="https://w3id.org/italia/onto/CLV/postCode">post code</a>
+      </li>
+      <li>
+         <a href="#/serialization" title="https://w3id.org/italia/onto/CLV/serialization">serialization</a>
+      </li>
+      <li>
+         <a href="#/staircase" title="https://w3id.org/italia/onto/CLV/staircase">staircase</a>
+      </li>
+      <li>
+         <a href="#/streetNumber" title="https://w3id.org/italia/onto/CLV/streetNumber">street number</a>
+      </li>
+      <li>
+         <a href="#/toponymQualifier"
+            title="https://w3id.org/italia/onto/CLV/toponymQualifier">toponym qualifier</a>
+      </li>
+      <li>
+         <a href="#/yard" title="https://w3id.org/italia/onto/CLV/yard">yard</a>
+      </li>
+   </ul>
+   <div class="entity" id="/acronym">
+      <h3>acronym province<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/acronym</p>
+      <div class="comment">
+         <span class="markdown">The acronym of the province that is typically used over the Italian territory for the license plate.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Province" title="https://w3id.org/italia/onto/CLV/Province">Province</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/alt">
+      <h3>altitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/alt</p>
+      <div class="comment">
+         <span class="markdown">The property represents the altitude, i.e., the height of an object or point in relation to sea level or ground level. It is associated with the geometry.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/building">
+      <h3>building<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/building</p>
+      <div class="comment">
+         <span class="markdown">When available, it represents the arabic number assigned to the building accessed by the stairs or internal accesses.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/coordinateSystem">
+      <h3>coordinate system of reference<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/coordinateSystem</p>
+      <div class="comment">
+         <span class="markdown">Property used to indicate the coordinate system or reference system (e.g., WGS84, ETRS89, etc.)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/exponent">
+      <h3>exponent<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/exponent</p>
+      <div class="comment">
+         <span class="markdown">When available, it represents the literal part of the number of the address. It can be used associated with both the external and internal number.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/flatNumber">
+      <h3>flat number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/flatNumber</p>
+      <div class="comment">
+         <span class="markdown">Value of the internal number assigned to the internal access according to the natural sequence of numbers</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/floor">
+      <h3>floor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/floor</p>
+      <div class="comment">
+         <span class="markdown">When available, the property represents the floor number on which the internal access is located.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/fullAddress">
+      <h3>full address<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/fullAddress</p>
+      <div class="comment">
+         <span class="markdown">The complete address written as a string, with or without formatting. The use of this property allows one not to incur in any misunderstandings that might arise through the breaking up of an address into its component parts.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/coordinate">
+      <h3>geographical coordinate<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/coordinate</p>
+      <div class="comment">
+         <span class="markdown">This property represents the geographical coordinate of the Geometry</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/lat" title="https://w3id.org/italia/onto/CLV/lat">latitude</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#/long" title="https://w3id.org/italia/onto/CLV/long">longitude</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/l0/identifier">
+      <h3>identifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/l0/identifier</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/postCode" title="https://w3id.org/italia/onto/CLV/postCode">post code</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/identifierType">
+      <h3>identifier type<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/identifierType</p>
+      <div class="comment">
+         <span class="markdown">The property allows one to specifies the type of identifier. For instance there can be the identifier assigned by the Italian Insttute of Statistics or the identifier assigned by the Municipalities.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Identifier" title="https://w3id.org/italia/onto/CLV/Identifier">Identifier (Code)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/lat">
+      <h3>latitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/lat</p>
+      <div class="comment">
+         <span class="markdown">This property represents the latitude. It is associated with the Geometry.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/coordinate" title="https://w3id.org/italia/onto/CLV/coordinate">geographical coordinate</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/long">
+      <h3>longitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/long</p>
+      <div class="comment">
+         <span class="markdown">This property allows one to specify the longitude. It is associated with the Geometry</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/coordinate" title="https://w3id.org/italia/onto/CLV/coordinate">geographical coordinate</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/metric">
+      <h3>metric<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/metric</p>
+      <div class="comment">
+         <span class="markdown">Valore del numero civico assegnato all’accesso esterno espresso in metri, utilizzato in caso di adozione del sistema metrico anziché della successione naturale dei numeri</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/officialStreetName">
+      <h3>official street number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/officialStreetName</p>
+      <div class="comment">
+         <span class="markdown">Property that identifies in the street toponym the official street name</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/peculiarity">
+      <h3>peculiarity<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/peculiarity</p>
+      <div class="comment">
+         <span class="markdown">Valore utilizzato in presenza di uno specifico metodo di classificazione della numerazione civica, validata dall’Istat (es. ROSSO e NERO); Potrebbe forse essere utilizzato anche per indicare A, B , bis che si riferiscono ai numeri civici di accesso esterno.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/postCode">
+      <h3>post code<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/postCode</p>
+      <div class="comment">
+         <span class="markdown">This property represents the value of the zip code in an address.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/l0/identifier" title="https://w3id.org/italia/onto/l0/identifier">identifier</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Address" title="https://w3id.org/italia/onto/CLV/Address">Address</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/serialization">
+      <h3>serialization<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/serialization</p>
+      <div class="comment">
+         <span class="markdown">This property represents the serialization of the geometry object (e.g., kml, gml, etc.),</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Geometry" title="https://w3id.org/italia/onto/CLV/Geometry">Geometry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/staircase">
+      <h3>staircase<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/staircase</p>
+      <div class="comment">
+         <span class="markdown">When available, the property represents the literal part of the internal number of the address that is assigned to the staircase.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/streetNumber">
+      <h3>street number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/streetNumber</p>
+      <div class="comment">
+         <span class="markdown">Value of the street number that is assigned to the external access according to the natural sequence of numbers</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/CivicNumbering" title="https://w3id.org/italia/onto/CLV/CivicNumbering">Civic Numbering</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/toponymQualifier">
+      <h3>toponym qualifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/toponymQualifier</p>
+      <div class="comment">
+         <span class="markdown">This property is used to represent the Italian DUG (Denominazione Urbanistica Generica) or toponym qualifier (e.g., via, viale, piazza, ecc.) of the street toponym</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/StreetToponym" title="https://w3id.org/italia/onto/CLV/StreetToponym">Street Toponym</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/yard">
+      <h3>yard<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/yard</p>
+      <div class="comment">
+         <span class="markdown">If available, the property represents the romanic number assigned to each private space (yard and similar) to which access buildings or other internal accesses,</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/InternalAccess" title="https://w3id.org/italia/onto/CLV/InternalAccess">Internal Access</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/italia/data/project/ANNCSU" title="https://w3id.org/italia/data/project/ANNCSU">
+            <span>a n n c s u</span>
+         </a>
+      </li>
+      <li>
+         <a href="#" title="https://w3id.org/italia/onto/CLV">
+            <span>Address(Location) Ontology</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age"
+            title="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age">
+            <span>age</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+            title="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+            <span>agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/Box" title="https://w3id.org/italia/onto/CLV/Box">Box</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD"
+            title="https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD">
+            <span>c l v a p i t j s o n l d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE"
+            title="https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE">
+            <span>c l v a p i t r d f t u r t l e</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML"
+            title="https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML">
+            <span>c l v a p i t r d f x m l</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/DAF" title="https://w3id.org/italia/data/project/DAF">
+            <span>d a f</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"
+            title="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
+            <span>i s t a t</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/Line" title="https://w3id.org/italia/onto/CLV/Line">Line</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/contact-point/onto-agid"
+            title="https://w3id.org/italia/data/contact-point/onto-agid">
+            <span>onto agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/OntoPiA" title="https://w3id.org/italia/data/project/OntoPiA">
+            <span>onto pi a</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/Point" title="https://w3id.org/italia/onto/CLV/Point">Point</a>
+      </li>
+      <li>
+         <a href="#/Polygon" title="https://w3id.org/italia/onto/CLV/Polygon">Polygon</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            title="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+            <span>stlab</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/public-organization/td"
+            title="https://w3id.org/italia/data/organization/public-organization/td">
+            <span>td</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/italia/data/project/ANNCSU">
+      <h3>a n n c s u<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/ANNCSU</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"ANNCSU - Anagrafe Nazionale dei Numeri Civici e delle Strade Urbane"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>Address(Location) Ontology<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/SemanticAsset">semantic asset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age">
+      <h3>age<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+      <h3>agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Box">
+      <h3>Box<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Box</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD">
+      <h3>c l v a p i t j s o n l d<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE">
+      <h3>c l v a p i t r d f t u r t l e<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML">
+      <h3>c l v a p i t r d f x m l<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/DAF">
+      <h3>d a f<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/DAF</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Data &amp; Analytics Framework"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
+      <h3>i s t a t<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Line">
+      <h3>Line<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Line</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/contact-point/onto-agid">
+      <h3>onto agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/contact-point/onto-agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Kind">kind</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Organization">organization</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/OntoPiA">
+      <h3>onto pi a<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/OntoPiA</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Point">
+      <h3>Point<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Point</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Polygon">
+      <h3>Polygon<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/CLV/Polygon</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/CLV">https://w3id.org/italia/onto/CLV</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#/GeometryType" title="https://w3id.org/italia/onto/CLV/GeometryType">Geometry Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+      <h3>stlab<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</p>
+      <dl class="description">
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/public-organization/td">
+      <h3>td<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/public-organization/td</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>

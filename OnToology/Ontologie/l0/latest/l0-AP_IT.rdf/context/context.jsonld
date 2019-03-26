@@ -1,0 +1,236 @@
+{
+  "@context" : {
+    "isDescriptionOf" : {
+      "@id" : "https://w3id.org/italia/onto/l0/isDescriptionOf",
+      "@type" : "@id"
+    },
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail"
+    },
+    "isFirstMemberOf" : {
+      "@id" : "https://w3id.org/italia/onto/l0/isFirstMemberOf",
+      "@type" : "@id"
+    },
+    "hasFormalityLevel" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasFormalityLevel"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Sequence" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Sequence"
+    },
+    "officialURI" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/officialURI"
+    },
+    "SemanticAssetDistribution" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "semanticAssetInUse" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/semanticAssetInUse"
+    },
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "hasLastMember" : {
+      "@id" : "https://w3id.org/italia/onto/l0/hasLastMember",
+      "@type" : "@id"
+    },
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL"
+    },
+    "prefix" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/prefix"
+    },
+    "precedes" : {
+      "@id" : "https://w3id.org/italia/onto/l0/precedes",
+      "@type" : "@id"
+    },
+    "Object" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Object"
+    },
+    "hasOntologyLanguage" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasSemanticAssetDistribution" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"
+    },
+    "Location" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Location"
+    },
+    "wasInfluencedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasInfluencedBy"
+    },
+    "Activity" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Activity"
+    },
+    "fn" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#fn"
+    },
+    "Event" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Event"
+    },
+    "follows" : {
+      "@id" : "https://w3id.org/italia/onto/l0/follows",
+      "@type" : "@id"
+    },
+    "isMemberOf" : {
+      "@id" : "https://w3id.org/italia/onto/l0/isMemberOf",
+      "@type" : "@id"
+    },
+    "acronym" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/acronym"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "hasContributor" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasContributor"
+    },
+    "Topic" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Topic"
+    },
+    "hasTask" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasTask"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "directlyFollows" : {
+      "@id" : "https://w3id.org/italia/onto/l0/directlyFollows",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Characteristic" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+    },
+    "name" : {
+      "@id" : "https://w3id.org/italia/onto/l0/name",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+    },
+    "hasMember" : {
+      "@id" : "https://w3id.org/italia/onto/l0/hasMember",
+      "@type" : "@id"
+    },
+    "Description" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Description"
+    },
+    "hasTopic" : {
+      "@id" : "https://w3id.org/italia/onto/l0/hasTopic",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "https://w3id.org/italia/onto/l0/identifier"
+    },
+    "keyword" : {
+      "@id" : "http://www.w3.org/ns/dcat#keyword"
+    },
+    "hasKeyClass" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasKeyClass"
+    },
+    "isLastMemberOf" : {
+      "@id" : "https://w3id.org/italia/onto/l0/isLastMemberOf",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Project" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/Project"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "last" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/last"
+    },
+    "controlledVocabulary" : {
+      "@id" : "https://w3id.org/italia/onto/l0/controlledVocabulary"
+    },
+    "type" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/type"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "target" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/target"
+    },
+    "Entity" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Entity"
+    },
+    "hasFirstMember" : {
+      "@id" : "https://w3id.org/italia/onto/l0/hasFirstMember",
+      "@type" : "@id"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint"
+    },
+    "SemanticAsset" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAsset"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "directlyPrecedes" : {
+      "@id" : "https://w3id.org/italia/onto/l0/directlyPrecedes",
+      "@type" : "@id"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language"
+    },
+    "System" : {
+      "@id" : "https://w3id.org/italia/onto/l0/System"
+    },
+    "isTopicOf" : {
+      "@id" : "https://w3id.org/italia/onto/l0/isTopicOf",
+      "@type" : "@id"
+    },
+    "hasDescription" : {
+      "@id" : "https://w3id.org/italia/onto/l0/hasDescription",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "https://w3id.org/italia/onto/l0/description",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL"
+    },
+    "Kind" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Kind"
+    },
+    "Collection" : {
+      "@id" : "https://w3id.org/italia/onto/l0/Collection"
+    }
+  }
+}

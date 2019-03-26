@@ -1,0 +1,42 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"https://w3id.org/italia/data/contact-point/onto-dgt" -> "mailto:dg-t@beniculturali.it" [ label = "vcard:hasEmail" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE" -> "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE" [ label = "dct:format" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE" -> "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40" [ label = "dct:license" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.ttl" [ label = "dcat:downloadURL" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest" [ label = "dcat:accessURL" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/project/DAF" [ label = "admsapit:semanticAssetInUse" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://publications.europa.eu/resource/authority/frequency/IRREG" [ label = "dct:accrualPeriodicity" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/distribution/CHAPIT-JSON-LD" [ label = "admsapit:hasSemanticAssetDistribution" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab" [ label = "dct:publisher" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://spcdata.digitpa.gov.it/Amministrazione/m_bac" [ label = "dct:creator" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML" [ label = "admsapit:hasSemanticAssetDistribution" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/contact-point/onto-dgt" [ label = "dcat:contactPoint" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:Formal" [ label = "admsapit:hasFormalityLevel" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/onto/CulturalHeritage/0.1" [ label = "owl:versionIRI" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab" [ label = "dct:creator" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:OWL" [ label = "admsapit:hasOntologyLanguage" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://publications.europa.eu/resource/authority/data-theme/EDUC" [ label = "dcat:theme" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:QueryFormulationTask" [ label = "admsapit:hasTask" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:SearchTask" [ label = "admsapit:hasTask" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/arco/core/" [ label = "owl:imports" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/project/Arco" [ label = "admsapit:semanticAssetInUse" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:AnnotationTask" [ label = "admsapit:hasTask" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://spcdata.digitpa.gov.it/Amministrazione/m_bac" [ label = "dct:rightsHolder" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/project/OntoPiA" [ label = "admsapit:semanticAssetInUse" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/onto/CulturalHeritage/0.1" [ label = "admsapit:last" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://publications.europa.eu/resource/authority/language/ENG" [ label = "dct:language" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "admsapit:DomainOntology" [ label = "admsapit:type" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE" [ label = "admsapit:hasSemanticAssetDistribution" ];
+	"https://w3id.org/italia/onto/CulturalHeritage" -> "http://publications.europa.eu/resource/authority/language/ITA" [ label = "dct:language" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML" -> "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40" [ label = "dct:license" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML" -> "http://publications.europa.eu/resource/authority/file-type/RDF_XML" [ label = "dct:format" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest" [ label = "dcat:accessURL" ];
+	"https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.rdf" [ label = "dcat:downloadURL" ];
+	"https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD" -> "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40" [ label = "dct:license" ];
+	"https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.jsonld" [ label = "dcat:downloadURL" ];
+	"https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD" -> "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest" [ label = "dcat:accessURL" ];
+	"https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD" -> "http://publications.europa.eu/resource/authority/file-type/JSON_LD" [ label = "dct:format" ];
+
+}

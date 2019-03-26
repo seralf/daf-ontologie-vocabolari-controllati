@@ -1,0 +1,42 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "cpevapit:PublicEvent" "base:Attribute" "base:CulturalHeritageObject" "base:CISType" "base:Catalogue" "base:ArchaeologicalArea" "poiapit:PointOfInterest" "base:Site" "base:NewsArticle" "base:CulturalEntity" "base:Theatre" "base:CulturalInstituteOrSite" "l0:Topic" "base:VideoObject" "l0:Event" "base:HolderOfArchive" "poiapit:NameInTime" "l0:Description" "base:CultResearchCenter" "base:ImageObject" "l0:Characteristic" "base:CISNameInTime" "base:ClericalAdministrativeArea" "base:Museum" "base:CulturalLandscapeAsset" "base:CollectionCulEnt" "base:Equipment" "l0:Entity" "base:CreativeWork" "base:SubjectDiscipline" "clvapit:Feature" "base:Library" "base:CulturalEvent" "l0:Object" "base:CISService" "l0:Activity" "base:SiteDescription" "base:MonumentalArea" "l0:Collection" "base:CulturalProject" "base:ArchaeologicalPark" "base:AudioObject" "base:Cinema" ; /*classes style*/
+	"base:CulturalProject" -> "l0:Activity" [ label = "rdfs:subClassOf" ];
+	"base:Cinema" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:NewsArticle" -> "base:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"base:CulturalHeritageObject" -> "base:CulturalEntity" [ label = "rdfs:subClassOf" ];
+	"base:CulturalHeritageObject" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:VideoObject" -> "base:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"base:CollectionCulEnt" -> "base:CulturalEntity" [ label = "rdfs:subClassOf" ];
+	"base:CollectionCulEnt" -> "l0:Collection" [ label = "rdfs:subClassOf" ];
+	"base:CISType" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:ArchaeologicalPark" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:MonumentalArea" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:ClericalAdministrativeArea" -> "clvapit:Feature" [ label = "rdfs:subClassOf" ];
+	"base:CulturalEntity" -> "l0:Entity" [ label = "rdfs:subClassOf" ];
+	"base:Theatre" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:Museum" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:CreativeWork" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:Attribute" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:SubjectDiscipline" -> "l0:Topic" [ label = "rdfs:subClassOf" ];
+	"base:AudioObject" -> "base:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"base:CISNameInTime" -> "l0:Event" [ label = "rdfs:subClassOf" ];
+	"base:CISNameInTime" -> "poiapit:NameInTime" [ label = "rdfs:subClassOf" ];
+	"base:Catalogue" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:ImageObject" -> "base:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"base:CulturalLandscapeAsset" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:Library" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:Equipment" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+	"base:CultResearchCenter" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:CulturalEvent" -> "cpevapit:PublicEvent" [ label = "rdfs:subClassOf" ];
+	"base:Site" -> "poiapit:PointOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:Site" -> "clvapit:Feature" [ label = "rdfs:subClassOf" ];
+	"base:CulturalInstituteOrSite" -> "base:CulturalEntity" [ label = "rdfs:subClassOf" ];
+	"base:CulturalInstituteOrSite" -> "poiapit:PointOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:HolderOfArchive" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+	"base:SiteDescription" -> "l0:Description" [ label = "rdfs:subClassOf" ];
+	"base:CISService" -> "l0:Characteristic" [ label = "rdfs:subClassOf" ];
+	"base:ArchaeologicalArea" -> "base:CulturalInstituteOrSite" [ label = "rdfs:subClassOf" ];
+
+}

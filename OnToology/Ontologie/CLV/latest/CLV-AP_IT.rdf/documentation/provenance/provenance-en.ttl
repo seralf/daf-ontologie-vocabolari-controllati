@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/italia/onto/CLV/1.0> a prov:Entity;
+	 dc:title "Address(Location) Ontology";
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT>;
+	 dc:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT>;
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age>;
+	 dc:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age>;
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 dc:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2018-07-24";
+.

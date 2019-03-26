@@ -1,0 +1,773 @@
+<html><h2 id="crossreference" class="list">Cross reference for Italian Role ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Italian Role ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/Agent" title="https://w3id.org/italia/onto/l0/Agent">
+            <span>agent</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+      </li>
+   </ul>
+   <div class="entity" id="/Agent">
+      <h3>agent<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/l0/Agent</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/isRoleInTimeOf" title="https://w3id.org/italia/onto/RO/isRoleInTimeOf">is role in time of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/Role">
+      <h3>Role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/Role</p>
+      <div class="comment">
+         <span class="markdown">A role.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO/">https://w3id.org/italia/onto/RO/</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Object">object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/isRoleOf" title="https://w3id.org/italia/onto/RO/isRoleOf">is role of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/TI/isRoleIn" title="https://w3id.org/italia/onto/TI/isRoleIn">is role in</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/name" title="https://w3id.org/italia/onto/l0/name">name</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/TI/isRoleIn" title="https://w3id.org/italia/onto/TI/isRoleIn">is role in</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/RO/isRoleOf" title="https://w3id.org/italia/onto/RO/isRoleOf">is role of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/holdsRole" title="https://w3id.org/italia/onto/RO/holdsRole">holds role</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/RO/withRole" title="https://w3id.org/italia/onto/RO/withRole">with role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/TimeIndexedRole">
+      <h3>Time indexed role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/TimeIndexedRole</p>
+      <div class="comment">
+         <span class="markdown">Representation of Role with a clearly defined time extension.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Event">event</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/forEntity" title="https://w3id.org/italia/onto/RO/forEntity">for entity</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/isRoleInTimeOf" title="https://w3id.org/italia/onto/RO/isRoleInTimeOf">is role in time of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#/Agent" title="https://w3id.org/italia/onto/l0/Agent">agent</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/withRole" title="https://w3id.org/italia/onto/RO/withRole">with role</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/TI/hasTemporalEntity">has temporal entity</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/TemporalEntity">temporal entity</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/forEntity" title="https://w3id.org/italia/onto/RO/forEntity">for entity</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/RO/isRoleInTimeOf" title="https://w3id.org/italia/onto/RO/isRoleInTimeOf">is role in time of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/RO/withRole" title="https://w3id.org/italia/onto/RO/withRole">with role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/italia/onto/RO/hasRiT" title="https://w3id.org/italia/onto/RO/hasRiT">has role in time</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/italia/onto/TI/isRoleIn" title="https://w3id.org/italia/onto/TI/isRoleIn">is role in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/forEntity" title="https://w3id.org/italia/onto/RO/forEntity">for entity</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/hasRiT" title="https://w3id.org/italia/onto/RO/hasRiT">has role in time</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/holdsRole" title="https://w3id.org/italia/onto/RO/holdsRole">holds role</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/TI/isRoleIn" title="https://w3id.org/italia/onto/TI/isRoleIn">is role in</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/isRoleInTimeOf" title="https://w3id.org/italia/onto/RO/isRoleInTimeOf">is role in time of</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/isRoleOf" title="https://w3id.org/italia/onto/RO/isRoleOf">is role of</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO/withRole" title="https://w3id.org/italia/onto/RO/withRole">with role</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/forEntity">
+      <h3>for entity<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/forEntity</p>
+      <div class="comment">
+         <span class="markdown">Property that links a time indexed role to an entity (for which onother plays a role).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/hasRiT" title="https://w3id.org/italia/onto/RO/hasRiT">has role in time</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/hasRiT">
+      <h3>has role in time<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/hasRiT</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "for entity"</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/forEntity" title="https://w3id.org/italia/onto/RO/forEntity">for entity</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/holdsRole">
+      <h3>holds role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/holdsRole</p>
+      <div class="comment">
+         <span class="markdown">The relation existing between an entity and a role.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/isRoleOf" title="https://w3id.org/italia/onto/RO/isRoleOf">is role of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/holdsRoleInTime">
+      <h3>holds role in time<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/holdsRoleInTime</p>
+      <div class="comment">
+         <span class="markdown">The relation between an entity and a role in time.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO/">https://w3id.org/italia/onto/RO/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/hasRiT" title="https://w3id.org/italia/onto/RO/hasRiT">has role in time</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Agent" title="https://w3id.org/italia/onto/l0/Agent">agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/isRoleInTimeOf" title="https://w3id.org/italia/onto/RO/isRoleInTimeOf">is role in time of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/TI/isRoleIn">
+      <h3>is role in<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/TI/isRoleIn</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "with role"</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO/">https://w3id.org/italia/onto/RO/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/withRole" title="https://w3id.org/italia/onto/RO/withRole">with role</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/isRoleInTimeOf">
+      <h3>is role in time of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/isRoleInTimeOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of holds role in time</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Agent" title="https://w3id.org/italia/onto/l0/Agent">agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/holdsRoleInTime" title="https://w3id.org/italia/onto/RO/holdsRoleInTime">holds role in time</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/isRoleOf">
+      <h3>is role of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/isRoleOf</p>
+      <div class="comment">
+         <span class="markdown">The relation existing between a role and an entity. This is the inverse property of holdsRole.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO">https://w3id.org/italia/onto/RO</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/italia/onto/l0/Entity">entity</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/holdsRole" title="https://w3id.org/italia/onto/RO/holdsRole">holds role</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO/withRole">
+      <h3>with role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO/withRole</p>
+      <div class="comment">
+         <span class="markdown">Association between a TimeIndexedRole and a Role.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/RO/">https://w3id.org/italia/onto/RO/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/TimeIndexedRole" title="https://w3id.org/italia/onto/RO/TimeIndexedRole">Time indexed role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/RO/Role" title="https://w3id.org/italia/onto/RO/Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/italia/onto/TI/isRoleIn" title="https://w3id.org/italia/onto/TI/isRoleIn">is role in</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/name" title="https://w3id.org/italia/onto/l0/name">
+            <span>name</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="/name">
+      <h3>name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/l0/name</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/l0/">https://w3id.org/italia/onto/l0/</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/Amministrazione/agid"
+            title="http://spcdata.digitpa.gov.it/Amministrazione/agid">
+            <span>agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/DAF" title="https://w3id.org/italia/data/project/DAF">
+            <span>d a f</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/contact-point/onto-agid"
+            title="https://w3id.org/italia/data/contact-point/onto-agid">
+            <span>onto agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/OntoPiA" title="https://w3id.org/italia/data/project/OntoPiA">
+            <span>onto pi a</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/onto/RO" title="https://w3id.org/italia/onto/RO">
+            <span>r o</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/RO-JSON-LD"
+            title="https://w3id.org/italia/data/distribution/RO-JSON-LD">
+            <span>r o j s o n l d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/RO-RDF-TURTLE"
+            title="https://w3id.org/italia/data/distribution/RO-RDF-TURTLE">
+            <span>r o r d f t u r t l e</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/RO-RDF-XML"
+            title="https://w3id.org/italia/data/distribution/RO-RDF-XML">
+            <span>r o r d f x m l</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            title="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+            <span>stlab</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/public-organization/td"
+            title="https://w3id.org/italia/data/organization/public-organization/td">
+            <span>td</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/Amministrazione/agid">
+      <h3>agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/Amministrazione/agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/DAF">
+      <h3>d a f<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/DAF</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/contact-point/onto-agid">
+      <h3>onto agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/contact-point/onto-agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Organization">organization</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Kind">kind</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Organization">organization</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/OntoPiA">
+      <h3>onto pi a<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/OntoPiA</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/name" title="https://w3id.org/italia/onto/l0/name">name</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/onto/RO">
+      <h3>r o<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/RO</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/SemanticAsset">semantic asset</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/RO-JSON-LD">
+      <h3>r o j s o n l d<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/RO-JSON-LD</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/RO-RDF-TURTLE">
+      <h3>r o r d f t u r t l e<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/RO-RDF-TURTLE</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/RO-RDF-XML">
+      <h3>r o r d f x m l<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/RO-RDF-XML</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+      <h3>stlab<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/public-organization/td">
+      <h3>td<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/public-organization/td</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>

@@ -1,0 +1,896 @@
+<html><h2 id="crossreference" class="list">Cross reference for Access Conditions Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Access Conditions Ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/AccessCondition"
+            title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+      </li>
+      <li>
+         <a href="#/AdmissionType"
+            title="https://w3id.org/italia/onto/AccessCondition/AdmissionType">Admission Type</a>
+      </li>
+      <li>
+         <a href="#/Booking"
+            title="https://w3id.org/italia/onto/AccessCondition/Booking">Booking</a>
+      </li>
+      <li>
+         <a href="#/OpeningHoursSpecification"
+            title="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">Opening Hours Specification</a>
+      </li>
+      <li>
+         <a href="#/TemporaryClosure"
+            title="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">Temporary Closure</a>
+      </li>
+   </ul>
+   <div class="entity" id="/AccessCondition">
+      <h3>Access Condition<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/AccessCondition</p>
+      <div class="comment">
+         <span class="markdown">This class represents the access conditions. Typically, access conditions are specified to communicate how to access public places. This includes information on bookings, opening hours and extraordinary/temporary closures.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/description">description</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/Booking"
+               title="https://w3id.org/italia/onto/AccessCondition/Booking">Booking</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/OpeningHoursSpecification"
+               title="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">Opening Hours Specification</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/TemporaryClosure"
+               title="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">Temporary Closure</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isAccessConditionOf"
+               title="https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf">is access condition of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAccessCondition"
+               title="https://w3id.org/italia/onto/AccessCondition/hasAccessCondition">has access condition</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/AdmissionType">
+      <h3>Admission Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/AdmissionType</p>
+      <div class="comment">
+         <span class="markdown">It represents the type of admission. Examples are: weekly, monthly, daily, etc.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/Characteristic">characteristic</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/description">description</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isAdmissionTypeOf"
+               title="https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf">is admission type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasAdmissionType"
+               title="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">has admission type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Booking">
+      <h3>Booking<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/Booking</p>
+      <div class="comment">
+         <span class="markdown">It represents the  type of booking for a location/event for instance. Examples can be: Mandatory, Optional, None (free access).</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AccessCondition"
+               title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/OpeningHoursSpecification">
+      <h3>Opening Hours Specification<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification</p>
+      <div class="comment">
+         <span class="markdown">Individuals of this class specify opening hours specifications for locations/events for instance.
+
+The opening hours specifications are expressed in terms of
+* opening time
+* closure time
+* the day of the week to which the opening hours specification refer
+* the type of admission (daily, weekly, etc.)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AccessCondition"
+               title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/atTime">at time</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/TimeInterval">time interval</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/hasDayOfWeek">has day of week</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/DayOfWeek">day of week</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasAdmissionType"
+               title="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">has admission type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#/AdmissionType"
+               title="https://w3id.org/italia/onto/AccessCondition/AdmissionType">Admission Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/closes"
+               title="https://w3id.org/italia/onto/AccessCondition/closes">closes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+         </dd>
+         <dd>
+            <a href="#/opens"
+               title="https://w3id.org/italia/onto/AccessCondition/opens">opens</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasAdmissionType"
+               title="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">has admission type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/TemporaryClosure">
+      <h3>Temporary Closure<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/TemporaryClosure</p>
+      <div class="comment">
+         <span class="markdown">A temporary closure is a subclass of 'AccessCondition' whose individuals provide information about a temporary closure.
+These individuals are described in terms of:
+ * the time from which the closure starts
+ * the reason about the temporary closure;
+ * the time to which the closure ends.
+ * the dayOfWeek of the closure
+
+In this way we are able to model something like "the location will be closed Tuesday 19 June 2018 from 10:00 to 13:00 for internal meetings</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/AccessCondition"
+               title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/atTime">at time</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/TimeInterval">time interval</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/hasDayOfWeek">has day of week</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="https://w3id.org/italia/onto/TI/DayOfWeek">day of week</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/reasonClosure"
+               title="https://w3id.org/italia/onto/AccessCondition/reasonClosure">reason for closure</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+         </dd>
+         <dd>
+            <a href="#/closes"
+               title="https://w3id.org/italia/onto/AccessCondition/closes">closes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+         </dd>
+         <dd>
+            <a href="#/opens"
+               title="https://w3id.org/italia/onto/AccessCondition/opens">opens</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/reasonClosure"
+               title="https://w3id.org/italia/onto/AccessCondition/reasonClosure">reason for closure</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/hasAccessCondition"
+            title="https://w3id.org/italia/onto/AccessCondition/hasAccessCondition">has access condition</a>
+      </li>
+      <li>
+         <a href="#/hasAdmissionType"
+            title="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">has admission type</a>
+      </li>
+      <li>
+         <a href="#/isAccessConditionOf"
+            title="https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf">is access condition of</a>
+      </li>
+      <li>
+         <a href="#/isAdmissionTypeOf"
+            title="https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf">is admission type of</a>
+      </li>
+   </ul>
+   <div class="entity" id="/hasAccessCondition">
+      <h3>has access condition<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/hasAccessCondition</p>
+      <div class="comment">
+         <span class="markdown">Property that links a thing of the modelled domain to access conditions that may apply.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AccessCondition"
+                  title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isAccessConditionOf"
+                  title="https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf">is access condition of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasAdmissionType">
+      <h3>has admission type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/hasAdmissionType</p>
+      <div class="comment">
+         <span class="markdown">Property that links the opening hours specificatin to the admission type (weekly, daily, etc.)</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OpeningHoursSpecification"
+                  title="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">Opening Hours Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/AdmissionType"
+                  title="https://w3id.org/italia/onto/AccessCondition/AdmissionType">Admission Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isAdmissionTypeOf"
+                  title="https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf">is admission type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isAccessConditionOf">
+      <h3>is access condition of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "has access condition"</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AccessCondition"
+                  title="https://w3id.org/italia/onto/AccessCondition/AccessCondition">Access Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasAccessCondition"
+                  title="https://w3id.org/italia/onto/AccessCondition/hasAccessCondition">has access condition</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isAdmissionTypeOf">
+      <h3>is admission type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf</p>
+      <div class="comment">
+         <span class="markdown">Inverse property of "has admission type"</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/AdmissionType"
+                  title="https://w3id.org/italia/onto/AccessCondition/AdmissionType">Admission Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/hasAdmissionType"
+                  title="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">has admission type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/closes"
+            title="https://w3id.org/italia/onto/AccessCondition/closes">closes</a>
+      </li>
+      <li>
+         <a href="#/opens"
+            title="https://w3id.org/italia/onto/AccessCondition/opens">opens</a>
+      </li>
+      <li>
+         <a href="#/reasonClosure"
+            title="https://w3id.org/italia/onto/AccessCondition/reasonClosure">reason for closure</a>
+      </li>
+   </ul>
+   <div class="entity" id="/closes">
+      <h3>closes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/closes</p>
+      <div class="comment">
+         <span class="markdown">Property that represents the closing hour or the hour on which the temporary closure terminates. Example: if the temporary closure is on Tuesday from 10:00am to 13:00am, closes is used to model "13:00am".</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OpeningHoursSpecification"
+                  title="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">Opening Hours Specification</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/TemporaryClosure"
+                  title="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">Temporary Closure</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/opens">
+      <h3>opens<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/opens</p>
+      <div class="comment">
+         <span class="markdown">Property used to indicate the opening hour or the hour in which starts a possible temporary closure. If a public event can be accessed every Monday from 9:00am to 12:00am, the property is used to model "9:00am".</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/OpeningHoursSpecification"
+                  title="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">Opening Hours Specification</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/TemporaryClosure"
+                  title="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">Temporary Closure</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#time">time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/reasonClosure">
+      <h3>reason for closure<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition/reasonClosure</p>
+      <div class="comment">
+         <span class="markdown">Property that allows one to specify the reason for the closure of a location or event for instance.
+Examples include: closed for location renovation; closed for summer holidays, etc.</span>
+      </div>
+      <dl>
+         <dt>Current version:</dt>
+         <dd>stable</dd>
+      </dl>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/italia/onto/AccessCondition">https://w3id.org/italia/onto/AccessCondition</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/TemporaryClosure"
+                  title="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">Temporary Closure</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD"
+            title="https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD">
+            <span>a c a p i t j s o n l d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE"
+            title="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE">
+            <span>a c a p i t r d f t u r t l e</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML"
+            title="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML">
+            <span>a c a p i t r d f x m l</span>
+         </a>
+      </li>
+      <li>
+         <a href="#" title="https://w3id.org/italia/onto/AccessCondition">
+            <span>Access Conditions Ontology</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+            title="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+            <span>agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/DAF" title="https://w3id.org/italia/data/project/DAF">
+            <span>d a f</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/contact-point/onto-agid"
+            title="https://w3id.org/italia/data/contact-point/onto-agid">
+            <span>onto agid</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/project/OntoPiA" title="https://w3id.org/italia/data/project/OntoPiA">
+            <span>onto pi a</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            title="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+            <span>stlab</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/italia/data/organization/public-organization/td"
+            title="https://w3id.org/italia/data/organization/public-organization/td">
+            <span>td</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD">
+      <h3>a c a p i t j s o n l d<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE">
+      <h3>a c a p i t r d f t u r t l e<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML">
+      <h3>a c a p i t r d f x m l<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution">semantic asset distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>Access Conditions Ontology<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/onto/AccessCondition</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/SemanticAsset">semantic asset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+      <h3>agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/DAF">
+      <h3>d a f<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/DAF</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Data &amp; Analytics Framework"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/contact-point/onto-agid">
+      <h3>onto agid<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/contact-point/onto-agid</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Kind">kind</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Organization">organization</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/project/OntoPiA">
+      <h3>onto pi a<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/project/OntoPiA</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/ADMS/Project">project</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+      <h3>stlab<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</p>
+      <dl class="description">
+         <dt>has facts</dt>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="https://w3id.org/italia/onto/l0/name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/italia/data/organization/public-organization/td">
+      <h3>td<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/italia/data/organization/public-organization/td</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://dati.gov.it/onto/dcatapit#Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>

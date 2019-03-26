@@ -1,0 +1,1707 @@
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/CLV/1.0> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/description> "Questa è l'ontologia del profilo di italiano sugli indirizzi e i luoghi (Italian Core Location Vocabulary - Application Profile  - CLV-AP_IT)"@it .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/description> "This is the ontology of the Italian application profile for Location and Addresses"@en .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/issued> "2017-08-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/modified> "2018-07-24"@it .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/title> "Address(Location) Ontology"@en .
+<https://w3id.org/italia/onto/CLV> <http://purl.org/dc/terms/title> "Ontologia degli Indirizzi/Luoghi"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa è l'ontologia del profilo di italiano sugli indirizzi e i luoghi (Italian Core Location Vocabulary - Application Profile  - CLV-AP_IT)"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the ontology of the Italian application profile for Location and Addresses"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV/> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2000/01/rdf-schema#label> "Address(Location) Ontology"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia degli Indirizzi/Luoghi"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0 - 24 July 2018 - Change in the modelling of Tiponym Qualifier and change in the labelling of the classes and properties."@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/2002/07/owl#versionInfo> "Versione 1.0 - 24 Luglio 2018 - Cambiamento nella modellazione del DUG (eliminato vocabolario controllato) e gestine delle label per ciascuna classe e proprietà"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Accesso esterno"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Accesso interno"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Address"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Area di circolazione"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Coordinata geografica"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Feature"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Geometria"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Geometry"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Indirizzo"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Location"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Luogo"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Numero Civico"@it .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#keyword> "Spatial Object"@en .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://w3id.org/italia/onto/CLV/0.9/> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/acronym> "CLV-AP_IT" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/public-organization/td> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/CLV/SpatialObject> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/last> <https://w3id.org/italia/onto/CLV/0.8/> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/CLV"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/prefix> "clvapit" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/ANNCSU> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/status> "catalogued" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/status> "published" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/target> "Imprese" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni" .
+<https://w3id.org/italia/onto/CLV> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/CoreOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasInfluencedBy
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/italia/onto/CLV/hasRankOrder
+<https://w3id.org/italia/onto/CLV/hasRankOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/italia/onto/CLV/hasRankOrder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/italia/onto/CLV/hasRankOrder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# https://w3id.org/italia/onto/l0/controlledVocabulary
+<https://w3id.org/italia/onto/l0/controlledVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#time
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/CLV/hasAddress
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/CLV/isAddressFor> .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà consente di collegare una cosa del dominio da modellare con l'indirizzo attuale, corrente."@it .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to link a thing to a current address."@en .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "ha indirizzo attuale"@it .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "has current address"@en .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasAddressArea
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressArea> .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è utilizzata per collegare l'indirizzo a un'area geografica o località che raggruppa diverse areee geografiche."@it .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used in order to link the address to a geographical area or a locality that groups different addressable objects."@en .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "ha area indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "ha località"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "has address area"@en .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "has locality"@en .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressArea> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasAddressComponent
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links an address to its components (street, city, province, number, etc.)"@en .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega l'indirizzo alle sue componenti che lo formano (e.g., via, città, provincia, numero civico, ecc.)"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#label> "ha componente indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2000/01/rdf-schema#label> "has address component"@en .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasAddressComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasAdressinTime
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/CLV/isAddressInTimeFor> .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links any thing of the modelled domain with the situation of an address that changes over time."@en .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega una qualsiasi cosa del dominio modellato alla situazione utilizzata per esprimere il cambiamento di un indirizzo nel tempo."@it .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#label> "ha indirizzo nel tempo"@it .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2000/01/rdf-schema#label> "has address in time"@en .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasAdressinTime> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasCensusSection
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Address> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/AddressArea> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/CensusSection> .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links an address, a specific city or an address area to its census section."@en .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega un accesso esterno, una città o un area dell'indirizzo a una sezione di censimento."@it .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#label> "ha sezione di censimento"@it .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2000/01/rdf-schema#label> "has census section"@en .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasCensusSection> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasCity
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/City> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/hasAddress> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/hasCity> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è usata per collegare l'indirizzo  al comune dello stesso.  Esempio di comune: Roma, Bologna, Palermo, Milano, ecc."@it .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the address to the city."@en .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "ha città"@it .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "ha comune"@it .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "has city"@en .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "has municipality"@en .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasCity> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasCountry
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Country> .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà collega i'indirizzo allo stato,. Esempio: Italia, Francia, ecc."@it .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the address to the country."@en .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "ha paese"@it .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "ha stato"@it .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "has country"@en .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasCountry> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasDirectHigherRank
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasHigherRank> .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà mette in relazione componenti dell'indirizzo con un nome, dove la prima è più specifica della seconda e non c'è un altra componente con nome che è sia più generale della prima che più specifica della seconda."@it .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates two named address components, where the first is more specific then the second and there is no other named address component that is both more general than the first and more specific than the second."@en .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#label> "ha livello più alto diretto"@it .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2000/01/rdf-schema#label> "has direct higher rank"@en .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasDirectHigherRank> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasDirectLowerRank
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasLowerRank> .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà mette in relazione componenti dell'indirizzo con un nome, dove la prima è meno specifica della seconda e non esise un'altra componente dell'indirizzo con nome che è sia più specifica della prima che più generale della seconda."@it .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates two named address components, where the first is less specific then the second and there is no other named address component that is both more specific than the first and more general than the second."@en .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#label> "ha livello diretto più basso"@it .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2000/01/rdf-schema#label> "has direct lower rank"@en .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasDirectLowerRank> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasDistrict
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/District> .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links an address to the district of the city"@en .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega un indirizzo al municipio / quartiere tipicamente situato in una città"@it .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "ha municipio"@it .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "ha quartiere"@it .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "has district"@en .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasDistrict> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasGeographicalDistribution
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Province> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Region> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/GeographicalDistribution> .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links the componentsi city, province, region to a geographical distribution"@en .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega le componenti città, provincia/città metropolitana, regione  a una ripartizione geografica"@it .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "ha ripartizione geografica"@it .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "has geographical distribution"@en .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasGeographicalDistribution> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasGeometry
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/CLV/isGeometryFor> .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà lega una qualsiasi cosa del dominio a una geometria."@it .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links any thing of the domain to the geometry."@en .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "ha geometria"@it .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "has geometry"@en .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasGeometry> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasGeometryType
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links the Geometry to its Type (Polygon, Point, Line)"@en .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega la geometria al suo tipo (poligono, punto, linea)."@it .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#label> "ha tipo geometria"@it .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2000/01/rdf-schema#label> "has geometry type"@en .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasGeometryType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasHigherRank
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è utilizzata per mettere in relazione due componenti dell'indirizzo che hanno un nome, dove la prima è più specifica della seconda."@it .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to  relate two named address component, where the first is more specific than the second."@en .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#label> "ha livello più alto"@it .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2000/01/rdf-schema#label> "has higher rank"@en .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasHigherRank> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasIdentifier
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/SpatialObject> .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Identifier> .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un oggetto spaziale alla classe identificativo che rappresenta uno o più identificativi associabili a un oggetto spaziale. La proprietà è ereditata da tutte le sotto classi di oggetto spaziale. Esempi di identificativi sono il codice istat, l'identificativo di un indirizzo secondo le specifiche inspire, il codice assegnato dal comune, ecc."@it .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to specify an identifier for the spatial object. The property is inherited by all the subclasses of spatial object."@en .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "ha codice"@it .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "ha identificativo"@it .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has identifier"@en .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasIdentifier> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasInternalAccess
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/CLV/refersToExternalAccess> .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"refersToExternalAccess\" used to link the external access to the internal one."@en .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"si rifierisce a accesso esterno\". Consente di collegare l'accesso esterno all'accesso interno"@it .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "ha accesso interno"@it .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "has internal access"@en .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasInternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasLowerRank
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà mette in relazione due componenti dell'indirizzo con nomi, dove la prima è meno specifica della seconda."@it .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates two named address components, where the first is less specific than the second."@en .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#label> "ha livello più basso"@it .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2000/01/rdf-schema#label> "has lower rank"@en .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasLowerRank> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasNumber
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà specializza la proprietà ha componente indirizzo per collegare l'indirizzo al numero civico parte dello stesso."@it .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specializes the property has address component in order to link the address with its part representing the street number (or housing number)."@en .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#label> "ha numero civico"@it .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has street number"@en .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasPrimaryAddress
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddress> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è sotto proprietà di ha indirizzo ed è utilizzata per modellare lo specifico indirizzo primario di una cosa del dominio a cui è collegata (e.g., l'indirizzo primario di un'organizzazione, l'indirizzo primario di una persona, ecc.)."@it .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is sub-property of has address and it is used to model the specific primary address of a thing of the modelled domain to which it is linked (e.g., the primary address of an organization or a person)."@en .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#label> "ha indirizzo primario"@it .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2000/01/rdf-schema#label> "has primary address"@en .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasPrimaryAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasProvince
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Province> .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega l'indirizzo alla Provincia. Esempio di Provincia: \"PA\", \"BO\", \"RM\", ecc."@it .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the address with the Province."@en .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#label> "ha provincia"@it .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2000/01/rdf-schema#label> "has province"@en .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasProvince> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasRegion
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Region> .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un luogo/caratteristica con la Regione del paese. Regione; essa può essere  \"Lazio\", \"Emilia Romagna\", ecc."@it .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the address with the Region of the country."@en .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#label> "ha regione"@it .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2000/01/rdf-schema#label> "has region"@en .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasRegion> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasSOValidity
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/SpatialObject> .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/TI/TimeInterval> .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà associa una validità temporale a un oggetto spaziale."@it .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associate a temporal validity to a spatial object."@en .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#label> "ha validità dell'oggetto spaziale"@it .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2000/01/rdf-schema#label> "has spatial object validity"@en .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasSOValidity> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasSpatialCoverage
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to model the spatial coverage of a thing of the modelled domain."@en .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che consente di esprimere la copertura spaziale di una cosa del dominio da modellare."@it .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#label> "ha copertura spaziale"@it .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#label> "ha giurisdizione"@it .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2000/01/rdf-schema#label> "has spatial coverage"@en .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasStreetToponym
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/StreetToponym> .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è usata per collegare l'indirizzo al suo toponymo stradale (o odonimo)"@it .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to  to link an address to the street  toponym component of it."@en .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "ha odonimo"@it .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "ha toponimo stradale"@it .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "has street toponym"@en .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/hasStreetToponym> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/isAddressFor
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of has address that links the address to a thing."@en .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di ha indirizzo che collega l'indirizzo a una cosa del dominio da modellare."@it .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#label> "is address for"@en .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2000/01/rdf-schema#label> "è indirizzo per"@it .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/isAddressFor> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/isAddressInTimeFor
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links a thing to its address in time reification."@en .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che lega una cosa del dominio da modellare con la relazione n-aria indirizzo nel tempo."@it .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV/> .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#label> "is address in time for"@en .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2000/01/rdf-schema#label> "è indirizzo nel tempo per"@it .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/isAddressInTimeFor> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/isGeometryFor
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"hasGeometry\" that links a geometry to the related Thing of the domain."@en .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha geometria\" che lega una geometria a una cosa del dominio modellato."@it .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#label> "is geometry for"@en .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2000/01/rdf-schema#label> "è geometria per"@it .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/isGeometryFor> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/isSpatialCoverageOf
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of has feature that links a feature to a thing."@en .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di ha caratteristica che collega una caratteristica a una cosa."@it .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#label> "is spatial coverage of"@en .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#label> "è copertura spaziale"@it .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2000/01/rdf-schema#label> "è giurisdizione di"@it .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/isSpatialCoverageOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/issuedBy
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Identifier> .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/COV/Organization> .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un identificato all'autorità che l'ha rilasciato."@it .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links an Identifier with the Authority that issued it"@en .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#label> "identificativo rilasciato da"@it .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2000/01/rdf-schema#label> "identifier issued by"@en .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/issuedBy> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/nextAddress
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà consente di modellare una sequenza ordinata di indirizzi (che potrebbero essere relazionati l'uno con l'altro come conseguenza di un cambio nella denominaziona avvenuta nel tempo). Nel caso specifico di questa proprietà, essa rappresenta la situazione 'address in time' successiva nella sequenza."@it .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to model an ordered sequence of addresses (that may be related to each other as a consequence of a change occured over time). In this specific case the property represents the next 'address in time' situation in the sequence."@en .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo successivo"@it .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2000/01/rdf-schema#label> "next address"@en .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/nextAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/prevAddress
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà consente di modellare una sequenza ordinata di indirizzi (che potrebbero essere relazionati l'uno con l'altro come conseguenza di un cambio nella denominaziona avvenuta nel tempo). Nel caso specifico di questa proprietà, essa rappresenta la situazione 'address in time' precedente nella sequenza."@it .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to model an ordered sequence of addresses (that may be related to each other as a consequence of a change occured over time). In this specific case the property represents the previous 'address in time' situation in the sequence."@en .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo precedente"@it .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2000/01/rdf-schema#label> "previous address"@en .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/prevAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/refersToExternalAccess
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega il numero interno (accesso interno) all'accesso esterno (indirizzo)"@it .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the internal access  to the external access (address)"@en .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "refers to external access"@en .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "si riferisce ad accesso esterno"@it .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/refersToExternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/situatedWithin
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#comment> "It is used to enable the model to express that the subtypes of address components in the dataset form a hierarchy e.g. like: a municipality within a province, which is in turn within a region, in turn within country."@en .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà è utilizzata per abilitare il modello nell'esprimere che una certa componente dell'indirizzo nei dati forma una gerarchia. Esempio: un comune è situato in una provincia che è situata in una regione che è situata in uno stato."@it .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#label> "situated within"@en .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2000/01/rdf-schema#label> "situato in"@it .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/situatedWithin> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/withAddress
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links the situation of an address that changes over time to the address itself."@en .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega la sitauzione di un indirizzo che cambia nel tempo all'indirizzo stesso."@it .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#label> "con indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2000/01/rdf-schema#label> "with address"@en .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/withAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/TI/atTime
+<https://w3id.org/italia/onto/TI/atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/CLV/acronym
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/name> .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Province> .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#comment> "La sigla automobilistica con cui viene indicata la provincia."@it .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#comment> "The acronym of the province that is typically used over the Italian territory for the license plate."@en .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#label> "acronym province"@en .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#label> "sigla automobilistica"@it .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2000/01/rdf-schema#label> "sigla provincia"@it .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/acronym> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/acronym> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces> .
+# 
+# https://w3id.org/italia/onto/CLV/alt
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta l'altitudine, ovvero l'altezza di un oggetto spaziale rispetto alla superficie del livello medio del mare.. E'  proprietà associata alla geometria. Nel caso di geometria associata all'indirizzo, la proprietà  rappresenta l'altezza ortometrica dell’accesso esterno (civico) espressa nei sistemi di riferimento altimetrici nazionali ufficiali."@it .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#comment> "The property represents the altitude, i.e., the height of an object or point in relation to sea level or ground level. It is associated with the geometry."@en .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#label> "altitude"@en .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#label> "altitudine"@it .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2000/01/rdf-schema#label> "quota"@it .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/alt> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/building
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero arabo assegnato all’edificio cui si accede alle scale o agli accessi interni, ove presente. Questa proprietà potrebbe essere utilizzata anche per identificare un numero di padiglione."@it .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#comment> "When available, it represents the arabic number assigned to the building accessed by the stairs or internal accesses."@en .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#label> "building"@en .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#label> "edificio"@it .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2000/01/rdf-schema#label> "palazzo"@it .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/building> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/coordinate
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta le coordinate geografiche della Geometria."@it .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the geographical coordinate of the Geometry"@en .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#label> "coordinata geografica"@it .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2000/01/rdf-schema#label> "geographical coordinate"@en .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/coordinate> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/coordinateSystem
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to indicate the coordinate system or reference system (e.g., WGS84, ETRS89, etc.)"@en .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà utilizzata per indicare il sistema di coordinate o sistema di riferimento (e.g., WGS84, ETRS89, ecc,.)"@it .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "coordinate system of reference"@en .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "sistema di coordinate di riferimento"@it .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/coordinateSystem> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/exponent
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Parte letterale del numero civico, ove presente o eventuale esponente attribuito al numero interno.  In quest'ultimo caso, l’utilizzo va preventivamente concordato con l’Istat"@it .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#comment> "When available, it represents the literal part of the number of the address. It can be used associated with both the external and internal number."@en .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#label> "esponente"@it .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2000/01/rdf-schema#label> "exponent"@en .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/exponent> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/flatNumber
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Valore del numero interno assegnato all’accesso interno secondo la successione naturale dei numeri;"@it .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the internal number assigned to the internal access according to the natural sequence of numbers"@en .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#label> "flat number"@en .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#label> "interno"@it .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2000/01/rdf-schema#label> "numero appartamento"@it .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/flatNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/floor
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero del piano su cui è ubicato l’accesso interno, ove presente;"@it .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#comment> "When available, the property represents the floor number on which the internal access is located."@en .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#label> "floor"@en .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2000/01/rdf-schema#label> "piano"@it .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/floor> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/fullAddress
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "L'indirizzo completo scritto come una stringa. L'uso di questa proprietà  aiuta a comprendere l'indirizzo completo evitando possibili errori derivanti dal frazionamento dello stesso nelle sue rispettive componenti."@it .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The complete address written as a string, with or without formatting. The use of this property allows one not to incur in any misunderstandings that might arise through the breaking up of an address into its component parts."@en .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#label> "full address"@en .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo completo"@it .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/fullAddress> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/hasRankOrder
+<https://w3id.org/italia/onto/CLV/hasRankOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/italia/onto/CLV/identifierType
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Identifier> .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà consente di modellare il tipo di identificativo. Per esempio esistono diversi tipi di codici: il codice ISTAT o il codice del comune o l'identificativo INSPIRE."@it .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#comment> "The property allows one to specifies the type of identifier. For instance there can be the identifier assigned by the Italian Insttute of Statistics or the identifier assigned by the Municipalities."@en .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#label> "identifier type"@en .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo identificativo"@it .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/identifierType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/lat
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/coordinate> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà consente di specificare la latitudine. E' associata alla geometria. Nel caso dell'ANNCSU è espressa nel Sistema di riferimento geodetico nazionale, costituito dalla realizzazione ETRF2000 – all’epoca 2008.0 – del Sistema di riferimento geodetico Europeo ETRS89"@it .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the latitude. It is associated with the Geometry."@en .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitude"@en .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitudine"@it .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/lat> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/long
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/CLV/coordinate> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta la longitudine ed è associata alla geometria. Nell'ambito dell'ANNCSU la longitudine dell'accesso è espressa nel Sistema di riferimento geodetico nazionale, costituito dalla realizzazione ETRF2000 – all’epoca 2008.0 – del Sistema di riferimento geodetico Europeo ETRS89"@it .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to specify the longitude. It is associated with the Geometry"@en .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#label> "longitude"@en .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2000/01/rdf-schema#label> "longitudine"@it .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/long> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/metric
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#comment> "Valore del numero civico assegnato all’accesso esterno espresso in metri, utilizzato in caso di adozione del sistema metrico anziché della successione naturale dei numeri"@it .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#label> "metric"@en .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2000/01/rdf-schema#label> "valore metrico"@it .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/metric> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/officialStreetName
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/name> .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/StreetToponym> .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that identifies in the street toponym the official street name"@en .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che identifica la parte di toponimo stradale chiamata DUF - Denominazione Urbanistica uFficiale"@it .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#label> "DUF (Denominazione Urbanistica uFficiale)"@it .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#label> "nome della strada"@it .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2000/01/rdf-schema#label> "official street number"@en .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/officialStreetName> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/peculiarity
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Valore utilizzato in presenza di uno specifico metodo di classificazione della numerazione civica, validata dall’Istat (es. ROSSO e NERO); Potrebbe forse essere utilizzato anche per indicare A, B , bis che si riferiscono ai numeri civici di accesso esterno."@it .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#label> "peculiarity"@en .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2000/01/rdf-schema#label> "specificità"@it .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/peculiarity> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/postCode
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/identifier> .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta il CAP in un indirizzo."@it .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the value of the zip code in an address."@en .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#label> "CAP"@it .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#label> "Codice Avviamento Postale"@it .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2000/01/rdf-schema#label> "post code"@en .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/postCode> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/serialization
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà indica la serializzazione della geometria (gml, KML, ecc.)"@it .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the serialization of the geometry object (e.g., kml, gml, etc.),"@en .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#label> "serialization"@en .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2000/01/rdf-schema#label> "serializzazione della geometria"@it .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/serialization> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/staircase
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#comment> "Parte letterale dell'accesso interno (numero interno) assegnata alla scala, ove presente."@it .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#comment> "When available, the property represents the literal part of the internal number of the address that is assigned to the staircase."@en .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#label> "scala"@it .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2000/01/rdf-schema#label> "staircase"@en .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/staircase> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/streetNumber
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Valore del numero civico assegnato all’accesso esterno secondo la successione naturale dei numeri;"@it .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the street number that is assigned to the external access according to the natural sequence of numbers"@en .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#label> "street number"@en .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2000/01/rdf-schema#label> "valore civico"@it .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/streetNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/toponymQualifier
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/StreetToponym> .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è utilizzata per specificare il DUG (Denominazione Urbanistica Generica) o qualificatore di toponimo (e.g., via, vicolo, viale, piazza, ecc.) dell'odonimo/toponimo"@it .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to represent the Italian DUG (Denominazione Urbanistica Generica) or toponym qualifier (e.g., via, viale, piazza, ecc.) of the street toponym"@en .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#label> "denominazione urbanistica generica (DUG)"@it .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#label> "qualificatore del toponimo"@it .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2000/01/rdf-schema#label> "toponym qualifier"@en .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/toponymQualifier> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/yard
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#comment> "If available, the property represents the romanic number assigned to each private space (yard and similar) to which access buildings or other internal accesses,"@en .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero romano assegnato a ciascun spazio privato (cortile, corte e simili) cui si accede agli edifici o agli accessi interni, ove presente;"@it .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#label> "cortile"@it .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2000/01/rdf-schema#label> "yard"@en .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/yard> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/TI/modified
+<https://w3id.org/italia/onto/TI/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/italia/onto/l0/description
+<https://w3id.org/italia/onto/l0/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/italia/onto/l0/identifier
+<https://w3id.org/italia/onto/l0/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/l0/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dati.gov.it/onto/dcatapit#Agent
+<http://dati.gov.it/onto/dcatapit#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dati.gov.it/onto/dcatapit#Organization
+<http://dati.gov.it/onto/dcatapit#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Kind
+<http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/Project
+<https://w3id.org/italia/onto/ADMS/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAsset
+<https://w3id.org/italia/onto/ADMS/SemanticAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+<https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/CLV/Address
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasAddressComponent> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasInternalAccess> .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/InternalAccess> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/isAddressFor> .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasNumber> .
+_:genid17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasStreetToponym> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/StreetToponym> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasAdressinTime> .
+_:genid19 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasCensusSection> .
+_:genid20 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/CensusSection> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/fullAddress> .
+_:genid21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/postCode> .
+_:genid22 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/CLV/CensusSection> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un oggetto spaziale indirizzabile o una rappresentazione indirizzabile. In particolare, nel contesto italiano, essa rappresenta l’accesso esterno da un’area di circolazione a una unità ecografica semplice (abitazioni, uffici, locali in cui sono ubicate attività economiche, ecc.)."@it .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents an  \"addressable object\" or \"addressable representation\". In most situations the addressable objects are current, real world objects. In the Italian context it represents the external access from a circulation area to a simple unit such as dwellings, offices, premises where economic activities are located, etc."@en .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Accesso Esterno"@it .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address"@en .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://inspire.ec.europa.eu/featureconcept/Address> .
+<https://w3id.org/italia/onto/CLV/Address> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.w3.org/ns/locn#Address> .
+# 
+# https://w3id.org/italia/onto/CLV/AddressArea
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/name> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#comment> "An address component which represents the name of a geographic area or a locality that groups a number of addressable objects for addressing purposes, without being an administrative unit."@en .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#comment> "E' una componente dell'indirizzo che rappresenta il nome di un'area geografica o di una località che raggruppa un numero di oggetti indirizzatibili, per scopi di indirizzamento, senza necessariamente essere un'unità amministrativa territoriale. Nell'ambito dell'anagrafe nazionale numeri civici e strade urbane (ANNCSU) la classe può essere usata per rappresentare la LOCALITA’: una porzione più o meno vasta di territorio comunale, sulla quale insistono una o più aree di circolazione (presente se fornita dal Comune)."@it .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "Address Area"@en .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2000/01/rdf-schema#label> "Area dell'Indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/AddressArea> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://inspire.ec.europa.eu/featureconcept/AddressAreaName> .
+# 
+# https://w3id.org/italia/onto/CLV/AddressComponent
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/situatedWithin> .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/CLV/CensusSection> .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa è una classe astratta utilizzata per identificare i diversi elementi che compongono un indirizzo come un Paese, una regione, un toponimo stradale, un municipio."@it .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an abstract class meant to identify the different alements that compose an address such as Country also known as AdminitrativeLevelUnit 1, Region also known as AdministrativeLevelUnit2, Street, Municipality"@en .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Address Component"@en .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Componente Indirizzo"@it .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/AddressComponent> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://inspire.ec.europa.eu/featureconcept/AddressComponent> .
+# 
+# https://w3id.org/italia/onto/CLV/AddressInTime
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Event> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/atTime> .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/TI/TimeInterval> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/nextAddress> .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/prevAddress> .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/AddressInTime> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/withAddress> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta la situazione di un indirizzo che cambia nel tempo. E' una relazione ennaria tra l'indirizzo, l'intervallo il tempo e un oggetto che è associato all'indirizzo."@it .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents a situation of an address that changes over time. It is an n-ary relatioship between the address, time interval and the thing connected with the address."@en .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#label> "Address in Time"@en .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo nel Tempo"@it .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/AddressInTime> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/AdminUnitComponent
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/name> .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/CLV/CivicNumbering> .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract class used to for modelling reason in order to identify all those administrative unit components of the address."@en .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe astratta a supporto della modellazione usata per identificare tutte le unità amministrative che compongono l'indirizzo (comune, regione, provincia, stato, municipio)"@it .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Unit Component"@en .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Componente Unità Amministrativa"@it .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/AdminUnitComponent> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://inspire.ec.europa.eu/featureconcept/AdminUnitName> .
+# 
+# https://w3id.org/italia/onto/CLV/CensusSection
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/Feature> .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#comment> "Portion of territory where the national institute of statistics carries out census activities The average number of inhabitants is approximately 170 people."@en .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#comment> "Porzione di territorio su cui sono effettuate le rilevazioni dell'Istat in occasione dei censimenti. La popolazione media è di circa 170 individui"@it .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#label> "Census Section"@en .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2000/01/rdf-schema#label> "Sezione di Censimento"@it .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/CensusSection> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/City
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectLowerRank> .
+_:genid30 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/District> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasHigherRank> .
+_:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid32 <http://www.w3.org/2002/07/owl#unionOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Country> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Province> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Region> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectHigherRank> .
+_:genid36 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/Province> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta la città (Comune)"@it .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the city"@en .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#label> "Città"@it .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2000/01/rdf-schema#label> "Comune"@it .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/City> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CLV/City> <https://w3id.org/italia/onto/CLV/hasRankOrder> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/italia/onto/CLV/City> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities> .
+# 
+# https://w3id.org/italia/onto/CLV/CivicNumbering
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/streetNumber> .
+_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/exponent> .
+_:genid38 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/metric> .
+_:genid39 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/peculiarity> .
+_:genid40 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta il numero civico dell'indirizzo che individua l' ACCESSO ESTERNO, cioè quello che dall’area di circolazione immette, direttamente o indirettamente, alle unità ecografiche semplici ossia abitazioni, esercizi commerciali, uffici e simili."@it .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the civic number, the number of the street. They are the numbers that identify external accesses."@en .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#label> "Civic Numbering"@en .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#label> "Number of the Street"@en .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#label> "Numerazione Civica"@it .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2000/01/rdf-schema#label> "Numero Civico"@it .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/CivicNumbering> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://inspire.ec.europa.eu/featureconcept/AddressLocator> .
+# 
+# https://w3id.org/italia/onto/CLV/Country
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectLowerRank> .
+_:genid41 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/Region> .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasLowerRank> .
+_:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid43 <http://www.w3.org/2002/07/owl#unionOf> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/District> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Province> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Region> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta lo Stato. Esempio: \"Italia - Italy\" oppure \"United Kingdom\", ecc. E' l'unità amministrativa più alta nella gerarchia di contenimento territoriale dell'indirizzo. Nel Core Location Vocabulary del programma ISA2 essa è modellata con la proprietà dell'indirizzo nominata adminUnit1"@it .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the  uppermost administrative unit for the address, almost always a country. \"United Kingdom\", \"Italy\", etc. In the Core Location Vocabulary this is modelled as adminUnit1."@en .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Stato"@it .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Country> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CLV/Country> <https://w3id.org/italia/onto/CLV/hasRankOrder> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/italia/onto/CLV/Country> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/foreign-countries> .
+<https://w3id.org/italia/onto/CLV/Country> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy> .
+# 
+# https://w3id.org/italia/onto/CLV/District
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectHigherRank> .
+_:genid48 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/City> .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasHigherRank> .
+_:genid49 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#onClass> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid50 <http://www.w3.org/2002/07/owl#unionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Country> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Province> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Region> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un minicipio/quartiere del comune"@it .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents a district of a city"@en .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV/> .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#label> "District"@en .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#label> "Municipio"@it .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2000/01/rdf-schema#label> "Quartiere"@it .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/District> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CLV/District> <https://w3id.org/italia/onto/CLV/hasRankOrder> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/italia/onto/CLV/Feature
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/SpatialObject> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasGeometry> .
+_:genid55 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasSOValidity> .
+_:genid56 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/TI/TimeInterval> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/modified> .
+_:genid57 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid57 <http://www.w3.org/2002/07/owl#onDataRange> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid58 <http://www.w3.org/2002/07/owl#unionOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#date> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#time> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/italia/onto/CLV/Geometry> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe è utilizzata per rappresentare un'entittà geografica o localizzazione."@it .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is used to represent any geographical entity."@en .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature (Location)"@en .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@it .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://https://www.w3.org/ns/locn#Location> .
+<https://w3id.org/italia/onto/CLV/Feature> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.geonames.org/ontology#Feature> .
+# 
+# https://w3id.org/italia/onto/CLV/GeographicalDistribution
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta la ripartizione geografica del territorio italiano. Essa di solito assume i seguenti valori predefiniti: Nord, Sud, Centro, Isole, Nord-est, Nord-ovest."@it .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the geographical distribution of the Italian territory. It usually assumes the following predefined values: North, South, Middle, Island, Northeast, Northwest"@en .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "Geographical Distribution"@en .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "Ripartizione Geografica"@it .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/GeographicalDistribution> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/Geometry
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/SpatialObject> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasGeometryType> .
+_:genid62 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid62 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/lat> .
+_:genid63 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/long> .
+_:genid64 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/alt> .
+_:genid65 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/coordinate> .
+_:genid66 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/coordinateSystem> .
+_:genid67 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/serialization> .
+_:genid68 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta la geometria associabile a un'entità spaziale."@it .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the geometry of a spatial entity."@en .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometria"@it .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry"@en .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.w3.org/ns/locn#Geometry> .
+<https://w3id.org/italia/onto/CLV/Geometry> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.opengis.net/ont/geosparql#Geometry> .
+# 
+# https://w3id.org/italia/onto/CLV/GeometryType
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe rappresenta il tipo di geometria. Attualmente, la classe asusme questi valori: poligono, linea, punto, riquadro."@it .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#comment> "The class represents the type of geometry. At the time being the class assume the following values: Polygon, Point, Box, Line."@en .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry Type"@en .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo Geometria"@it .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/GeometryType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/Identifier
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/issuedBy> .
+_:genid69 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/COV/Organization> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/identifier> .
+_:genid70 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/identifierType> .
+_:genid71 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un identificativo e tutte le sue informazioni associate (l'identificativo stesso, il tipo di identificativo, l'autorità che l'ha rilasciato)."@it .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the Identifier and all the information associated with it (the identifier itself, the type, the authority that issued it)."@en .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Codice"@it .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificativo"@it .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier (Code)"@en .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Identifier> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.geonames.org/ontology#Code> .
+# 
+# https://w3id.org/italia/onto/CLV/InternalAccess
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/refersToExternalAccess> .
+_:genid72 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/CLV/Address> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/staircase> .
+_:genid73 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/flatNumber> .
+_:genid74 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/building> .
+_:genid75 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/exponent> .
+_:genid76 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/floor> .
+_:genid77 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/yard> .
+_:genid78 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta i numeri interni, relativi alll'accesso interno associato all'accesso esterno. Gli accessi interni sono quelli che da spazi privati o da scale immettono direttamente alle unità ecografiche semplici ossia abitazioni, esercizi commerciali, uffici e simili."@it .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the internal access that refers to the external access . The internal access consists of a set of informaton related to the Internal accesses (e.g., building, flat number) to private spaces or staircase that allow one to access to private residential units."@en .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "Accesso Interno"@it .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2000/01/rdf-schema#label> "Internal Access"@en .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/InternalAccess> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/CLV/Province
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectLowerRank> .
+_:genid79 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/City> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasLowerRank> .
+_:genid80 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid81 <http://www.w3.org/2002/07/owl#unionOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/District> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectHigherRank> .
+_:genid84 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid84 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/Region> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasHigherRank> .
+_:genid85 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid85 <http://www.w3.org/2002/07/owl#onClass> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid86 <http://www.w3.org/2002/07/owl#unionOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Country> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Region> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/acronym> .
+_:genid89 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe rappresenta la componente Provincia."@it .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#comment> "The class represents the Province."@en .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#label> "Città Metropolitana"@it .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#label> "Province"@en .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@it .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Province> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CLV/Province> <https://w3id.org/italia/onto/CLV/hasRankOrder> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/italia/onto/CLV/Province> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces> .
+# 
+# https://w3id.org/italia/onto/CLV/Region
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AdminUnitComponent> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectLowerRank> .
+_:genid90 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/CLV/Province> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasLowerRank> .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid92 <http://www.w3.org/2002/07/owl#unionOf> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/City> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/District> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/italia/onto/CLV/Province> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasDirectHigherRank> .
+_:genid96 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid96 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/CLV/Country> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta la componente Regione dell'Indirizzo."@it .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the Region of the Address."@en .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@it .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/Region> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CLV/Region> <https://w3id.org/italia/onto/CLV/hasRankOrder> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/italia/onto/CLV/Region> <https://w3id.org/italia/onto/l0/controlledVocabulary> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions> .
+# 
+# https://w3id.org/italia/onto/CLV/SpatialObject
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Location> .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/hasIdentifier> .
+_:genid97 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/CLV/Identifier> .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Qualsiasi cosa che può avere una rappresentazione spaziale."@it .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents everything that can have a spatial representation."@en .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#label> "Oggetto Spaziale"@it .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Object"@en .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/SpatialObject> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+# 
+# https://w3id.org/italia/onto/CLV/StreetToponym
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/CLV/AddressComponent> .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/officialStreetName> .
+_:genid98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/CLV/toponymQualifier> .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta il toponimo stradale. Esso consiste nel nome dalla strada o denominazione urbanistica ufficiale - DUF (rappresentato attraverso la proprietà nome della strada) e della denominazione urbanistica generica (DUG) o qualitficatore del toponimo (e.g., via, viale, piazza, ecc.). La parte DUF  può  comprendere  l’eventuale  complemento  alla  specie  (preposizioni  non  strettamente  legate  alla denominazione del toponimo come dei, di, delle, la,\nil, eccetera) e gli eventual complementi alla denominazione (esempio i titoli onorifici per i nomi propri)\nEsempi:\n1) Via San Donato: Via (DUG o qualificatore del toponimo), San Donato (DUF - o nome della strada)\n2) Via dei tulipani: Via (DUG), dei Tulipani (DUF)\n3) Via A GENERALE CARLO ALBERTO DALLA CHIESA: Via (DUG) Generale Carlo Alberto Dalla Chiesa (DUF)\n\nNel complesso questa componente spaziale dell'indirizzo può essere vista come il nome dell'area di circolazione ovvero il nome dell'area che individua ogni spazio del suolo pubblico, o aperto al pubblico, destinato alla viabilità.\n\nDUF e DUG sono due proprietà obbligatorie per la classe ed è possibile specificare un valore delle stesse valido per ciascuna lingua. L'odonimo infatti può essere registrato in lingue differenti, secondo quanto previsto dalle norme in materia di bilinguismo e sull’uso delle lingue delle minoranze linguistiche riconosciute."@it .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the street toponym. It consists of a name (property name) and a Toponym qualifier."@en .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "Nome dell' Area di Circolazione"@it .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "Odonimo"@it .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "Street Toponym"@en .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2000/01/rdf-schema#label> "Toponimo Stradale"@it .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/CLV/StreetToponym> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://inspire.ec.europa.eu/featureconcept/ThoroughfareName> .
+# 
+# https://w3id.org/italia/onto/COV/Organization
+<https://w3id.org/italia/onto/COV/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/COV/Organization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/COV> .
+# 
+# https://w3id.org/italia/onto/TI/TimeInterval
+<https://w3id.org/italia/onto/TI/TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/TI/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/TI> .
+# 
+# https://w3id.org/italia/onto/l0/Agent
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Characteristic
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Event
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Location
+<https://w3id.org/italia/onto/l0/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://purl.org/dc/terms/identifier> "ISTAT" .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://xmlns.com/foaf/0.1/name> "Istituto Nazionale di Statistica - ISTAT"@it .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> <http://xmlns.com/foaf/0.1/name> "Italian National Institute of Statistics - ISTAT"@en .
+# 
+# http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://purl.org/dc/terms/identifier> "age" .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://xmlns.com/foaf/0.1/name> "Agenzia dell'Entrate"@it .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age> <http://xmlns.com/foaf/0.1/name> "Tax Agency"@en .
+# 
+# http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://purl.org/dc/terms/identifier> "agid" .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Italian Digital Agency"@en .
+# 
+# https://w3id.org/italia/data/contact-point/onto-agid
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#fn> "banche dati e open data" .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:info@dati.gov.it> .
+# 
+# https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia dei Luoghi e degli Indirizzi"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of the Location and Address ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia CLV-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of CLV-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest/CLV-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia dei luoghi e degli indirizzi"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the location and address ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia CLV-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of CLV-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest/CLV-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia dei luoghi e degli indirizzi"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the location and address ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia CLV-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of CLV-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest> .
+<https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CLV/latest/CLV-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/public-organization/td
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://purl.org/dc/terms/identifier> "TD" .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Digital Transformation Team"@en .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Team per la Trasformazione Digitale"@it .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+# 
+# https://w3id.org/italia/data/project/ANNCSU
+<https://w3id.org/italia/data/project/ANNCSU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/ANNCSU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/ANNCSU> <https://w3id.org/italia/onto/l0/name> "ANNCSU - Anagrafe Nazionale dei Numeri Civici e delle Strade Urbane"@it .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <https://w3id.org/italia/onto/l0/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/CLV
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/CLV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# https://w3id.org/italia/onto/CLV/Box
+<https://w3id.org/italia/onto/CLV/Box> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/CLV/Box> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/Box> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Box> <http://www.w3.org/2000/01/rdf-schema#label> "Box"@en .
+<https://w3id.org/italia/onto/CLV/Box> <http://www.w3.org/2000/01/rdf-schema#label> "Riquadro"@it .
+# 
+# https://w3id.org/italia/onto/CLV/Island
+<https://w3id.org/italia/onto/CLV/Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/CLV/Line
+<https://w3id.org/italia/onto/CLV/Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/CLV/Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/Line> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Line> <http://www.w3.org/2000/01/rdf-schema#label> "Line"@en .
+<https://w3id.org/italia/onto/CLV/Line> <http://www.w3.org/2000/01/rdf-schema#label> "Linea"@it .
+# 
+# https://w3id.org/italia/onto/CLV/Middle
+<https://w3id.org/italia/onto/CLV/Middle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/CLV/North
+<https://w3id.org/italia/onto/CLV/North> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/CLV/Northeast
+<https://w3id.org/italia/onto/CLV/Northeast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/CLV/Northwest
+<https://w3id.org/italia/onto/CLV/Northwest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/CLV/Point
+<https://w3id.org/italia/onto/CLV/Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/CLV/Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/Point> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Point> <http://www.w3.org/2000/01/rdf-schema#label> "Point"@en .
+<https://w3id.org/italia/onto/CLV/Point> <http://www.w3.org/2000/01/rdf-schema#label> "Punto"@it .
+# 
+# https://w3id.org/italia/onto/CLV/Polygon
+<https://w3id.org/italia/onto/CLV/Polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/CLV/Polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/CLV/GeometryType> .
+<https://w3id.org/italia/onto/CLV/Polygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CLV> .
+<https://w3id.org/italia/onto/CLV/Polygon> <http://www.w3.org/2000/01/rdf-schema#label> "Poligono"@it .
+<https://w3id.org/italia/onto/CLV/Polygon> <http://www.w3.org/2000/01/rdf-schema#label> "Polygon"@en .
+# 
+# https://w3id.org/italia/onto/CLV/South
+<https://w3id.org/italia/onto/CLV/South> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

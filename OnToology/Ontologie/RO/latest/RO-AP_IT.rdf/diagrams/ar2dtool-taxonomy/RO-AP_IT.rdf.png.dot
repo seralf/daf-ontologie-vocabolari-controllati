@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "l0:Object" "l0:Event" "base:TimeIndexedRole" "base:Role" ; /*classes style*/
+	"base:TimeIndexedRole" -> "l0:Event" [ label = "rdfs:subClassOf" ];
+	"base:Role" -> "l0:Object" [ label = "rdfs:subClassOf" ];
+
+}

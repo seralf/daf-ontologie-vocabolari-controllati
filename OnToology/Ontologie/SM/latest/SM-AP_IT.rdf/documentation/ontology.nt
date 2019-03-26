@@ -1,0 +1,895 @@
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/SM/0.6> .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/description> "L'ontologia per i social media e i punti di contatto online. Questa ontologia permette di rappresentare social network, account, post, review, rating, indirizzi email, loghi, ecc..."@it .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/description> "The ontology for Social Media. This ontology allows to represents social networks, account, email addresses, logos, etc."@en .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/identifier> "https://w3id.org/italia/onto/SM" .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/issued> "2017-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/modified> "2018-06-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/title> "Ontologia per i social media / internet - Profilo applicativo italiano"@it .
+<https://w3id.org/italia/onto/SM> <http://purl.org/dc/terms/title> "Social Media / Internet ontology - Italian Application Profile"@en .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ontologia per i social media e i punti di contatto online. Questa ontologia permette di rappresentare social network, account, post, review, rating, indirizzi email, loghi, ecc..."@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2000/01/rdf-schema#comment> "The ontology for Social Media. This ontology allows to represents social networks, account, email addresses, logos, etc."@en .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia per i social media / Internet"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2000/01/rdf-schema#label> "Social Media / Internet ontology"@en .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.6 - integration of the review, rating modelling"@en .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/2002/07/owl#versionInfo> "Versione 0.6 - integrazione della modellazione sulle recensione e le valutazioni utenti."@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#keyword> "internet"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#keyword> "post"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#keyword> "punto di contatto"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#keyword> "recensioni"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#keyword> "social media"@it .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://w3id.org/italia/onto/SM/0.5/> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/acronym> "SM-AP_IT" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/public-organization/td> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/SM/SocialMedia> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/SM/WebSite> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/last> <https://w3id.org/italia/onto/SM/0.6/> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/SM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/prefix> "smapit" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/prev> <https://w3id.org/italia/onto/SM/0.5/> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/status> "catalogued" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/status> "published" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/target> "Cittadini" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/target> "Imprese" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni" .
+<https://w3id.org/italia/onto/SM> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/ServiceOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasInfluencedBy
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/SM#hasReview
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Review> .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links a thing of the modelled domain to a review"@en .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega qualsiasi cosa del dominio modellato a una recensione"@it .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "ha recensione"@it .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "has review"@en .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM#hasReview> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasCertifiedEmail
+<https://w3id.org/italia/onto/SM/hasCertifiedEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasCertifiedEmail> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/SM/hasEmail> .
+# 
+# https://w3id.org/italia/onto/SM/hasCreator
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isCreatorOf> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà asserisce che un post è stato creato da un certo account utente."@it .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "This property states that a post has been created by a certain user account."@en .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "ha autore"@it .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "has creator"@en .
+<https://w3id.org/italia/onto/SM/hasCreator> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns> .
+# 
+# https://w3id.org/italia/onto/SM/hasEmail
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isEmailOf> .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un punto di contatto online con uno o più indirizzi email di vario tipo."@it .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links an online contact  point with one or more email addresses of various types."@en .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#label> "ha email"@it .
+<https://w3id.org/italia/onto/SM/hasEmail> <http://www.w3.org/2000/01/rdf-schema#label> "has email"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasEmailType
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isEmailTypeOf> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/EmailType> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega l'email al suo tipo."@it .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the Email to its type."@en .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#label> "ha tipo email"@it .
+<https://w3id.org/italia/onto/SM/hasEmailType> <http://www.w3.org/2000/01/rdf-schema#label> "has email type"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasImage
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isImageOf> .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Image> .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega qualsiasi cosa ad un'immagine."@it .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links anything to an image."@en .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "ha immagine"@it .
+<https://w3id.org/italia/onto/SM/hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "has image"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasOnlineContactPoint
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isOnlineContactPointOf> .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà lega qualsiasi cosa del dominio modellato a un punto di contatto online."@it .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links any thing of the domain being modelled with the online contact point."@en .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "ha punto di contatto online"@it .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "has online contact point"@en .
+<https://w3id.org/italia/onto/SM/hasOnlineContactPoint> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+# 
+# https://w3id.org/italia/onto/SM/hasRating
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Rating> .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links anything to a possible rating."@en .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega qualsiasi cosa a una possibile valutazione generale."@it .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "ha valutazione"@it .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "has rating"@en .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/hasRating> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasReply
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isReplyOf> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà 'ha risposta' permette di dire che un post ha una risposta, ovvero, permette di creare thread di post ed organizzarla in una struttura ad albero."@it .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links an Item to other follow-up content Items made on the same topic. Use of this property can result in a single branch of replies from the original Item, or in a tree-like structure with branches forking at different Items along the way."@en .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#label> "ha risposta"@it .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/2000/01/rdf-schema#label> "has reply"@en .
+<https://w3id.org/italia/onto/SM/hasReply> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns#has_reply> .
+# 
+# https://w3id.org/italia/onto/SM/hasTelephone
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isTelephoneOf> .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un punto di contatto online con il telefono."@it .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the online contact point with the telephone element"@en .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#label> "ha telefono"@it .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2000/01/rdf-schema#label> "has telephone"@en .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/hasTelephone> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasTelephoneType
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isTelephoneTypeOf> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/TelephoneType> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà lega un telefono al suo tipo (voce, fax)."@it .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the Telephone to its type (voice, fax)"@en .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#label> "ha tipo di telefono"@it .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2000/01/rdf-schema#label> "has telephone type"@en .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/hasTelephoneType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasUserAccount
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isUserAccountOf> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un punto di contatto online al suo account utente."@it .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links an online contactPoint to its user account."@en .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "ha account utente"@it .
+<https://w3id.org/italia/onto/SM/hasUserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "has user account"@en .
+# 
+# https://w3id.org/italia/onto/SM/hasWebSite
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/isWebSiteOf> .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/WebSite> .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between anything and its web site."@en .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra una qualsiasi entità e la sua pagina Web."@it .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#label> "ha pagina Web"@it .
+<https://w3id.org/italia/onto/SM/hasWebSite> <http://www.w3.org/2000/01/rdf-schema#label> "has Web site"@en .
+# 
+# https://w3id.org/italia/onto/SM/isAccountIssuedBy
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/SM/issuesAccount> .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/SocialMedia> .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta la relazione tra un social media e gli account utenti che sono stati rilasciati su tale media."@it .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the relation between a social media and the user account issued by such a social media."@en .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is accunt issued by"@en .
+<https://w3id.org/italia/onto/SM/isAccountIssuedBy> <http://www.w3.org/2000/01/rdf-schema#label> "è account rilasciato da"@it .
+# 
+# https://w3id.org/italia/onto/SM/isCreatorOf
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione che permette di asserire che un account utente ha creato un certo post."@it .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The fact that a user account creates a post."@en .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#label> "is creator of"@en .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/2000/01/rdf-schema#label> "è autore di"@it .
+<https://w3id.org/italia/onto/SM/isCreatorOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns> .
+# 
+# https://w3id.org/italia/onto/SM/isEmailOf
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse Property of \"has email\"."@en .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha email\"."@it .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#label> "is email of"@en .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2000/01/rdf-schema#label> "è email di"@it .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/isEmailOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/isEmailTypeOf
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/EmailType> .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of has email type. Hence, this property links an email type to an email."@en .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di 'ha tipo di email'. Di conseguenza, questa proprietà collega un individuo della classe 'Tipo di email' ad un individuo della classe 'Email'."@it .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is email type of"@en .
+<https://w3id.org/italia/onto/SM/isEmailTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "è tipo di email di"@it .
+# 
+# https://w3id.org/italia/onto/SM/isImageOf
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Image> .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un'immagine a qualsiasi cosa. E' la proprietà inversa di 'ha immagine'."@it .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links an image to anything. It is defined as the inverse property of 'has image'."@en .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#label> "is image of"@en .
+<https://w3id.org/italia/onto/SM/isImageOf> <http://www.w3.org/2000/01/rdf-schema#label> "è immagine di"@it .
+# 
+# https://w3id.org/italia/onto/SM/isOnlineContactPointOf
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà è l'inversa di \"ha punto di contatto online\" e collega un punto di contatto online con qualsiasi cosa del dominio modellato."@it .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is the inverse one for \"has online contact point\" and links an online contact point to any thing of the modelled domain."@en .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#label> "is online contact point of"@en .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2000/01/rdf-schema#label> "è punto di contatto online di"@it .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/isOnlineContactPointOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/isReplyOf
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#comment> "La proprietà 'è risposta di' permette di asserire che un certo post è la risposta ad un altro post."@it .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The property 'is reply of' asserts that a given post is the answer to another post."@en .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reply of"@en .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/2000/01/rdf-schema#label> "è risposta di"@it .
+<https://w3id.org/italia/onto/SM/isReplyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns#reply_of> .
+# 
+# https://w3id.org/italia/onto/SM/isTelephoneOf
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"has telephone\"."@en .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha telefono\""@it .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#label> "is telephone of"@en .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2000/01/rdf-schema#label> "è telefono di"@it .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/isTelephoneOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/isTelephoneTypeOf
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/TelephoneType> .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"has telephone type\"."@en .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"ha tipo di telefono\"."@it .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is telephone type of"@en .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "è tipo di telefono di"@it .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/isTelephoneTypeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/isUserAccountOf
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un account utente al suo proprietario, che è un istanza di agente. E' la proprietà inversa di 'ha account utente'."@it .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a user account to its owner, which, in turn, is an agent. This property is the inverse of 'has user account'."@en .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#label> "is user account of"@en .
+<https://w3id.org/italia/onto/SM/isUserAccountOf> <http://www.w3.org/2000/01/rdf-schema#label> "è account utente di"@it .
+# 
+# https://w3id.org/italia/onto/SM/isWebSiteOf
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/WebSite> .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Web site and the entity this Web site is associated with. This property is the inverse of 'has Web site'."@en .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra un sito Web e l'entità a cui il sito Web è associato. Questa proprietà è l'inversa di 'ha sito Web'."@it .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Web site of"@en .
+<https://w3id.org/italia/onto/SM/isWebSiteOf> <http://www.w3.org/2000/01/rdf-schema#label> "è sito Web di"@it .
+# 
+# https://w3id.org/italia/onto/SM/issuesAccount
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/SocialMedia> .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta il rilascio di un account utente da parte di un social media."@it .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "This property means that a Social Media issues a user account."@en .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#label> "issues account"@en .
+<https://w3id.org/italia/onto/SM/issuesAccount> <http://www.w3.org/2000/01/rdf-schema#label> "rilascia account"@it .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/SM/URL
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta un URL di una qualsiasi cosa del dominio modellato."@it .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents a general URL associated with any thing of the modelled domain."@en .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@en .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@it .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2002/07/owl#versionInfo> "provvisoria"@it .
+<https://w3id.org/italia/onto/SM/URL> <http://www.w3.org/2002/07/owl#versionInfo> "unstable"@en .
+# 
+# https://w3id.org/italia/onto/SM/bestUserRating
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/SM/userRating> .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Rating> .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Among all  user rating scores it represents the best one"@en .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Tra tutte le valutazioni  rappresenta la migliore"@it .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#label> "best user rating"@en .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2000/01/rdf-schema#label> "miglior valutazione utente"@it .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/bestUserRating> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/emailAddress
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta l'indirizzo email che deve essere espresso nella forma mailto:XX@YY.ZZ"@it .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the email address expressed as mailto:XX@YY.ZZ"@en .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#label> "email address"@en .
+<https://w3id.org/italia/onto/SM/emailAddress> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo email"@it .
+# 
+# https://w3id.org/italia/onto/SM/postContent
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Il contenuto di un post."@it .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The content of a post."@en .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#label> "contenuto del post"@it .
+<https://w3id.org/italia/onto/SM/postContent> <http://www.w3.org/2000/01/rdf-schema#label> "post content"@en .
+# 
+# https://w3id.org/italia/onto/SM/reviewAspect
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Review> .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "L'aspetto sul quale si focalizza la recensione. Esempio: stanza per una struttura ricettiva, servizi offerti dall'evento pubblico, ecc."@it .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "The aspect on which the review focusses."@en .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#label> "aspetto della recensione"@it .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2000/01/rdf-schema#label> "review aspect"@en .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/reviewAspect> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/socialMediaName
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/name> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/SocialMedia> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#comment> "Il nome associato con un individuo che rappresenta un social media."@it .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name associated with a social media entity."@en .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#label> "nome di social media"@it .
+<https://w3id.org/italia/onto/SM/socialMediaName> <http://www.w3.org/2000/01/rdf-schema#label> "social media name"@en .
+# 
+# https://w3id.org/italia/onto/SM/telephoneNumber
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà consente di rappresentare il numero di telefono."@it .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the telephone number"@en .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "numero di telefono"@it .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "telephone number"@en .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/telephoneNumber> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/userAccountName
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/l0/name> .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà collega un account utente al suo nome (un letterale)."@it .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a user account to its name (i.e. a literal)."@en .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#label> "nome dell'account utente"@it .
+<https://w3id.org/italia/onto/SM/userAccountName> <http://www.w3.org/2000/01/rdf-schema#label> "user account name"@en .
+# 
+# https://w3id.org/italia/onto/SM/userRating
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Rating> .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa proprietà rappresenta una valutazione dell'utente espressa come 1,2,3,4,5 oppure ogni altro tipo di valutazione associata a una recensione."@it .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents a user evaluation/rating expressed as 1,2,3,4,5 or any other type of rating associated with a review."@en .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#label> "user rating"@en .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2000/01/rdf-schema#label> "valutazione utente"@it .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/userRating> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/worstUserRating
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/SM/userRating> .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/SM/Rating> .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Among all the rating associated with a thing of the modelled domain, it represents the worst rating."@en .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Tra tutte le valutazioni rispetto a una cosa del dominio da modellare, rappresenta la peggior valutazione."@it .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#label> "peggior valutazione utente"@it .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2000/01/rdf-schema#label> "worst user rating"@en .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/worstUserRating> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dati.gov.it/onto/dcatapit#Agent
+<http://dati.gov.it/onto/dcatapit#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dati.gov.it/onto/dcatapit#Organization
+<http://dati.gov.it/onto/dcatapit#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Kind
+<http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/Project
+<https://w3id.org/italia/onto/ADMS/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAsset
+<https://w3id.org/italia/onto/ADMS/SemanticAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+<https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/SM/Email
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasEmailType> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/EmailType> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isEmailOf> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/emailAddress> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta l'indirizzo email del punto di contatto di un'organizzazione. La classe è collegata al tipo di email. Nell'ambito itailano si identificano due tipi principali di email, la PEC e l'email tradizionale."@it .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the Email address of the contact point of an organization. The class is linked to the type of email that can be specified. In the Italian context we identify two types of Emails; namely, Certified Electronic Email and Traditional Email addresses."@en .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@en .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@it .
+<https://w3id.org/italia/onto/SM/Email> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2006/vcard/ns#Email> .
+# 
+# https://w3id.org/italia/onto/SM/EmailType
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isEmailTypeOf> .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta i tipo di email e può assumere due valori come definiti nel vocabolario controllato dei canali di erogazione dei servizi (https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel). Nello specifico le istanze di questa classe sono: https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042 (Email tradizionale) e https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041 (PEC)."@it .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the type of email. It can assume two values that are defined in the Channel controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel. In particular, the istances of this class are https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041 (Certified Electronic Mail) and https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042 (E-mail)."@en .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#label> "Email Type"@en .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di email"@it .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/EmailType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/SM/Image
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta le immagini (ex. loghi)."@it .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents images."@en .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Immagine"@it .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://schema.org/ImageObject> .
+<https://w3id.org/italia/onto/SM/Image> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://xmlns.com/foaf/0.1/Image> .
+# 
+# https://w3id.org/italia/onto/SM/OnlineContactPoint
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasEmail> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/SM/Email> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasTelephone> .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasUserAccount> .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasWebSite> .
+_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/WebSite> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un punto di contatto online. Essa raggruppa un insieme di tipi di canali di contatto online come account di social network, email, siti web, ecc."@it .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents an online contact point; that is, an object that groups a set of types of online (social) media channels such as email, social network contacts, web site, ecc."@en .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Online Contact Point"@en .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Punto di Contatto Online"@it .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/SM/OnlineContactPoint> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://schema.org/ContactPoint> .
+# 
+# https://w3id.org/italia/onto/SM/Post
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasCreator> .
+_:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/UserAccount> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/postContent> .
+_:genid10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#comment> "A post on a social media."@en .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#comment> "Un post su un social media."@it .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#label> "Post"@en .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/2000/01/rdf-schema#label> "Post"@it .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns#Post> .
+<https://w3id.org/italia/onto/SM/Post> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://schema.org/SocialMediaPosting> .
+# 
+# https://w3id.org/italia/onto/SM/Rating
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Description> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/bestUserRating> .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/worstUserRating> .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/userRating> .
+_:genid13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Gli individui della classe rappresentano una valutazione degli utenti rispetto a una determinata cosa del dominio da modellare. Essa può assumere valori quali per esempio 1, 2, 3... oppure positivo, negativo, ecc."@it .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "The individuals of this class represent an evaluation which may assume values such as \"1\", \"2\", etc."@en .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating"@en .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Valutazione"@it .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/SM/Rating> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://schema.org/Rating> .
+# 
+# https://w3id.org/italia/onto/SM/Review
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/SM/Post> .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasRating> .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/Rating> .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/reviewAspect> .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Gli individui di questa classe rapprensetano particolari tipi di Post che sono recensioni (esempio: recensioni di strutture ricettive, recensioni di eventi pubblici, ecc.)"@it .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of this class represent specific types of posts that are review (examples include review for accommodation facilities, review for public events, etc.)"@en .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#label> "Recensione"@it .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review"@en .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/SM/Review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://schema.org/Review> .
+# 
+# https://w3id.org/italia/onto/SM/SocialMedia
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/socialMediaName> .
+_:genid16 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa  classe rappresenta un social media come, ad esempio, un social network (ex. Facebook, Twitter, ecc...)."@it .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents a social media like a social network (e.g. Facebook, Twitter, etc.)."@en .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#label> "Social media"@en .
+<https://w3id.org/italia/onto/SM/SocialMedia> <http://www.w3.org/2000/01/rdf-schema#label> "Social media"@it .
+# 
+# https://w3id.org/italia/onto/SM/Telephone
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/hasTelephoneType> .
+_:genid17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/TelephoneType> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isTelephoneOf> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/telephoneNumber> .
+_:genid19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un telefono che a sua volta è caratterizzato da un tipo (Voce, Fax) e da un numero."@it .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the Telephone that is characterized by a type (Voice, Fax) and a telephone number."@en .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#label> "Telefono"@it .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/2000/01/rdf-schema#label> "Telephone"@en .
+<https://w3id.org/italia/onto/SM/Telephone> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2006/vcard/ns#TelephoneType> .
+# 
+# https://w3id.org/italia/onto/SM/TelephoneType
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Characteristic> .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isTelephoneTypeOf> .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/SM/Telephone> .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta il tipo di telefono. I valori di questa classe sono quelli del vocabolario controllato https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel e in particolare sono i valori finali della categoria https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03 (telefono) e quindi i seguenti https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031 (Numero Dedicato - Voce), hhttps://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032 (Call Center), https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033 (Fax)"@it .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the type of Telephone. The value of this class are those defined in the controlled vocabulary https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel and in particular the final values of the category telephone (https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03) that are the following: https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031 (Voice) https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032 (Call Center)  https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033 (Fax)"@en .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM/> .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#label> "Telephone Type"@en .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di Telefono"@it .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+<https://w3id.org/italia/onto/SM/TelephoneType> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2006/vcard/ns#TelephoneType> .
+# 
+# https://w3id.org/italia/onto/SM/UserAccount
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isAccountIssuedBy> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/SocialMedia> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isUserAccountOf> .
+_:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid22 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/userAccountName> .
+_:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta un account come quello che può possedere un utente su un social network."@it .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents a user account, such as the account owned by a person on a social network."@en .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Account utente"@it .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "User account"@en .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://rdfs.org/sioc/ns#> .
+<https://w3id.org/italia/onto/SM/UserAccount> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://xmlns.com/foaf/0.1/OnlineAccount> .
+# 
+# https://w3id.org/italia/onto/SM/WebSite
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/SM/isWebSiteOf> .
+_:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/italia/onto/SM/OnlineContactPoint> .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa classe rappresenta il sito web di riferimento dell'organizzazione."@it .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the web site of refernce of the organization."@en .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/SM> .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#label> "Sito Web"@it .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/2000/01/rdf-schema#label> "Web site"@en .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://schema.org/WebSite> .
+<https://w3id.org/italia/onto/SM/WebSite> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://xmlns.com/foaf/0.1/Document> .
+# 
+# https://w3id.org/italia/onto/l0/Characteristic
+<https://w3id.org/italia/onto/l0/Characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Object
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://purl.org/dc/terms/identifier> "agid" .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it .
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Italian Digital Agency"@en .
+# 
+# https://w3id.org/italia/data/contact-point/onto-agid
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#fn> "banche dati e open data" .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:info@dati.gov.it> .
+# 
+# https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia dei social media - Internet"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of the social media - Internet ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia SM-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of SM-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest> .
+<https://w3id.org/italia/data/distribution/SMAPIT-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest/SM-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia dei social media - Internet"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the social media - Internet ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia SM-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of SM-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest/SM-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia dei social media - Internet"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the social media - Internet ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia SM-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of SM-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest> .
+<https://w3id.org/italia/data/distribution/SMAPIT-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/SM/latest/SM-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/public-organization/td
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://purl.org/dc/terms/identifier> "TD" .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Digital Transformation Team"@en .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Team per la Trasformazione Digitale"@it .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <https://w3id.org/italia/onto/l0/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/SM
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/SM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# https://w3id.org/italia/onto/SM/PEC
+<https://w3id.org/italia/onto/SM/PEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/italia/onto/SM/TraditionalEmail
+<https://w3id.org/italia/onto/SM/TraditionalEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

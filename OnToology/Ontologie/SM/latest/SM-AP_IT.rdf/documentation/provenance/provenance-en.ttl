@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/italia/onto/SM/0.6> a prov:Entity;
+	 dc:title "Social Media / Internet ontology - Italian Application Profile";
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 dc:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 prov:wasAttributedTo <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab>;
+	 dc:creator <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2018-06-19";
+.

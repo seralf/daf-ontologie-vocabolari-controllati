@@ -1,0 +1,10 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/italia/onto/AccessCondition/0.1/> a prov:Entity;
+	 dc:title "Access Condition Ontology - Italian Application Profile";
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 dc:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2018-06-18";
+.

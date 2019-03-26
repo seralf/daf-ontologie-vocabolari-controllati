@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/italia/onto/l0","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/italia/onto/l0","name":"Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology", "headline":"The ontology aims at modelling the data on cultural institutes or sites such as data regarding the agents that play a specific role on cultural institutes or sites, the sites themselves, the contact points, all multimedia files which describe the cultural institute or site and any other information useful to the public in order to access the institute or site. Moreover, the ontology represents events that can take place in specific cultural institutes or sites.
+The following figure illustrates some of the core elements of the ontology. The figure is not exaustive; however, it is included in order to help readers to understand some relationships among important concepts represented in the ontology.
+For each class, examples of their usage in turtle are provided; moreover, for only some of the classes, specific figures are reported that show the relationships and  concepts connected to them.
+The alignment_xml.owl complements the ontology with the alignments with external ontologies such as FOAF, PRO, schma.org, dublin core, etc. The people involved in the creation or the ontology are: from the Ministry Annarita Orsini and Chiara Veninata; from the National Council of Research Giorgia Lodi, Luigi Asprino, Silvio Peroni, Andrea Nuzzolese, Valentina Presutti and Aldo Gangemi.", "datePublished":"2019-02-11", "version":"Versione 3.2 - 11 Febbraio 2019 - Rifattorizzazione dell'ontologia per l'adeguamento in OntoPiA", "author":[{"@type":"Person","name":"http://spcdata.digitpa.gov.it/Amministrazione/m_bac","url":"http://spcdata.digitpa.gov.it/Amministrazione/m_bac"},{"@type":"Person","name":"https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab","url":"https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ };    $(function(){
+      $("#abstract").load("sections/abstract-en.html"); 
+      $("#introduction").load("sections/introduction-en.html"); 
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#references").load("sections/references-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+    });
+    </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology</h1>
+<h2>Release  2019-02-11</h2>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="http://dati.beniculturali.it/cis/3.2">http://dati.beniculturali.it/cis/3.2</a></dd>
+<dt>Revision:</dt>
+<dd>Versione 3.2 - 11 Febbraio 2019 - Rifattorizzazione dell'ontologia per l'adeguamento in OntoPiA</dd>
+<dt>Authors:</dt>
+<dd><a href="http://spcdata.digitpa.gov.it/Amministrazione/m_bac">http://spcdata.digitpa.gov.it/Amministrazione/m_bac</a></dd><dd><a href="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</a></dd>
+
+<dt>Publisher:</dt>
+<dd><a href="http://spcdata.digitpa.gov.it/Amministrazione/m_bac">http://spcdata.digitpa.gov.it/Amministrazione/m_bac</a></dd>
+<dt>Imported Ontologies:</dt>
+<dd><a href="https://w3id.org/italia/onto/AccessCondition">AccessCondition</a></dd><dd><a href="https://w3id.org/italia/onto/CLV">CLV</a></dd><dd><a href="https://w3id.org/italia/onto/SM">SM</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd><dd><a href="https://w3id.org/italia/onto/l0">l0</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd></dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"></div>
+<div id="toc"></div>     <div id="introduction"></div>
+     <div id="overview"></div>
+     <div id="description"></div>
+     <div id="crossref"></div>
+     <div id="references"></div>
+<html>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+</html>
+
+</div>
+</body>
+</html>

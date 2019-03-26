@@ -1,0 +1,148 @@
+{
+  "@context" : {
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Dataset" : {
+      "@id" : "http://dati.gov.it/onto/dcatapit#Dataset"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "Asset" : {
+      "@id" : "http://www.w3.org/ns/adms#Asset"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organization"
+    },
+    "Distribution" : {
+      "@id" : "http://dati.gov.it/onto/dcatapit#Distribution"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#distribution"
+    },
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL"
+    },
+    "numberOfLevels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "LegalStatus" : {
+      "@id" : "https://w3id.org/italia/onto/COV/LegalStatus"
+    },
+    "fn" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#fn"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "keyword" : {
+      "@id" : "http://www.w3.org/ns/dcat#keyword"
+    },
+    "hasRankOrder" : {
+      "@id" : "https://w3id.org/italia/onto/CLV/hasRankOrder"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject"
+    },
+    "Standard" : {
+      "@id" : "http://purl.org/dc/terms/Standard"
+    },
+    "representationTechnique" : {
+      "@id" : "http://www.w3.org/ns/adms#representationTechnique"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Property" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language"
+    },
+    "conformsTo" : {
+      "@id" : "http://purl.org/dc/terms/conformsTo"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL"
+    },
+    "Kind" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Kind"
+    }
+  }
+}

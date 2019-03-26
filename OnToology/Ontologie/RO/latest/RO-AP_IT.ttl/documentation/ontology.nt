@@ -1,0 +1,358 @@
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/TI> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/italia/onto/l0> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/description> "Questo il profilo applicativo italiano dell'ontologia dei ruoli. Esso per rappresentare ruoli di persone, organizazzioni in determinati contesti. L'ontologia consente di rappresentare anche ruoli che evolvono nel tempo"@it .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/description> "This is the Italian application profile of the roles ontology. It can be used to model roles of people or organizations in specific context. The ontology allows one to also represent roles that evolve over time."@en .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/issued> "2017-11-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/modified> "2018-03-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/Amministrazione/agid> .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/title> "Ontologia dei Ruoli - Profilo applicativo italiano"@it .
+<https://w3id.org/italia/onto/l0> <http://purl.org/dc/terms/title> "Role ontology - Italian application profile"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#comment> "Questa è l'ontologia del profilo applicativo dei ruoli (di persone, organizzazioni)"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the ontology used to represent roles"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#label> "Italian Role ontology"@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia dei Ruoli"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.3 - March 12 2019 - better definition of the property forEntity, hasRiT and holdsRoleInTime. This latter is linked to an Agent while forEntity and hasRiT are linked to generic Entities and they are inverse of each other."@en .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/2002/07/owl#versionInfo> "Versione 0.3 - 12 Marzo 2019 - definizione più puntuale per le proprietà \"per entità\" \"ha ruolo nel tempo\", \"riveste ruolo nel tempo\". In particolare, \"riveste ruolo nel tempo\" è associata ad Agenti mentre le prime due proprietà, che sono tra loro inverse, sono utilizzate per associare un ruolo che varia nel tempo a delle generiche entità. \"riveste ruolo nel tempo\" è sotto proprietà della generica \"ha ruolo nel tempo\"."@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#keyword> "ruolo"@it .
+<https://w3id.org/italia/onto/l0> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/acronym> "RO-AP_IT" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasContributor> <https://w3id.org/italia/data/organization/public-organization/td> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasKeyClass> <https://w3id.org/italia/onto/RO/RoleInTime> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/RO-JSON-LD> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/RO-RDF-XML> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/last> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/RO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/prefix> "roapit" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/status> "catalogued" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/status> "published" .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Cittadini"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Imprese"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni"@it .
+<https://w3id.org/italia/onto/l0> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/ServiceOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/RO/forEntity
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/RO/hasRiT> .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that links a time indexed role to an entity (for which onother plays a role)."@en .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che collega la situazione (per la gestione del ruolo) a un'entità per cui un'altra ha un ruolo."@it .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#label> "for entity"@en .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2000/01/rdf-schema#label> "per entità"@it .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2002/07/owl#versionInfo> "unstable"@en .
+<https://w3id.org/italia/onto/RO/forEntity> <http://www.w3.org/2002/07/owl#versionInfo> "versione non definitiva"@it .
+# 
+# https://w3id.org/italia/onto/RO/hasRiT
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"for entity\""@en .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inverse di \"per entità\""@it .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#label> "ha ruolo nel tempo"@it .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2000/01/rdf-schema#label> "has role in time"@en .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2002/07/owl#versionInfo> "unstable"@en .
+<https://w3id.org/italia/onto/RO/hasRiT> <http://www.w3.org/2002/07/owl#versionInfo> "versione non definitiva"@it .
+# 
+# https://w3id.org/italia/onto/RO/holdsRole
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/RO/isRoleOf> .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione tra un'entità e un ruolo."@it .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation existing between an entity and a role."@en .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#label> "holds role"@en .
+<https://w3id.org/italia/onto/RO/holdsRole> <http://www.w3.org/2000/01/rdf-schema#label> "ricopre ruolo"@it .
+# 
+# https://w3id.org/italia/onto/RO/holdsRoleInTime
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/italia/onto/RO/hasRiT> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/RO/isRoleInTimeOf> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/l0/Agent> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra un'entità generica ed un ruolo nel tempo."@it .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation between an entity and a role in time."@en .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#label> "holds role in time"@en .
+<https://w3id.org/italia/onto/RO/holdsRoleInTime> <http://www.w3.org/2000/01/rdf-schema#label> "riveste ruolo nel tempo"@it .
+# 
+# https://w3id.org/italia/onto/RO/isRoleInTimeOf
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Agent> .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of holds role in time"@en .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di ha ruolo nel tempo"@it .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is role in time of"@en .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "è ruolo nel tempo di"@it .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/RO/isRoleInTimeOf> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/RO/isRoleOf
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#comment> "La relazione tra un ruolo ed un'entità. E' la proprietà inversa di holdsRole."@it .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation existing between a role and an entity. This is the inverse property of holdsRole."@en .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#label> "is role of"@en .
+<https://w3id.org/italia/onto/RO/isRoleOf> <http://www.w3.org/2000/01/rdf-schema#label> "è ruolo di"@it .
+# 
+# https://w3id.org/italia/onto/RO/withRole
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/italia/onto/TI/isRoleIn> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Association between a TimeIndexedRole and a Role."@en .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Associazione tra un TimeIndexedRole ed un Role."@it .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "con ruolo"@it .
+<https://w3id.org/italia/onto/RO/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "with role"@en .
+# 
+# https://w3id.org/italia/onto/TI/hasTemporalEntity
+<https://w3id.org/italia/onto/TI/hasTemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/italia/onto/TI/isRoleIn
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse property of \"with role\""@en .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà inversa di \"con ruolo\""@it .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#label> "is role in"@en .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2000/01/rdf-schema#label> "è ruolo in"@it .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/TI/isRoleIn> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/italia/onto/l0/name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/l0/> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/italia/onto/RO/Role
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Object> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/RO/isRoleOf> .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/isRoleIn> .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/l0/name> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "A role."@en .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo."@it .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO/> .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+<https://w3id.org/italia/onto/RO/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo"@it .
+# 
+# https://w3id.org/italia/onto/RO/TimeIndexedRole
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/italia/onto/l0/Event> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/RO/forEntity> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/l0/Entity> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/RO/isRoleInTimeOf> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/l0/Agent> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/RO/withRole> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/RO/Role> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/TI/hasTemporalEntity> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/italia/onto/TI/TemporalEntity> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Rappresentazione di un ruolo associato ad un intervallo temporale determinato."@it .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Representation of Role with a clearly defined time extension."@en .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/RO> .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo nel tempo"@it .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Time indexed role"@en .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2002/07/owl#versionInfo> "stabile"@it .
+<https://w3id.org/italia/onto/RO/TimeIndexedRole> <http://www.w3.org/2002/07/owl#versionInfo> "stable"@en .
+# 
+# https://w3id.org/italia/onto/TI/TemporalEntity
+<https://w3id.org/italia/onto/TI/TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Agent
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/italia/onto/l0/Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/italia/onto/RO/holdsRoleInTime> .
+_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/italia/onto/RO/TimeIndexedRole> .
+# 
+# https://w3id.org/italia/onto/l0/Entity
+<https://w3id.org/italia/onto/l0/Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Event
+<https://w3id.org/italia/onto/l0/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/l0/Object
+<https://w3id.org/italia/onto/l0/Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/Amministrazione/agid
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://purl.org/dc/terms/identifier> "agid" .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it .
+<http://spcdata.digitpa.gov.it/Amministrazione/agid> <http://xmlns.com/foaf/0.1/name> "Italian Digital Agency"@en .
+# 
+# https://w3id.org/italia/data/contact-point/onto-agid
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#fn> "banche dati e open data" .
+<https://w3id.org/italia/data/contact-point/onto-agid> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:info@dati.gov.it> .
+# 
+# https://w3id.org/italia/data/distribution/RO-JSON-LD
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia dei ruoli"@it .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of the Roles ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia RO-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of RO-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/latest> .
+<https://w3id.org/italia/data/distribution/RO-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/RO-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/RO-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia dei ruoli"@it .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the Roles ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia RO-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of RO-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/latest> .
+<https://w3id.org/italia/data/distribution/RO-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/latest/RO-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/RO-RDF-XML
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia dei ruoli"@it .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the Roles ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia RO-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of RO-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/latest> .
+<https://w3id.org/italia/data/distribution/RO-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RO/latest/RO-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/public-organization/td
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://purl.org/dc/terms/identifier> "TD" .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Digital Transformation Team"@en .
+<https://w3id.org/italia/data/organization/public-organization/td> <http://xmlns.com/foaf/0.1/name> "Team per la Trasformazione Digitale"@it .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://xmlns.com/foaf/0.1/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://xmlns.com/foaf/0.1/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <http://xmlns.com/foaf/0.1/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/RO
+<https://w3id.org/italia/onto/RO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/RO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

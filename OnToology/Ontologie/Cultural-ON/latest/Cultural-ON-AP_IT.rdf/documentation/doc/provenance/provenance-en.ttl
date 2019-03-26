@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<http://dati.beniculturali.it/cis/3.2> a prov:Entity;
+	 dc:title "Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology";
+	 prov:wasAttributedTo <http://spcdata.digitpa.gov.it/Amministrazione/m_bac>;
+	 dc:creator <http://spcdata.digitpa.gov.it/Amministrazione/m_bac>;
+	 prov:wasAttributedTo <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab>;
+	 dc:creator <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2019-02-11";
+.

@@ -1,0 +1,130 @@
+{
+  "@context" : {
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail"
+    },
+    "hasFormalityLevel" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasFormalityLevel"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "officialURI" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/officialURI"
+    },
+    "SemanticAssetDistribution" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "semanticAssetInUse" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/semanticAssetInUse"
+    },
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL"
+    },
+    "prefix" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/prefix"
+    },
+    "hasOntologyLanguage" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasSemanticAssetDistribution" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"
+    },
+    "fn" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#fn"
+    },
+    "acronym" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/acronym"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "hasTask" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/hasTask"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "name" : {
+      "@id" : "https://w3id.org/italia/onto/l0/name"
+    },
+    "status" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/status"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "keyword" : {
+      "@id" : "http://www.w3.org/ns/dcat#keyword"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Project" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/Project"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "last" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/last"
+    },
+    "type" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/type"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "target" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/target"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint"
+    },
+    "SemanticAsset" : {
+      "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAsset"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL"
+    },
+    "Kind" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Kind"
+    }
+  }
+}

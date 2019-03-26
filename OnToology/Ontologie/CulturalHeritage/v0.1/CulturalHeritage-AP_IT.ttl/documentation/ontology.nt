@@ -1,0 +1,202 @@
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/italia/onto/CulturalHeritage/0.1> .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/arco/ontology/arco> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/Amministrazione/m_bac> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/description> "Questo è il profilo applicativo italiano dell'ontologia sui beni culturali. L'ontologia di OntoPiA sui beni culturali non fa altro che importare tutte le ontologie della rete ArCo - Architettura della Conoscenza, rete delle ontologie sui beni mobili culturali attualmente in fase di sviluppo da parte del Ministero dei Beni e delle Attività Culturali"@it .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/description> "This is the Italian application profile of the ontology on the cultural heritage. This ontology of OntoPiA on the cultural heritage imports the current network of ontologies named ArCo - Knowedlege Architecture developed by the Ministry of the Cultural Heritage and Activities"@en .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/issued> "2018-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/modified> "2019-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/publisher> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/Amministrazione/m_bac> .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/title> "Cultural Heritage Ontology - Italian Application Profile"@en .
+<https://w3id.org/arco/ontology/arco> <http://purl.org/dc/terms/title> "Ontologia dei Beni Culturali - Profilo applicativo italiano"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2000/01/rdf-schema#comment> "Questo è il profilo applicativo italiano dell'ontologia sui beni culturali. L'ontologia di OntoPiA sui beni culturali non fa altro che importare tutte le ontologie della rete ArCo - Architettura della Conoscenza, rete delle ontologie sui beni mobili culturali attualmente in fase di sviluppo da parte del Ministero dei Beni e delle Attività Culturalie"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the Italian application profile of the ontology on the cultural heritage. This ontology of OntoPiA on the cultural heritage imports the current network of ontologies named ArCo - Knowedlege Architecture developed by the Ministry of the Cultural Heritage and Activities"@en .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/italia/onto/CulturalHeritage> .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Heritage Ontology"@en .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia dei Beni Culturali"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/2002/07/owl#versionInfo> "Versione 0.1- 15 Ottobre 2018 - creata l'ontologia che importa ArCo. In data 26 Marzo corretto l'URI arco utilizzato nell'import"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-dgt> .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#keyword> "Beni culturali"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#keyword> "Beni mobili"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#keyword> "Opere"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#keyword> "Patrimonio culturale"@it .
+<https://w3id.org/arco/ontology/arco> <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/EDUC> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/acronym> "CulturalHeritage-AP_IT" .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasFormalityLevel> <https://w3id.org/italia/onto/ADMS/Formal> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasOntologyLanguage> <https://w3id.org/italia/onto/ADMS/OWL> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CHAPIT-JSON-LD> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution> <https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/AnnotationTask> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/QueryFormulationTask> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/hasTask> <https://w3id.org/italia/onto/ADMS/SearchTask> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/last> <https://w3id.org/italia/onto/CulturalHeritage/0.1> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/officialURI> "https://w3id.org/italia/onto/CulturalHeritage"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/prefix> "chapit" .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/Arco> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/DAF> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/semanticAssetInUse> <https://w3id.org/italia/data/project/OntoPiA> .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/status> "catalogued" .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/target> "Cittadini"@it .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/target> "Imprese"@it .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/target> "Pubbliche Amministrazioni"@it .
+<https://w3id.org/arco/ontology/arco> <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/DomainOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dati.gov.it/onto/dcatapit#Agent
+<http://dati.gov.it/onto/dcatapit#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dati.gov.it/onto/dcatapit#Organization
+<http://dati.gov.it/onto/dcatapit#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Kind
+<http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/Project
+<https://w3id.org/italia/onto/ADMS/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAsset
+<https://w3id.org/italia/onto/ADMS/SemanticAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+<https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://spcdata.digitpa.gov.it/Amministrazione/m_bac
+<http://spcdata.digitpa.gov.it/Amministrazione/m_bac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://spcdata.digitpa.gov.it/Amministrazione/m_bac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/m_bac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://spcdata.digitpa.gov.it/Amministrazione/m_bac> <http://purl.org/dc/terms/identifier> "m_bac" .
+<http://spcdata.digitpa.gov.it/Amministrazione/m_bac> <http://xmlns.com/foaf/0.1/name> "Ministero dei Beni e delle Attivita' Culturali"@it .
+# 
+# https://w3id.org/italia/data/contact-point/onto-dgt
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dati.gov.it/onto/dcatapit#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/2006/vcard/ns#fn> "Direzione Generale Turismo" .
+<https://w3id.org/italia/data/contact-point/onto-dgt> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:dg-t@beniculturali.it> .
+# 
+# https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD dell'ontologia su beni culturali che importa ArCo"@it .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/description> "This is the distribution in JSON-LD of the cultural heritage ontology which imports ArCo"@en .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia CulturalHeritage-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://purl.org/dc/terms/title> "JSON-LD distribution of CulturalHeritage-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest> .
+<https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.jsonld> .
+# 
+# https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle dell'ontologia su beni culturali che importa ArCo"@it .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/description> "This is the distribution in RDF/turtle of the cultural heritage ontology which imports ArCo"@en .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia CulturalHeritage-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://purl.org/dc/terms/title> "RDF/Turtle distribution of CulturalHeritage-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-TURTLE> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.ttl> .
+# 
+# https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML dell'ontologia su beni culturali che importa ArCo"@it .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/description> "This is the distribution in RDF/XML of the cultural heritage ontology which imports ArCo"@en .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia CulturalHeritage-AP_IT"@it .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://purl.org/dc/terms/title> "RDF/XML distribution of CulturalHeritage-AP_IT Ontology"@en .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest> .
+<https://w3id.org/italia/data/distribution/CHAPIT-RDF-XML> <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CulturalHeritage/latest/CulturalHeritage-AP_IT.rdf> .
+# 
+# https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/l0/Agent> .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"@en .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <https://w3id.org/italia/onto/l0/name> "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it .
+<https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> <http://purl.org/dc/terms/identifier> "cnr - Z6HZEH - STLab" .
+# 
+# https://w3id.org/italia/data/project/DAF
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/DAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/DAF> <https://w3id.org/italia/onto/l0/name> "Data & Analytics Framework"@it .
+# 
+# https://w3id.org/italia/data/project/OntoPiA
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/data/project/OntoPiA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/Project> .
+<https://w3id.org/italia/data/project/OntoPiA> <https://w3id.org/italia/onto/l0/name> "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"@it .
+# 
+# https://w3id.org/italia/onto/AtlasOfPaths
+<https://w3id.org/italia/onto/AtlasOfPaths> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/italia/onto/AtlasOfPaths> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/italia/onto/ADMS/SemanticAsset> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
